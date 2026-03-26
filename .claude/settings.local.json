@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:academia.nubimetrics.com)",
+      "Bash(python gerar-links-afiliados.py --help)",
+      "Bash(python -c \":*)",
+      "Bash(python:*)",
+      "Bash(PYTHONIOENCODING=utf-8 python gerar-links-afiliados.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python C:/MagoDasUtilidades/gerar-links-afiliados.py)",
+      "Bash(pip install:*)"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Foam Roller Massagem",
+        "regular_price": "80",
+        "external_url": "https://meli.la/2zhXMif",
+        "button_text": "Comprar no Mercado Livre",
+        "categories_names": ["Fitness"],
+        "description": "Rolo de massagem para alívio de dores musculares, recuperação pós-treino e relaxamento. Ideal para atletas e praticantes de atividade física."
+    },
+    {
+        "name": "Tornozeleira Ajustável 0,5 a 2,5kg",
+        "regular_price": "70",
+        "external_url": "https://meli.la/2KcdM1E",
+        "button_text": "Comprar no Mercado Livre",
+        "categories_names": ["Fitness"],
+        "description": "Par de tornozeleiras ajustáveis para exercícios de pernas e glúteos. Carga progressiva de 0,5 a 2,5kg. Perfeita para treinos em casa."
+    },
+    {
+        "name": "Corda de Pular Digital com Contador",
+        "regular_price": "60",
+        "external_url": "https://meli.la/23Wtqdd",
+        "button_text": "Comprar no Mercado Livre",
+        "categories_names": ["Fitness"],
+        "description": "Corda de pular com contador digital de pulos e calorias. Ideal para cardio em casa, perda de peso e condicionamento físico."
+    },
+    {
+        "name": "Mini Band Kit Faixas de Látex",
+        "regular_price": "55",
+        "external_url": "https://meli.la/2fHSKT9",
+        "button_text": "Comprar no Mercado Livre",
+        "categories_names": ["Fitness"],
+        "description": "Kit de mini bands de látex com 5 níveis de resistência. Perfeito para glúteos, pernas e exercícios de reabilitação."
+    }
+]

@@ -1,0 +1,9 @@
+.gemini/
+__pycache__/
+*.pyc
+.obsidian/
+youtube_token.pickle
+client_secret_*.json
+*.pickle
+node_modules/
+.DS_Store
