@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mago da Utilidade | Achadinhos e Top Ofertas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-hover: #4f46e5;
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #22d3ee;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(99, 102, 241, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(34, 211, 238, 0.1) 0%, transparent 40%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        header {
+            padding: 4rem 0 2rem;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+            letter-spacing: -0.05em;
+        }
+
+        .tagline {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+            padding: 4rem 0;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            border-color: rgba(99, 102, 241, 0.3);
+        }
+
+        .category {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .product-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .description {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+            flex-grow: 1;
+        }
+
+        .price-tag {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: baseline;
+            gap: 0.25rem;
+        }
+
+        .currency {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .buy-button {
+            background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+            color: white;
+            text-decoration: none;
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            transition: opacity 0.2s, transform 0.1s;
+        }
+
+        .buy-button:hover {
+            opacity: 0.9;
+        }
+
+        .buy-button:active {
+            transform: scale(0.98);
+        }
+
+        footer {
+            padding: 4rem 0;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        @media (max-width: 768px) {
+            .logo { font-size: 2.25rem; }
+            header { padding: 3rem 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">Mago da Utilidade</div>
+            <p class="tagline">Os melhores produtos e achadinhos úteis para facilitar o seu dia a dia.</p>
+        </header>
+
+        <main class="products-grid" id="product-grid">
+            <!-- Os produtos serão injetados aqui via JS -->
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Mago da Utilidade. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script>
+        const products = [
+            {
+                "name": "Foam Roller Massagem",
+                "regular_price": "80",
+                "external_url": "https://meli.la/2zhXMif",
+                "button_text": "Comprar no Mercado Livre",
+                "categories_names": ["Fitness"],
+                "description": "Rolo de massagem para alívio de dores musculares, recuperação pós-treino e relaxamento. Ideal para atletas."
+            },
+            {
+                "name": "Tornozeleira Ajustável",
+                "regular_price": "70",
+                "external_url": "https://meli.la/2KcdM1E",
+                "button_text": "Comprar no Mercado Livre",
+                "categories_names": ["Fitness"],
+                "description": "Par de tornozeleiras ajustáveis (0,5 a 2,5kg). Perfeita para treinos em casa e fortalecimento muscular."
+            },
+            {
+                "name": "Corda de Pular Digital",
+                "regular_price": "60",
+                "external_url": "https://meli.la/23Wtqdd",
+                "button_text": "Comprar no Mercado Livre",
+                "categories_names": ["Fitness"],
+                "description": "Corda com contador digital de pulos e calorias. Foco total na sua perda de peso e cardio."
+            },
+            {
+                "name": "Kit Mini Bands",
+                "regular_price": "55",
+                "external_url": "https://meli.la/2fHSKT9",
+                "button_text": "Comprar no Mercado Livre",
+                "categories_names": ["Fitness"],
+                "description": "Kit com 5 níveis de resistência. Ideal para glúteos, pernas e exercícios de fisioterapia."
+            }
+        ];
+
+        const grid = document.getElementById('product-grid');
+
+        products.forEach(p => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+                <div class="category">${p.categories_names[0]}</div>
+                <h2 class="product-name">${p.name}</h2>
+                <p class="description">${p.description}</p>
+                <div class="price-tag">
+                    <span class="currency">R$</span>
+                    <span>${p.regular_price}</span>
+                </div>
+                <a href="${p.external_url}" class="buy-button" target="_blank">${p.button_text}</a>
+            `;
+            grid.appendChild(card);
+        });
+    </script>
+</body>
+</html>
