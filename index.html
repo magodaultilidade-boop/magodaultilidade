@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Mago das Utilidades | Grimório de Ofertas</title>
     <link rel="icon" type="image/png" href="assets/images/logooficial/logooficial.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -683,6 +683,22 @@
             .logo { font-size: 2rem; }
             .crystal { font-size: 2.8rem; }
             .invocation-halo { width: 300px; height: 180px; }
+
+            /* Fix banner full-width no mobile */
+            .promo-banner-wrapper {
+                left: 0 !important;
+                right: 0 !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                width: 100% !important;
+            }
+            .promo-banner-img-full { height: 200px !important; }
+
+            /* Fix grid para telas muito pequenas */
+            .products-grid { grid-template-columns: 1fr; }
+
+            /* Reduz backdrop-filter para melhorar performance */
+            .product-card { backdrop-filter: none; -webkit-backdrop-filter: none; }
         }
     </style>
 </head>
@@ -762,7 +778,8 @@
     /* ── Partículas ── */
     const pContainer = document.getElementById('particles');
     const SPARK_COLORS = ['#c9a227','#f0d060','#4ade80','#a855f7','#38bdf8','#f97316'];
-    for (let i = 0; i < 65; i++) {
+    const sparkCount = window.innerWidth < 768 ? 20 : 65;
+    for (let i = 0; i < sparkCount; i++) {
         const el = document.createElement('div');
         el.className = 'spark';
         const sz = 1.5 + Math.random() * 2.5;
@@ -802,7 +819,8 @@
             
             const imgHtml = p.image_url ? `
                 <div class="card-image-wrap">
-                    <img src="${p.image_url}" alt="${p.name}" class="product-image">
+                    <img src="${p.image_url}" alt="${p.name}" class="product-image" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    <div class="card-image-fade"></div>
                 </div>` : '';
 
             const originalPriceHtml = p.original_price ? `
