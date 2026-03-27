@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <style>
         :root {
             --bg:              #07050e;
@@ -87,28 +86,23 @@
             /* overflow: hidden removido para permitir expansão total */
         }
     
-/* Estilos consolidados do banner oficial */
+/* Banner oficial full-width */
 .promo-banner-wrapper {
-    width: 100vw !important;
-    max-width: 100vw !important;
-    margin: 4rem 0 !important;
-    padding: 0 !important;
-    position: relative !important;
-    left: 50% !important;
-    right: 50% !important;
-    margin-left: -50vw !important;
-    margin-right: -50vw !important;
-    overflow: hidden !important;
+    width: 100%;
+    margin: 4rem 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
     z-index: 10;
 }
 
 .promo-banner-img-full {
-    width: 100% !important;
-    height: 600px !important;
-    display: block !important;
-    object-fit: cover !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
+    width: 100%;
+    height: 600px;
+    display: block;
+    object-fit: cover;
+    border-radius: 0;
+    box-shadow: none;
 }
 
         .hero-image {
@@ -684,15 +678,8 @@
             .crystal { font-size: 2.8rem; }
             .invocation-halo { width: 300px; height: 180px; }
 
-            /* Fix banner full-width no mobile */
-            .promo-banner-wrapper {
-                left: 0 !important;
-                right: 0 !important;
-                margin-left: 0 !important;
-                margin-right: 0 !important;
-                width: 100% !important;
-            }
-            .promo-banner-img-full { height: 200px !important; }
+            .promo-banner-img-full { height: 220px; }
+            .promo-banner-wrapper { margin: 2rem 0; }
 
             /* Fix grid para telas muito pequenas */
             .products-grid { grid-template-columns: 1fr; }
