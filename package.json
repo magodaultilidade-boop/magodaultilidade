@@ -1,0 +1,30 @@
+{
+  "name": "mago-avatar-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server para gerar avatares estilo Xbox 3D a partir da imagem do Mago das Utilidades",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "api": "node api.js",
+    "dev": "node api.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "avatar",
+    "wizard",
+    "anthropic",
+    "claude"
+  ],
+  "author": "Mago das Utilidades",
+  "license": "MIT"
+}

@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 820">
+  <defs>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="aura" cx="50%" cy="55%" r="50%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.25"/>
+      <stop offset="55%" stop-color="#7c3aed" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="robe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="45%" stop-color="#1a2f70"/>
+      <stop offset="100%" stop-color="#0d1f46"/>
+    </linearGradient>
+    <linearGradient id="hat" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0a1530"/>
+    </linearGradient>
+    <radialGradient id="skin" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#f8d9b0"/>
+      <stop offset="100%" stop-color="#d4a06a"/>
+    </radialGradient>
+    <radialGradient id="crystal" cx="35%" cy="28%" r="65%">
+      <stop offset="0%" stop-color="#ede9fe"/>
+      <stop offset="40%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </radialGradient>
+    <linearGradient id="staff" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a2c0a"/>
+      <stop offset="50%" stop-color="#92700f"/>
+      <stop offset="100%" stop-color="#4a2c0a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Aura de fundo -->
+  <ellipse cx="250" cy="460" rx="210" ry="330" fill="url(#aura)"/>
+
+  <!-- ─── BENGALA / STAFF ─── -->
+  <path d="M 345 780 Q 348 620 340 510 Q 333 400 328 285"
+        stroke="url(#staff)" stroke-width="13" stroke-linecap="round" fill="none"/>
+  <path d="M 345 780 Q 348 620 340 510 Q 333 400 328 285"
+        stroke="rgba(255,210,80,0.25)" stroke-width="4" stroke-linecap="round" fill="none"
+        stroke-dasharray="6,14"/>
+  <!-- Cristal -->
+  <ellipse cx="327" cy="258" rx="26" ry="30" fill="#7c3aed" opacity="0.35" filter="url(#glow)"/>
+  <polygon points="327,228 344,250 338,280 316,280 310,250"
+           fill="url(#crystal)" filter="url(#glow)"/>
+  <polygon points="322,233 330,244 326,232" fill="white" opacity="0.75"/>
+  <!-- Luz do cristal -->
+  <ellipse cx="327" cy="260" rx="35" ry="38" fill="#a78bfa" opacity="0.15" filter="url(#glow)"/>
+
+  <!-- ─── ROBE ─── -->
+  <path d="M 175 355 Q 145 400 122 480 Q 105 560 100 660 Q 140 685 205 688 Q 270 688 308 665 Q 308 570 292 480 Q 272 400 248 358 Z"
+        fill="url(#robe)"/>
+  <!-- Reflexo lateral no robe -->
+  <path d="M 178 370 Q 170 430 168 510 Q 167 575 175 640"
+        stroke="rgba(120,150,240,0.2)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Gola dourada -->
+  <path d="M 173 352 Q 205 368 238 352"
+        stroke="#c9a227" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Bainha dourada -->
+  <path d="M 100 660 Q 140 688 205 690 Q 270 688 308 665"
+        stroke="#c9a227" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Faixa de cintura -->
+  <path d="M 145 430 Q 205 420 262 428"
+        stroke="#c9a227" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Estrelas no robe -->
+  <text x="145" y="480" font-size="18" fill="#c9a227" opacity="0.75" text-anchor="middle">★</text>
+  <text x="260" y="460" font-size="14" fill="#c9a227" opacity="0.65" text-anchor="middle">✦</text>
+  <text x="158" y="565" font-size="13" fill="#c9a227" opacity="0.55" text-anchor="middle">✦</text>
+  <text x="278" y="545" font-size="17" fill="#c9a227" opacity="0.60" text-anchor="middle">★</text>
+  <text x="205" y="620" font-size="11" fill="#c9a227" opacity="0.45" text-anchor="middle">★</text>
+
+  <!-- ─── BRAÇO ESQUERDO (apresentando / invocando) ─── -->
+  <path d="M 175 368 Q 138 375 95 352 Q 68 338 45 318"
+        stroke="#1a3388" stroke-width="32" stroke-linecap="round" fill="none"/>
+  <!-- Punho dourado -->
+  <path d="M 95 352 Q 68 338 45 318"
+        stroke="#c9a227" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <!-- Mão -->
+  <ellipse cx="42" cy="313" rx="18" ry="13" fill="#d4a06a" transform="rotate(-25,42,313)"/>
+  <!-- Dedos estendidos -->
+  <path d="M 30 308 Q 24 296 28 288" stroke="#d4a06a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M 40 304 Q 35 291 39 282" stroke="#d4a06a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M 51 304 Q 49 291 53 283" stroke="#d4a06a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M 60 309 Q 61 297 65 291" stroke="#d4a06a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Magia saindo da mão -->
+  <ellipse cx="28" cy="288" rx="24" ry="18" fill="#818cf8" opacity="0.35" filter="url(#glow)"/>
+  <ellipse cx="22" cy="280" rx="14" ry="11" fill="#60a5fa" opacity="0.45" filter="url(#glow)"/>
+  <!-- Raio mágico saindo para a direita (em direção ao título) -->
+  <path d="M 20 282 Q 60 265 110 260 Q 160 255 220 258"
+        stroke="#818cf8" stroke-width="4" fill="none" stroke-linecap="round"
+        opacity="0.5" filter="url(#glow)"/>
+  <path d="M 20 285 Q 70 275 120 272 Q 170 269 220 270"
+        stroke="#60a5fa" stroke-width="2" fill="none" stroke-linecap="round"
+        opacity="0.4" filter="url(#glow)"/>
+
+  <!-- ─── BRAÇO DIREITO (segurando a bengala) ─── -->
+  <path d="M 248 368 Q 280 355 315 330"
+        stroke="#1a3388" stroke-width="30" stroke-linecap="round" fill="none"/>
+  <path d="M 285 355 Q 315 330 332 318"
+        stroke="#c9a227" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <ellipse cx="330" cy="314" rx="15" ry="11" fill="#d4a06a" transform="rotate(18,330,314)"/>
+
+  <!-- ─── PESCOÇO ─── -->
+  <rect x="188" y="292" width="32" height="48" rx="14" fill="#d4a06a"/>
+
+  <!-- ─── CABEÇA / ROSTO ─── -->
+  <ellipse cx="206" cy="262" rx="53" ry="57" fill="url(#skin)"/>
+  <!-- Orelhas -->
+  <ellipse cx="155" cy="265" rx="10" ry="14" fill="#d4a06a"/>
+  <ellipse cx="257" cy="265" rx="10" ry="14" fill="#d4a06a"/>
+
+  <!-- Olhos -->
+  <ellipse cx="191" cy="252" rx="11" ry="9" fill="white"/>
+  <ellipse cx="223" cy="252" rx="11" ry="9" fill="white"/>
+  <circle cx="193" cy="254" r="7" fill="#2a1505"/>
+  <circle cx="225" cy="254" r="7" fill="#2a1505"/>
+  <circle cx="195" cy="250" r="2.5" fill="white"/>
+  <circle cx="227" cy="250" r="2.5" fill="white"/>
+  <!-- Sobrancelhas -->
+  <path d="M 179 239 Q 192 233 204 237" stroke="#888" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 212 237 Q 224 232 237 238" stroke="#888" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <!-- Nariz -->
+  <path d="M 204 256 Q 199 270 203 276 Q 208 281 215 276"
+        stroke="#b07840" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Sorriso -->
+  <path d="M 194 287 Q 206 295 220 287"
+        stroke="#9a5030" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Bigode -->
+  <path d="M 191 283 Q 206 277 222 283"
+        stroke="#c8c8c8" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M 191 283 Q 183 287 181 283"
+        stroke="#c8c8c8" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 222 283 Q 230 287 231 283"
+        stroke="#c8c8c8" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- ─── BARBA ─── -->
+  <path d="M 163 278 Q 150 308 148 355 Q 150 415 162 455 Q 182 488 206 492 Q 230 488 248 455 Q 260 415 258 355 Q 255 308 242 278 Q 220 292 206 292 Q 190 292 163 278 Z"
+        fill="white" opacity="0.93"/>
+  <!-- Textura da barba -->
+  <path d="M 172 305 Q 182 325 176 368 Q 172 405 178 448" stroke="rgba(190,190,190,0.45)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 192 298 Q 197 328 195 372 Q 193 408 197 450" stroke="rgba(190,190,190,0.45)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 213 298 Q 217 332 218 375 Q 218 410 215 450" stroke="rgba(190,190,190,0.45)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 233 290 Q 240 318 237 358 Q 234 393 237 440" stroke="rgba(190,190,190,0.45)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- ─── CHAPÉU ─── -->
+  <!-- Sombra interna do chapéu -->
+  <path d="M 206 205 L 148 205 L 206 48 Z" fill="#050e20" opacity="0.55"/>
+  <!-- Cone principal -->
+  <path d="M 206 48 L 292 205 L 120 205 Z" fill="url(#hat)" filter="url(#softglow)"/>
+  <!-- Reflexo lateral -->
+  <path d="M 206 48 L 216 85 L 211 130 L 208 172 L 206 200"
+        stroke="rgba(100,140,230,0.28)" stroke-width="2" fill="none"/>
+  <!-- Aba -->
+  <ellipse cx="206" cy="205" rx="90" ry="19" fill="#182d6a"/>
+  <ellipse cx="206" cy="205" rx="90" ry="19" fill="none" stroke="#c9a227" stroke-width="2" opacity="0.65"/>
+  <!-- Estrelas no chapéu -->
+  <text x="206" y="102" font-size="15" fill="#c9a227" opacity="0.9" text-anchor="middle">★</text>
+  <text x="228" y="145" font-size="11" fill="#c9a227" opacity="0.75" text-anchor="middle">✦</text>
+  <text x="184" y="158" font-size="9" fill="#c9a227" opacity="0.65" text-anchor="middle">★</text>
+  <text x="218" y="190" font-size="8" fill="#c9a227" opacity="0.50" text-anchor="middle">✦</text>
+
+  <!-- ─── PARTÍCULAS MÁGICAS ─── -->
+  <!-- Esquerda (em torno da mão) -->
+  <circle cx="8"  cy="260" r="3.5" fill="#a78bfa" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="0"  cy="298" r="2.5" fill="#60a5fa" opacity="0.7" filter="url(#glow)"/>
+  <circle cx="15" cy="240" r="2"   fill="#c4b5fd" opacity="0.65" filter="url(#glow)"/>
+  <circle cx="-5" cy="240" r="4"   fill="#818cf8" opacity="0.55" filter="url(#glow)"/>
+  <!-- Alto / cristal -->
+  <circle cx="305" cy="208" r="3.5" fill="#a78bfa" opacity="0.85" filter="url(#glow)"/>
+  <circle cx="355" cy="222" r="2.5" fill="#c4b5fd" opacity="0.7" filter="url(#glow)"/>
+  <circle cx="290" cy="235" r="4"   fill="#7c3aed" opacity="0.65" filter="url(#glow)"/>
+  <!-- Direita genérica -->
+  <circle cx="375" cy="195" r="3"   fill="#c9a227" opacity="0.7" filter="url(#glow)"/>
+  <circle cx="395" cy="175" r="2"   fill="#f0d060" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="365" cy="155" r="2.5" fill="#c9a227" opacity="0.5" filter="url(#glow)"/>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mago-avatar": {
+      "command": "node",
+      "args": ["c:/MagoDasUtilidades/server.js"],
+      "env": {
+        "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}"
+      }
+    }
+  }
+}

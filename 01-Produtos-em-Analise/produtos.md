@@ -126,13 +126,13 @@
 
 ## 6. Kit 5 Camisas Masculinas Térmicas (Dry Fit / Malha Fria)
 
-| Campo                            | Detalhe                                                                                                                                                         |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Faixa de preço**               | R$ 58,00                                                                                                                                                        |
-| **Avaliação média**              | ⭐ 4.5                                                                                                                                                           |
-| **Categoria ML**                 | Moda Masculina > Camisetas > Kits                                                                                                                               |
+| Campo                            | Detalhe                                                                                                                                        |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Faixa de preço**               | R$ 58,00                                                                                                                                       |
+| **Avaliação média**              | ⭐ 4.5                                                                                                                                          |
+| **Categoria ML**                 | Moda Masculina > Camisetas > Kits                                                                                                              |
 | **Link do produto (referência)** | https://produto.mercadolivre.com.br/MLB-5587449786-kit-5-camisa-masculina-termica-academia-dry-fit-malha-fria-_JM?searchVariation=189813349721 |
-| **Link Afiliado**                | https://meli.la/2SfgqmX                                                                                                                                         |
+| **Link Afiliado**                | https://meli.la/2SfgqmX                                                                                                                        |
 
 ### Por que vende bem
 - Kit com 5 peças por R$58 = R$11,60 por camisa — percepção de custo-benefício altíssima

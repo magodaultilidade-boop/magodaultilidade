@@ -1,0 +1,12 @@
+# Mago das Utilidades — Dependências Python
+# Instale com: pip install -r requirements.txt
+
+# Google Gemini (Orquestrador Multi-Agente)
+google-genai>=0.4.0
+
+# ElevenLabs (geração de áudio)
+requests>=2.31.0
+
+# YouTube API
+google-auth-oauthlib>=1.2.0
+google-api-python-client>=2.100.0

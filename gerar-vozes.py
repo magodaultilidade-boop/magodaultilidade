@@ -49,7 +49,7 @@ CENAS = [
         "padrao":  r"\*\*Fala\s*/\s*narra[çc][ãa]o[^:]*:\*\*\s*>\s*\*\"([^\"]+)\"",
     },
     {
-        "nome":    "Cena3-PovaSocial",
+        "nome":    "Cena3-ProvaSocial",
         "secao":   r"PROVA\s+SOCIAL",
         "padrao":  r"\*\*Fala[^:]*:\*\*\s*>\s*\*\"([^\"]+)\"",
     },

@@ -1,34 +1,50 @@
 [
     {
         "name": "Foam Roller Massagem",
-        "regular_price": "80",
+        "regular_price": "49,90",
+        "original_price": "78,90",
         "external_url": "https://meli.la/2zhXMif",
         "button_text": "Comprar no Mercado Livre",
-        "categories_names": ["Fitness"],
-        "description": "Rolo de massagem para alívio de dores musculares, recuperação pós-treino e relaxamento. Ideal para atletas e praticantes de atividade física."
+        "categories_names": [
+            "Fitness"
+        ],
+        "description": "Rolo de massagem para alívio de dores musculares, recuperação pós-treino e relaxamento. Ideal para atletas e praticantes de atividade física.",
+        "image_url": "https://http2.mlstatic.com/D_Q_NP_2X_642267-MLA95680309150_102025-F.webp"
     },
     {
         "name": "Tornozeleira Ajustável 0,5 a 2,5kg",
-        "regular_price": "70",
+        "regular_price": "78,00",
+        "original_price": "100,00",
         "external_url": "https://meli.la/2KcdM1E",
         "button_text": "Comprar no Mercado Livre",
-        "categories_names": ["Fitness"],
-        "description": "Par de tornozeleiras ajustáveis para exercícios de pernas e glúteos. Carga progressiva de 0,5 a 2,5kg. Perfeita para treinos em casa."
+        "categories_names": [
+            "Fitness"
+        ],
+        "description": "Par de tornozeleiras ajustáveis para exercícios de pernas e glúteos. Carga progressiva de 0,5 a 2,5kg. Perfeita para treinos em casa.",
+        "image_url": "https://http2.mlstatic.com/D_Q_NP_2X_959604-MLB94561267370_102025-F.webp"
     },
     {
         "name": "Corda de Pular Digital com Contador",
-        "regular_price": "60",
+        "regular_price": "49,59",
+        "original_price": "60",
         "external_url": "https://meli.la/23Wtqdd",
         "button_text": "Comprar no Mercado Livre",
-        "categories_names": ["Fitness"],
-        "description": "Corda de pular com contador digital de pulos e calorias. Ideal para cardio em casa, perda de peso e condicionamento físico."
+        "categories_names": [
+            "Fitness"
+        ],
+        "description": "Corda de pular com contador digital de pulos e calorias. Ideal para cardio em casa, perda de peso e condicionamento físico.",
+        "image_url": "https://http2.mlstatic.com/D_Q_NP_2X_981741-MLA99581068878_122025-F.webp"
     },
     {
         "name": "Mini Band Kit Faixas de Látex",
-        "regular_price": "55",
+        "regular_price": "19,10",
+        "original_price": "55",
         "external_url": "https://meli.la/2fHSKT9",
         "button_text": "Comprar no Mercado Livre",
-        "categories_names": ["Fitness"],
-        "description": "Kit de mini bands de látex com 5 níveis de resistência. Perfeito para glúteos, pernas e exercícios de reabilitação."
+        "categories_names": [
+            "Fitness"
+        ],
+        "description": "Kit de mini bands de látex com 5 níveis de resistência. Perfeito para glúteos, pernas e exercícios de reabilitação.",
+        "image_url": "https://http2.mlstatic.com/D_Q_NP_2X_973495-MLA97984302467_112025-F.webp"
     }
 ]
