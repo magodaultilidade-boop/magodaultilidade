@@ -13,6 +13,7 @@
 | 3   | Tornozeleira Ajustável      | [MLB-1066823365](https://produto.mercadolivre.com.br/MLB-1066823365-par-de-caneleiras-de-peso-ajustavel-05-a-25kg-tornozeleira-_JM) | https://meli.la/2KcdM1E | 2026-03-24       | 20%        |
 | 4   | Corda de Pular Digital      | [Busca ML](https://lista.mercadolivre.com.br/corda-de-pular-com-contador-digital)                                                   | https://meli.la/1w8STjD | 2026-03-24       |            |
 | 5   | Mini Band Kit               | [MLB27356107](https://www.mercadolivre.com.br/mini-band-kit-5-faixas-elasticas-exercicios-de-resistncia/p/MLB27356107)              | https://meli.la/2fHSKT9 | 2026-03-24       | 16%        |
+| 6   | Fire Phoenix 600W           | [Busca ML](https://lista.mercadolivre.com.br/fire-phoenix-600w-80-plus-bronze)                                                      | https://meli.la/16JC476 | 2026-03-29       |            |
 
 ---
 

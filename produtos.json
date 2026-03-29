@@ -46,5 +46,19 @@
         ],
         "description": "Kit de mini bands de látex com 5 níveis de resistência. Perfeito para glúteos, pernas e exercícios de reabilitação.",
         "image_url": "https://http2.mlstatic.com/D_Q_NP_2X_973495-MLA97984302467_112025-F.webp"
+    },
+    {
+        "name": "Fire Phoenix 600W 80 Plus Bronze",
+        "regular_price": "175,75",
+        "original_price": "249,00",
+        "external_url": "https://meli.la/16JC476",
+        "button_text": "Reclamar Meu Artefato de Fogo",
+        "categories_names": [
+            "Eletrônicos",
+            "Hardware",
+            "Gamer"
+        ],
+        "description": "Fonte de alimentação 600W com certificação 80 Plus Bronze. Estabilidade absoluta para o seu setup gamer com ventilador ultra-silencioso de 11cm.",
+        "image_url": "assets/mago_lab.jpg"
     }
 ]

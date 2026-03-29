@@ -148,6 +148,32 @@
 
 ---
 
+---
+
+## 7. Fonte Fire Phoenix 600W (80 Plus Bronze)
+
+| Campo                            | Detalhe                                                                        |
+| -------------------------------- | ------------------------------------------------------------------------------ |
+| **Faixa de preço**               | R$ 170 – R$ 250                                                                |
+| **Avaliação média**              | ⭐ 4.7                                                                          |
+| **Categoria ML**                 | Informática > Componentes para PC > Fontes de Alimentação                      |
+| **Link do produto (referência)** | https://lista.mercadolivre.com.br/fire-phoenix-600w-80-plus-bronze             |
+| **Link Afiliado**                | https://meli.la/16JC476                                                        |
+
+### Por que vende bem
+- Certificação 80 Plus Bronze — garantia de eficiência e economia de energia
+- Design robusto com ventoinha de 11cm — ideal para setups gamer
+- Preço competitivo para uma fonte de 600W real
+- Alta procura por entusiastas de PC que buscam estabilidade arcana
+
+### Por que é bom para vídeo curto
+- Visual técnico e imponente — a ventoinha em movimento gera ótimos takes
+- "Unboxing" de hardware sempre retém muita audiência gamer
+- Demonstração de estabilidade: *"O coração de energia do seu PC"*
+- Apelo visual com o logo da Phoenix e acabamento preto fosco
+
+---
+
 ## Resumo Comparativo
 
 | # | Produto | Preço Est. | Por que anunciar | Link Afiliado |
@@ -158,7 +184,8 @@
 | 4 | Corda de Pular Digital | R$ 50–100 | Cardio em casa, gancho de resultado fácil | https://meli.la/1w8STjD|
 | 5 | Mini Band Kit | R$ 50–80 | Muito recomendado, barato, nicho feminino | https://meli.la/2fHSKT9|
 | 6 | Kit 5 Camisas Térmicas Dry Fit | R$ 58,00 | Custo-benefício imbatível, nicho masculino fitness | https://meli.la/2SfgqmX|
+| 7 | Fire Phoenix 600W | R$ 175,75 | Hardware essencial, nicho gamer, estabilidade total | https://meli.la/16JC476|
 
 ---
 
-*Gerado em: 2026-03-24 | Fonte: conhecimento de mercado + tendências ML 2025*
+*Gerado em: 2026-03-29 | Fonte: conhecimento de mercado + tendências ML 2025*
