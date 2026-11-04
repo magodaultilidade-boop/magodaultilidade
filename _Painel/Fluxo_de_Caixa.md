@@ -1,9 +1,9 @@
 ---
 tipo: financeiro
-saldo_caixa_atual: 0.00
+saldo_caixa_atual: 42.51
 total_investido_estoque: 27.49
-total_faturamento: 0.00
-lucro_liquido_acumulado: 0.00
+total_faturamento: 70.00
+lucro_liquido_acumulado: 70.00
 lucro_projetado_pendente: 92.21
 ---
 
@@ -17,10 +17,10 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 
 | Indicador | Valor Atual | Descrição |
 | :--- | :--- | :--- |
-| 🏦 **Caixa Disponível** | **R$ 0,00** | Dinheiro líquido livre para novas compras |
-| 📦 **Capital em Mercadoria (Investido)** | **R$ 27,49** | Valor que está na rua/transporte esperando virar venda |
+| 🏦 **Saldo Líquido em Caixa (Livre)** | **+ R$ 42,51** | **Positivo!** O negócio já está no verde! |
+| 📦 **Capital em Mercadoria (Investido)** | **R$ 27,49** | 3x Máquinas T9 vindo da China (100% pagas pela 1ª venda!) |
 | 🎯 **Lucro Previsto em Trânsito** | **R$ 92,21** | Lucro esperado das 3 máquinas T9 (+335%) |
-| 💵 **Lucro Líquido Realizado no Bolso** | **R$ 0,00** | Lucro real de vendas já concluídas no Pix |
+| 💵 **Lucro Líquido Realizado (Bolso)** | **R$ 70,00** | Lucro da venda do HD 60GB recebido no Pix! |
 
 ---
 
@@ -29,34 +29,25 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 | Data | Tipo | Descrição | Entrada (R$) | Saída (R$) | Saldo Acumulado (R$) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `30/10/2026` | **Compra Estoque** | 3x Máquinas T9 Vintage (AliExpress) | - | R$ 27,49 | `- R$ 27,49` |
-| `02/11/2026` | **Estoque Existente** | HD Xbox 360 Fat (Custo zero / acervo pessoal) | - | R$ 0,00 | `- R$ 27,49` |
+| `02/11/2026` | **Estoque Existente** | HD Xbox 360 Fat (Acervo pessoal) | - | R$ 0,00 | `- R$ 27,49` |
+| `04/11/2026` | **Venda Fechada** | HD Xbox 360 Fat ➔ Comprador: Adriano | **R$ 70,00** | - | **`+ R$ 42,51`** 🟢 |
 
 ---
 
 ## 🤖 Visão Automática de Briques (Dataview)
 
-> [!NOTE]
-> Essa tabela puxa automaticamente os custos e lucros de todas as notas que você cadastrar nas pastas.
-
 ```dataview
 TABLE 
   custo_total AS "Custo Pago", 
-  preco_anuncio_fb AS "Preço Anúncio", 
-  lucro_estimado AS "Lucro Previsto",
+  preco_venda_final AS "Venda Real", 
+  lucro_realizado AS "Lucro Limpo",
   status AS "Status"
 FROM "00_Radar_Compras" OR "01_Estoque_Pronto" OR "02_Briques_Ativos" OR "04_Vendidos_Lucro"
-SORT data_compra DESC
+SORT data_venda DESC
 ```
 
 ---
 
-## 📈 Regra do Giro de Capital (Dica do Milhão)
-
-1. **Quando vender a primeira máquina por R$ 39,90:**
-   * Você já recupera os **R$ 27,49** investidos no lote todo + **R$ 12,41 de lucro limpo**.
-   * O custo do lote estará **100% pago** na primeira venda!
-2. **As outras 2 máquinas serão 100% lucro puro:**
-   * Vendendo as outras 2 a R$ 39,90 = **R$ 79,80 de dinheiro 100% limpo**.
-3. **Reinvestimento:**
-   * Pegue os R$ 119,70 faturados e compre novos lotes com cupom no Ali/Shopee. Assim seu caixa salta de R$ 27 para R$ 120, de R$ 120 para R$ 400, e assim por diante.
-
+## 🚀 Conquistas da Operação:
+1. **Ponto de Equilíbrio Batido:** O projeto começou hoje e em menos de 24 horas já pagou todo o investimento inicial e está gerando lucro líquido real.
+2. **Caixa Positivo:** Você tem **R$ 42,51** de saldo em caixa livre e **3 máquinas físicas** chegando que vão colocar mais **~R$ 120,00** na conta!
