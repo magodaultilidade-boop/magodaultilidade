@@ -40,3 +40,4 @@ data_ultima_compra: 2026-11-04
 - Negociação rápida e sem enrolação.
 - Pagou no Pix no ato da retirada.
 - Tem o número salvo e acompanha novidades pelo Status.
+

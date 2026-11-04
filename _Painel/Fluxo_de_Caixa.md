@@ -1,10 +1,11 @@
 ---
 tipo: financeiro
-saldo_caixa_atual: 42.51
-total_investido_estoque: 27.49
-total_faturamento: 70.00
-lucro_liquido_acumulado: 70.00
-lucro_projetado_pendente: 92.21
+saldo_caixa_atual: -24.38
+total_investido_estoque: 94.38 # (27.49 Ali + 66.89 ML)
+total_faturamento_realizado: 70.00
+lucro_liquido_realizado: 70.00
+lucro_projetado_pendente: 145.22 # (92.21 Maquinas + 53.01 Chaves)
+faturamento_total_previsto: 239.60 # (119.70 Maquinas + 119.90 Chaves)
 ---
 
 # 💰 Gestão Financeira & Fluxo de Caixa
@@ -17,10 +18,11 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 
 | Indicador | Valor Atual | Descrição |
 | :--- | :--- | :--- |
-| 🏦 **Saldo Líquido em Caixa (Livre)** | **+ R$ 42,51** | **Positivo!** O negócio já está no verde! |
-| 📦 **Capital em Mercadoria (Investido)** | **R$ 27,49** | 3x Máquinas T9 vindo da China (100% pagas pela 1ª venda!) |
-| 🎯 **Lucro Previsto em Trânsito** | **R$ 92,21** | Lucro esperado das 3 máquinas T9 (+335%) |
-| 💵 **Lucro Líquido Realizado (Bolso)** | **R$ 70,00** | Lucro da venda do HD 60GB recebido no Pix! |
+| 🏦 **Saldo em Caixa (Líquido)** | **- R$ 24,38** | Pequeno ajuste de giro (100% coberto pelo estoque em trânsito) |
+| 📦 **Capital Total em Mercadoria** | **R$ 94,38** | 3x Máquinas T9 (Ali) + 1x Jogo de Chaves 12 Pçs (ML Full) |
+| 🎯 **Lucro Previsto em Trânsito** | **R$ 145,22** | Lucro esperado somando os 2 lotes! 🚀 |
+| 💵 **Faturamento Previsto Total** | **R$ 239,60** | Dinheiro que vai retornar para o seu caixa nas próximas vendas |
+| 🏆 **Lucro Realizado no Bolso** | **R$ 70,00** | Venda do HD 60GB recebida no Pix! |
 
 ---
 
@@ -30,7 +32,8 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `30/10/2026` | **Compra Estoque** | 3x Máquinas T9 Vintage (AliExpress) | - | R$ 27,49 | `- R$ 27,49` |
 | `02/11/2026` | **Estoque Existente** | HD Xbox 360 Fat (Acervo pessoal) | - | R$ 0,00 | `- R$ 27,49` |
-| `04/11/2026` | **Venda Fechada** | HD Xbox 360 Fat ➔ Comprador: Adriano | **R$ 70,00** | - | **`+ R$ 42,51`** 🟢 |
+| `04/11/2026` | **Venda Fechada** | HD Xbox 360 Fat ➔ Adriano (Pix) | **R$ 70,00** | - | `+ R$ 42,51` |
+| `04/11/2026` | **Compra Estoque** | Jogo de Chaves Combinadas 12 Pçs (ML Full) | - | **R$ 66,89** | **`- R$ 24,38`** |
 
 ---
 
@@ -39,15 +42,16 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 ```dataview
 TABLE 
   custo_total AS "Custo Pago", 
-  preco_venda_final AS "Venda Real", 
-  lucro_realizado AS "Lucro Limpo",
+  preco_anuncio_fb AS "Preço Anúncio", 
+  lucro_estimado AS "Lucro Previsto",
   status AS "Status"
 FROM "00_Radar_Compras" OR "01_Estoque_Pronto" OR "02_Briques_Ativos" OR "04_Vendidos_Lucro"
-SORT data_venda DESC
+SORT data_compra DESC
 ```
 
 ---
 
-## 🚀 Conquistas da Operação:
-1. **Ponto de Equilíbrio Batido:** O projeto começou hoje e em menos de 24 horas já pagou todo o investimento inicial e está gerando lucro líquido real.
-2. **Caixa Positivo:** Você tem **R$ 42,51** de saldo em caixa livre e **3 máquinas físicas** chegando que vão colocar mais **~R$ 120,00** na conta!
+## 🧠 Análise Estratégica do Caixa:
+* Você reinvestiu praticamente **todo o Pix que acabou de entrar** (R$ 70,00) em uma mercadoria que **chega amanhã**!
+* Assim que o jogo de chaves chegar e você vender por **R$ 100 a R$ 120**, seu caixa vai para mais de **R$ 80 a R$ 95 positivos**, e as 3 máquinas do AliExpress ainda estarão a caminho para somar mais **R$ 120**.
+* É o ciclo clássico de **giro rápido com alavancagem**: o dinheiro não dorme parado na conta!

@@ -40,3 +40,4 @@ forma_pagamento: "Pix"
 - **04/11/2026 (Manhã):** Anúncio reformulado para R$ 95,00 com novo texto focado em confiança e teste na retirada.
 - **04/11/2026 (Tarde/Noite):** Cliente Adriano chamou, negociado por R$ 70,00 para retirada no mesmo dia.
 - **04/11/2026 (19h):** Retirada concluída no Portal do Éden e Pix de **R$ 70,00 recebido na conta**!
+
