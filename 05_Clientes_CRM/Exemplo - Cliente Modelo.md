@@ -16,3 +16,4 @@ data_ultima_compra: 2026-11-04
 # 👤 Exemplo - Cliente Modelo
 
 Ficha de exemplo para demonstrar como cadastrar compradores no seu CRM do Obsidian.
+
