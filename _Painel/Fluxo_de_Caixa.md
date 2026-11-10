@@ -1,11 +1,11 @@
 ---
 tipo: financeiro
-saldo_caixa_atual: -24.38
-total_investido_estoque: 94.38 # (27.49 Ali + 66.89 ML)
-total_faturamento_realizado: 70.00
-lucro_liquido_realizado: 70.00
-lucro_projetado_pendente: 145.22 # (92.21 Maquinas + 53.01 Chaves)
-faturamento_total_previsto: 239.60 # (119.70 Maquinas + 119.90 Chaves)
+saldo_caixa_atual: 60.00
+total_investido_estoque_ativo: 246.21 # (27.49 Ali T9 + 66.89 Chaves + 57.94 2x Fones + 93.83 Potes)
+total_faturamento_realizado: 130.00 # (70.00 HD + 60.00 Fone V10)
+lucro_liquido_realizado: 101.03 # (70.00 HD + 31.03 Fone V10)
+lucro_projetado_estoque_ativo: 263.15 # (92.21 T9 + 53.01 Chaves + 61.86 Fones + 56.07 Potes)
+faturamento_total_previsto_estoque: 509.40 # (119.70 T9 + 119.90 Chaves + 119.80 Fones + 149.90 Potes)
 ---
 
 # 💰 Gestão Financeira & Fluxo de Caixa
@@ -14,26 +14,31 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 
 ---
 
-## 📌 Termômetro Financeiro Atual
+## 📌 Termômetro Financeiro Atual (10/11/2026)
 
 | Indicador | Valor Atual | Descrição |
 | :--- | :--- | :--- |
-| 🏦 **Saldo em Caixa (Líquido)** | **- R$ 24,38** | Pequeno ajuste de giro (100% coberto pelo estoque em trânsito) |
-| 📦 **Capital Total em Mercadoria** | **R$ 94,38** | 3x Máquinas T9 (Ali) + 1x Jogo de Chaves 12 Pçs (ML Full) |
-| 🎯 **Lucro Previsto em Trânsito** | **R$ 145,22** | Lucro esperado somando os 2 lotes! 🚀 |
-| 💵 **Faturamento Previsto Total** | **R$ 239,60** | Dinheiro que vai retornar para o seu caixa nas próximas vendas |
-| 🏆 **Lucro Realizado no Bolso** | **R$ 70,00** | Venda do HD 60GB recebida no Pix! |
+| 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 60,00** | Caixa líquido pronto para novas oportunidades |
+| 📦 **Capital Total em Mercadoria Ativa** | **R$ 246,21** | 3x Máquinas Ali + Chaves + 2x Fones V10 + Kit 10 Potes |
+| 🎯 **Lucro Projetado no Estoque** | **R$ 263,15** | Lucro líquido que vai entrar conforme os briques venderem! 🚀 |
+| 💵 **Faturamento Previsto Total do Estoque** | **R$ 509,40** | Meio milhar de reais em vendas contratadas no seu estoque! |
+| 🏆 **Lucro Realizado no Bolso** | **R$ 101,03** | Lucro limpo somando o HD (R$ 70) e o 1º Fone V10 (R$ 31,03)! |
 
 ---
 
 ## 📜 Extrato de Movimentações (Livro Caixa)
 
-| Data | Tipo | Descrição | Entrada (R$) | Saída (R$) | Saldo Acumulado (R$) |
+| Data | Tipo | Descrição | Entrada (R$) | Saída (R$) | Saldo Caixa (R$) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `30/10/2026` | **Compra Estoque** | 3x Máquinas T9 Vintage (AliExpress) | - | R$ 27,49 | `- R$ 27,49` |
 | `02/11/2026` | **Estoque Existente** | HD Xbox 360 Fat (Acervo pessoal) | - | R$ 0,00 | `- R$ 27,49` |
 | `04/11/2026` | **Venda Fechada** | HD Xbox 360 Fat ➔ Adriano (Pix) | **R$ 70,00** | - | `+ R$ 42,51` |
-| `04/11/2026` | **Compra Estoque** | Jogo de Chaves Combinadas 12 Pçs (ML Full) | - | **R$ 66,89** | **`- R$ 24,38`** |
+| `04/11/2026` | **Compra Estoque** | Jogo de Chaves Combinadas 12 Pçs (ML Full) | - | **R$ 66,89** | `- R$ 24,38` |
+| `06/11/2026` | **Aporte Pessoal** | Aporte para compra do lote de fones | **R$ 60,00** | - | `+ R$ 35,62` |
+| `06/11/2026` | **Compra Estoque** | 3x Fone Bluetooth Capacete V10 (ML Full) | - | **R$ 86,92** | `- R$ 51,30` |
+| `09/11/2026` | **Venda Fechada** | 1x Fone V10 ➔ Mauricio (Pix via Ailton) | **R$ 60,00** | - | `+ R$ 8,70` |
+| `10/11/2026` | **Aporte Pessoal** | Aporte para Kit 10 Potes Vidro (ML Full) | **R$ 93,83** | - | `+ R$ 102,53` |
+| `10/11/2026` | **Compra Estoque** | Kit 10 Potes Vidro Hermético 640ml (ML Full) | - | **R$ 93,83** | **`R$ 60,00`** 🟢 |
 
 ---
 
@@ -52,6 +57,6 @@ SORT data_compra DESC
 ---
 
 ## 🧠 Análise Estratégica do Caixa:
-* Você reinvestiu praticamente **todo o Pix que acabou de entrar** (R$ 70,00) em uma mercadoria que **chega amanhã**!
-* Assim que o jogo de chaves chegar e você vender por **R$ 100 a R$ 120**, seu caixa vai para mais de **R$ 80 a R$ 95 positivos**, e as 3 máquinas do AliExpress ainda estarão a caminho para somar mais **R$ 120**.
-* É o ciclo clássico de **giro rápido com alavancagem**: o dinheiro não dorme parado na conta!
+* **Giro com Alavancagem:** Você já fez mais de **R$ 100 de lucro limpo** de verdade no Pix com 2 vendas.
+* **Estoque de Meio Milhar:** Seu estoque agora tem potencial de girar **R$ 509,40 em faturamento**, deixando mais de **R$ 260 de lucro líquido**.
+* O dinheiro das vendas do fone manteve seu caixa em **R$ 60,00 livres**, enquanto o patrimônio em mercadorias aumentou para **R$ 246,21**.

@@ -1,38 +1,31 @@
 ---
 tipo: brique
-produto: "Jogo De Chave Boca E Estrela Combinada 12 Pçs Aço 6-22 Mm - The Black Tools"
+produto: Jogo De Chave Boca E Estrela Combinada 12 Pçs Aço 6-22 Mm - The Black Tools
 status: radar
-categoria: "Ferramentas"
-origem_compra: "Mercado Livre"
-loja: "Loja Oficial Ismafer Ferramentas"
+categoria: Ferramentas
+origem_compra: Mercado Livre
+loja: Loja Oficial Ismafer Ferramentas
 numero_pedido: "2000019344285994"
-codigo_rastreio: "Envio FULL"
+codigo_rastreio: Envio FULL
 data_compra: 2026-11-04
 data_recebimento_prevista: 2026-11-05
-data_anuncio: 
-data_repostar: 
-data_venda: 
-
-# FINANCEIRO / CUSTO
-preco_tabela_loja: 109.90
-desconto_produto: 50.00
-cupom_extra: 3.00
+data_anuncio: 2026-11-05
+data_repostar: 07/11/2026
+data_venda:
+preco_tabela_loja: 109.9
+desconto_produto: 50
+cupom_extra: 3
 frete_compra: 9.99
-custo_total: 66.89 # Valor final pago no Pix
-
-# PRECIFICAÇÃO MARKETPLACE
-preco_anuncio_fb: 119.90 # Preço de anúncio (vitrine)
-preco_minimo_aceitavel: 90.00 # Piso extremo para fechar na hora
-preco_venda_alvo: 99.90 # Fechamento ideal no choro
-preco_venda_final: 0.00
-
-# MARGEM & RESULTADO ESPERADO
-lucro_estimado: 53.01 # (119.90 - 66.89)
-lucro_negociado_alvo: 33.01 # (99.90 - 66.89)
-roi_percentual: 79.2 # No preço cheio
-
+custo_total: 66.89
+preco_anuncio_fb: 119.9
+preco_minimo_aceitavel: 90
+preco_venda_alvo: 99.9
+preco_venda_final: 0
+lucro_estimado: 53.01
+lucro_negociado_alvo: 33.01
+roi_percentual: 79.2
 comprador: ""
-forma_pagamento: "Pix / Dinheiro"
+forma_pagamento: Pix / Dinheiro
 ---
 
 # 🧰 Jogo de Chave Combinada 12 Peças (6-22 mm) - The Black Tools
