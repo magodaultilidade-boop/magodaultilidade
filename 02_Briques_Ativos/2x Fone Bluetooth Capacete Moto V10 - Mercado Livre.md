@@ -7,6 +7,7 @@ origem_compra: Mercado Livre (FULL)
 loja: ZELVON
 numero_pedido: "2000015900510697"
 data_compra: 2026-11-06
+data_anuncio: 2026-11-07
 quantidade_restante: 2
 custo_unitario: 28.97
 custo_total: 57.94

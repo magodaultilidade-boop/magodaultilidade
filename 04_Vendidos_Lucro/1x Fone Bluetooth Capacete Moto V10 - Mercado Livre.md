@@ -5,6 +5,7 @@ status: vendido
 categoria: Eletrônicos/Acessórios Moto
 origem_compra: Mercado Livre (FULL)
 data_compra: 2026-11-06
+data_anuncio: 2026-11-07
 data_venda: 2026-11-09
 custo_total: 28.97
 preco_anuncio_fb: 59.90

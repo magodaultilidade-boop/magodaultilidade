@@ -73,3 +73,4 @@ GROUP BY categoria
 2. **A Lei da Queima Sem Dó:** Se um produto passar de 14 dias sem vender, queime a preço de custo (ou com lucro de R$ 10). **Dinheiro parado é prejuízo escondido.**
 3. **A Regra dos 3 Campeões:** Quando você identificar **3 produtos** que vendem sozinhos no seu WhatsApp (ex: Fone Moto, Teclado Gamer, Potes), 80% do seu caixa deve ir para eles.
 4. **O Teste Controlado:** Nunca gaste mais de 30% do seu caixa total em uma categoria que você nunca testou antes.
+
