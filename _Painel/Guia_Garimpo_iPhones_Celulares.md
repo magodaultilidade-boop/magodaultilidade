@@ -42,3 +42,4 @@
 
 ### 4. Anúncios Antigos com Preço Baixo
 * Se você vir um iPhone anunciado a preço de banana e estiver escrito **"Anunciado há 4, 8 ou 10 semanas"**, é perfil fake/golpista farmando sinal de ingênuos. Se fosse real, teria vendido em 10 minutos.
+
