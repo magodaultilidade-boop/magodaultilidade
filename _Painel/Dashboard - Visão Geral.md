@@ -6,17 +6,17 @@
 
 ## 📈 1. Cockpit de Indicadores (Visão Geral & Mês Atual)
 
-| 🏷️ Métricas Gerais de Estoque e Vendas | Valor Real | 📅 Resumo do Mês Atual (Novembro/2026) | Valor do Mês |
-| :--- | :--- | :--- | :--- |
-| **Produtos em estoque / trânsito** | `7 unidades (4 lotes)` | **Vendidos no mês** | `2 briques` 🎉 |
-| **Total investido no estoque ativo** | `R$ 246,21` | **Faturamento do mês** | `R$ 130,00` |
-| **Produtos vendidos (acumulado)** | `2 unidades` | **Lucro líquido do mês** | `R$ 101,03` 🟢 |
-| **Faturamento total realizado** | `R$ 130,00` | **Ticket médio no mês** | `R$ 65,00` |
-| **Lucro líquido realizado (Pix)** | `R$ 101,03` | **Produtos parados (+7 dias no ar)** | `0 unidades (R$ 0,00)` |
-| **Margem líquida média das vendas** | `77,7%` | **Faturamento potencial do estoque** | `R$ 509,40` 🚀 |
-| **ROI médio realizado** | `103,5%` | **Lucro potencial em trânsito/estoque**| `R$ 263,15` |
-| **Ticket médio geral** | `R$ 65,00` | **Canal com maior conversão direta** | `WhatsApp / Status (+107% ROI)` |
-| **Dias médios para venda (Giro)** | `2,5 dias` 🔥 | **Categorias mais rápidas** | `Games e Acessórios Moto` |
+| 🏷️ Métricas Gerais de Estoque e Vendas | Valor Real             | 📅 Resumo do Mês Atual (Novembro/2026)  | Valor do Mês                    |
+| :-------------------------------------- | :--------------------- | :-------------------------------------- | :------------------------------ |
+| **Produtos em estoque / trânsito**      | `7 unidades (4 lotes)` | **Vendidos no mês**                     | `2 briques` 🎉                  |
+| **Total investido no estoque ativo**    | `R$ 246,21`            | **Faturamento do mês**                  | `R$ 130,00`                     |
+| **Produtos vendidos (acumulado)**       | `2 unidades`           | **Lucro líquido do mês**                | `R$ 101,03` 🟢                  |
+| **Faturamento total realizado**         | `R$ 130,00`            | **Ticket médio no mês**                 | `R$ 65,00`                      |
+| **Lucro líquido realizado (Pix)**       | `R$ 101,03`            | **Produtos parados (+7 dias no ar)**    | `0 unidades (R$ 0,00)`          |
+| **Margem líquida média das vendas**     | `77,7%`                | **Faturamento potencial do estoque**    | `R$ 509,40` 🚀                  |
+| **ROI médio realizado**                 | `103,5%`               | **Lucro potencial em trânsito/estoque** | `R$ 263,15`                     |
+| **Ticket médio geral**                  | `R$ 65,00`             | **Canal com maior conversão direta**    | `WhatsApp / Status (+107% ROI)` |
+| **Dias médios para venda (Giro)**       | `2,5 dias` 🔥          | **Categorias mais rápidas**             | `Games e Acessórios Moto`       |
 
 ---
 
