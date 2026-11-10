@@ -32,3 +32,4 @@ data_ultima_compra: 2026-11-09
 ## 💡 Observações & Próximas Oportunidades
 - Anda de moto ou tem interesse em acessórios para motociclistas.
 - Compra rápida através de indicação / status de colega.
+

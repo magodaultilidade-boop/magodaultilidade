@@ -74,3 +74,4 @@ Destaques:
 - [x] **Unidade 1:** Vendida para Mauricio por R$ 60,00 (09/11/2026)
 - [ ] **Unidade 2:** Disponível em estoque / anunciada
 - [ ] **Unidade 3:** Disponível em estoque / anunciada
+

@@ -44,6 +44,7 @@
 | Etapa | Pasta / Painel | O que você encontra |
 | :--- | :--- | :--- |
 | **💰 Gestão Financeira** | [[Fluxo_de_Caixa]] | Livro-caixa, saldo em conta (R$ 60), compras e lucros realizados |
+| **📱 Guia de Celulares & Anti-Golpe** | [[Guia_Garimpo_iPhones_Celulares]] | Tabela de preços de iPhones para revenda e regras de segurança |
 | **📦 1. Radar & Pedidos** | [[00_Radar_Compras/]] | 3x Máquinas T9 (Ali) + Kit 10 Potes Herméticos 640ml (ML Full) |
 | **🛠️ 2. Estoque em Mãos** | [[01_Estoque_Pronto/]] | Produtos conferidos, fotos reais tiradas, prontos para subir |
 | **📢 3. No Ar (Marketplace)**| [[02_Briques_Ativos/]] | Jogo de Chaves 12 Pçs + 2x Fones de Capacete V10 |
