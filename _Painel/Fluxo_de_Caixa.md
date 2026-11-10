@@ -1,6 +1,6 @@
 ---
 tipo: financeiro
-saldo_caixa_atual: 60.00
+saldo_caixa_atual: 50.10
 total_investido_estoque_ativo: 246.21 # (27.49 Ali T9 + 66.89 Chaves + 57.94 2x Fones + 93.83 Potes)
 total_faturamento_realizado: 130.00 # (70.00 HD + 60.00 Fone V10)
 lucro_liquido_realizado: 101.03 # (70.00 HD + 31.03 Fone V10)
@@ -18,7 +18,7 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 
 | Indicador | Valor Atual | Descrição |
 | :--- | :--- | :--- |
-| 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 60,00** | Caixa líquido pronto para novas oportunidades |
+| 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 50,10** | Caixa líquido após investimento na assinatura Meli+ |
 | 📦 **Capital Total em Mercadoria Ativa** | **R$ 246,21** | 3x Máquinas Ali + Chaves + 2x Fones V10 + Kit 10 Potes |
 | 🎯 **Lucro Projetado no Estoque** | **R$ 263,15** | Lucro líquido que vai entrar conforme os briques venderem! 🚀 |
 | 💵 **Faturamento Previsto Total do Estoque** | **R$ 509,40** | Meio milhar de reais em vendas contratadas no seu estoque! |
@@ -38,7 +38,8 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 | `06/11/2026` | **Compra Estoque** | 3x Fone Bluetooth Capacete V10 (ML Full) | - | **R$ 86,92** | `- R$ 51,30` |
 | `09/11/2026` | **Venda Fechada** | 1x Fone V10 ➔ Mauricio (Pix via Ailton) | **R$ 60,00** | - | `+ R$ 8,70` |
 | `10/11/2026` | **Aporte Pessoal** | Aporte para Kit 10 Potes Vidro (ML Full) | **R$ 93,83** | - | `+ R$ 102,53` |
-| `10/11/2026` | **Compra Estoque** | Kit 10 Potes Vidro Hermético 640ml (ML Full) | - | **R$ 93,83** | **`R$ 60,00`** 🟢 |
+| `10/11/2026` | **Compra Estoque** | Kit 10 Potes Vidro Hermético 640ml (ML Full) | - | **R$ 93,83** | `+ R$ 60,00` |
+| `10/11/2026` | **Ferramenta / Assinatura**| Assinatura Meli+ (Frete Grátis > R$ 29 + Cupons) | - | **R$ 9,90** | **`R$ 50,10`** 🟢 |
 
 ---
 
@@ -57,6 +58,5 @@ SORT data_compra DESC
 ---
 
 ## 🧠 Análise Estratégica do Caixa:
-* **Giro com Alavancagem:** Você já fez mais de **R$ 100 de lucro limpo** de verdade no Pix com 2 vendas.
-* **Estoque de Meio Milhar:** Seu estoque agora tem potencial de girar **R$ 509,40 em faturamento**, deixando mais de **R$ 260 de lucro líquido**.
-* O dinheiro das vendas do fone manteve seu caixa em **R$ 60,00 livres**, enquanto o patrimônio em mercadorias aumentou para **R$ 246,21**.
+* **Assinatura Meli+ Como Custo Operacional:** O próprio caixa do negócio bancou a ferramenta (R$ 9,90), restando **R$ 50,10 livres**.
+* **Retorno Imediato:** Agora você tem Frete Grátis a partir de R$ 29 no FULL e cupons exclusivos para as próximas compras de brique.
