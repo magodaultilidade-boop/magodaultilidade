@@ -1,4 +1,4 @@
-﻿Add-Type -AssemblyName System.Drawing
+Add-Type -AssemblyName System.Drawing
 
 $bmp = New-Object System.Drawing.Bitmap 1024, 1024
 $g = [System.Drawing.Graphics]::FromImage($bmp)

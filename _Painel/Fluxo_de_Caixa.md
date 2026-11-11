@@ -4,8 +4,8 @@ saldo_caixa_atual: 50.10
 total_investido_estoque_ativo: 246.21 # (27.49 Ali T9 + 66.89 Chaves + 57.94 2x Fones + 93.83 Potes)
 total_faturamento_realizado: 130.00 # (70.00 HD + 60.00 Fone V10)
 lucro_liquido_realizado: 101.03 # (70.00 HD + 31.03 Fone V10)
-lucro_projetado_estoque_ativo: 263.15 # (92.21 T9 + 53.01 Chaves + 61.86 Fones + 56.07 Potes)
-faturamento_total_previsto_estoque: 509.40 # (119.70 T9 + 119.90 Chaves + 119.80 Fones + 149.90 Potes)
+lucro_projetado_estoque_ativo: 243.35 # (92.21 T9 + 33.01 Chaves + 62.06 Fones + 56.07 Potes)
+faturamento_total_previsto_estoque: 489.50 # (119.70 T9 + 99.90 Chaves + 120.00 Fones + 149.90 Potes)
 ---
 
 # 💰 Gestão Financeira & Fluxo de Caixa
@@ -14,14 +14,14 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 
 ---
 
-## 📌 Termômetro Financeiro Atual (10/11/2026)
+## 📌 Termômetro Financeiro Atual (11/11/2026)
 
 | Indicador | Valor Atual | Descrição |
 | :--- | :--- | :--- |
 | 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 50,10** | Caixa líquido após investimento na assinatura Meli+ |
 | 📦 **Capital Total em Mercadoria Ativa** | **R$ 246,21** | 3x Máquinas Ali + Chaves + 2x Fones V10 + Kit 10 Potes |
-| 🎯 **Lucro Projetado no Estoque** | **R$ 263,15** | Lucro líquido que vai entrar conforme os briques venderem! 🚀 |
-| 💵 **Faturamento Previsto Total do Estoque** | **R$ 509,40** | Meio milhar de reais em vendas contratadas no seu estoque! |
+| 🎯 **Lucro Projetado no Estoque** | **R$ 243,35** | Lucro líquido que vai entrar conforme os briques venderem! 🚀 |
+| 💵 **Faturamento Previsto Total do Estoque** | **R$ 489,50** | Quase R$ 500 em vendas contratadas no seu estoque! |
 | 🏆 **Lucro Realizado no Bolso** | **R$ 101,03** | Lucro limpo somando o HD (R$ 70) e o 1º Fone V10 (R$ 31,03)! |
 
 ---

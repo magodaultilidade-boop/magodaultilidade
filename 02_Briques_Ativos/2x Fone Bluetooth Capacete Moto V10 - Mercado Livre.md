@@ -7,14 +7,16 @@ origem_compra: Mercado Livre (FULL)
 loja: ZELVON
 numero_pedido: "2000015900510697"
 data_compra: 2026-11-06
-data_anuncio: 2026-11-07
+data_anuncio: 2026-11-11
 quantidade_restante: 2
 custo_unitario: 28.97
 custo_total: 57.94
-preco_anuncio_fb: 59.90
+preco_anuncio_fb: 60.00
+preco_indicacao_grupo: 59.90
+comissao_indicacao: 10.00
 preco_minimo_aceitavel: 55.00
-lucro_estimado_unitario: 30.93
-lucro_estimado_total: 61.86
+lucro_estimado_unitario: 31.03
+lucro_estimado_total: 62.06
 roi_percentual: 106.7
 forma_pagamento: Pix / Dinheiro
 ---

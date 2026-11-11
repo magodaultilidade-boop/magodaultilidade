@@ -13,8 +13,8 @@
 | **Produtos vendidos (acumulado)**       | `2 unidades`           | **Lucro líquido do mês**                | `R$ 101,03` 🟢                  |
 | **Faturamento total realizado**         | `R$ 130,00`            | **Ticket médio no mês**                 | `R$ 65,00`                      |
 | **Lucro líquido realizado (Pix)**       | `R$ 101,03`            | **Produtos parados (+7 dias no ar)**    | `0 unidades (R$ 0,00)`          |
-| **Margem líquida média das vendas**     | `77,7%`                | **Faturamento potencial do estoque**    | `R$ 509,40` 🚀                  |
-| **ROI médio realizado**                 | `103,5%`               | **Lucro potencial em trânsito/estoque** | `R$ 263,15`                     |
+| **Margem líquida média das vendas**     | `77,7%`                | **Faturamento potencial do estoque**    | `R$ 489,50` 🚀                  |
+| **ROI médio realizado**                 | `103,5%`               | **Lucro potencial em trânsito/estoque** | `R$ 243,35`                     |
 | **Ticket médio geral**                  | `R$ 65,00`             | **Canal com maior conversão direta**    | `WhatsApp / Status (+107% ROI)` |
 | **Dias médios para venda (Giro)**       | `2,5 dias` 🔥          | **Categorias mais rápidas**             | `Games e Acessórios Moto`       |
 
