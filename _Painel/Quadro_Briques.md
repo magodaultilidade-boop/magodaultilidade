@@ -13,19 +13,19 @@ kanban-plugin: board
 
 ## 📦 2. Em Mãos (Tirar Fotos & Anunciar)
 
-- [ ] [[Kit 10 Potes Vidro Hermetico 640ml - Mercado Livre|🍲 Kit 10 Potes de Vidro 640ml Aristus]]
-	📦 **Qtd:** 1 kit (10 potes) \| ⚡ *Chega Amanhã (FULL)*
-	💰 **Custo:** R$ 93,83 \| **Venda Alvo:** R$ 149,90 \| 🎯 **Lucro:** +R$ 56,07
 
 
 ## 📢 3. Anunciados no Marketplace / WhatsApp
 
+- [ ] [[Kit 10 Potes Vidro Hermetico 640ml - Mercado Livre|🍲 Kit 10 Potes de Vidro 640ml Aristus]]
+	📦 **Qtd:** 1 kit (10 potes) \| ⚡ *Anunciado no FB/Grupo (Reserva Tia Domingo R$ 135)*
+	💰 **Custo:** R$ 93,83 \| **Venda Alvo:** R$ 149,90 \| 🎯 **Lucro:** +R$ 41,17 a +R$ 56,07
 - [ ] [[2x Fone Bluetooth Capacete Moto V10 - Mercado Livre|🎧 2x Fone Bluetooth Capacete Moto V10]]
-	📦 **Qtd Restante:** 2 unidades \| 🛵 *Pronta Entrega em Itu*
-	💰 **Custo:** R$ 28,97 un \| **Venda:** R$ 59,90 un \| 🎯 **Lucro:** +R$ 61,86
+	📦 **Qtd Restante:** 2 unidades \| 🛵 *Fotos HD c/ Capacete GP Tech e RGB no Centro*
+	💰 **Custo:** R$ 28,97 un \| **Venda:** R$ 60,00 un \| 🎯 **Lucro:** +R$ 62,06
 - [ ] [[Jogo de Chave Combinada 12 Pcs The Black Tools - Mercado Livre|🧰 Jogo de Chaves 12 Pçs The Black Tools]]
-	📦 **Qtd:** 1 kit \| ⏱️ *5 dias ativo (OLX + Grupos Itu/Salto)*
-	💰 **Custo:** R$ 66,89 \| **Preço:** R$ 119,90 \| **Piso:** R$ 90,00
+	📦 **Qtd:** 1 kit \| ⏱️ *Anúncio Renovado 11/11 com fotos reais*
+	💰 **Custo:** R$ 66,89 \| **Preço:** R$ 99,90 (Pix) \| 🎯 **Lucro:** +R$ 33,01
 
 
 ## 🔁 4. Para Repostar (+7 dias)

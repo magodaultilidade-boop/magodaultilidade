@@ -39,15 +39,22 @@ forma_pagamento: Pix / Dinheiro
 
 # 🍲 Kit 10 Potes de Vidro Hermético 640ml Aristus (Tampa Azul 4 Travas)
 
-> **Status:** `#brique/radar` (Chega Amanhã no FULL! ⚡) | **Origem:** Mercado Livre FULL
-> **Custo Real Pago:** R$ 93,83 (R$ 9,38 por pote!) | **Preço de Anúncio:** R$ 149,90 | **Alvo no Choro:** R$ 139,90
+> **Status:** `#brique/anunciado` (Em mãos / Anunciado) | **Origem:** Mercado Livre FULL
+> **Custo Real Pago:** R$ 93,83 (R$ 9,38 por pote!) | **Preço de Anúncio:** R$ 149,90 | **Piso Domingo (Tia):** R$ 135,00
+
+---
+
+## 🔥 Negociação em Andamento & Reserva Estratégica
+- **Reserva Condicional:** Tia quer o kit de 10 potes por **R$ 135,00 no Pix** para **Domingo (15/11)** no vale.
+- **Estratégia de Giro:** O anúncio permanece ativo no Facebook Marketplace e no Grupo VIP C&V a **R$ 149,90**. Se aparecer comprador à vista antes de domingo, fecha por R$ 150 (+R$ 56,17 de lucro) e pede outro no FULL para a tia. Caso contrário, liquida com a tia domingo com **+R$ 41,17 de lucro garantido**!
 
 ---
 
 ## 🧾 1. Dados da Compra
 - **Pedido:** `#2000019455720102`
 - **Data da Compra:** 10/11/2026
-- **Previsão de Entrega:** **Amanhã (11/11) via Mercado Envios FULL**
+- **Data de Recebimento:** **11/11/2026 (Entregue no FULL!)**
+- **Fotos Reais:** 5 fotos HD tiradas (vidro borossilicato, anel de silicone removível, travas e embalagem).
 - **Produto:** Kit 10 Potes Vidro Hermético Aristus 640ml Marmita Anti Vazamento Forno Micro-ondas Freezer Tampa 4 Travas - Azul
 - **Preço sem Desconto:** R$ 189,99
 - **Descontos Aplicados:** - R$ 88,00 desconto loja + - R$ 8,16 cupom + Frete Grátis
