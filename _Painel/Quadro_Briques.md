@@ -6,9 +6,6 @@ kanban-plugin: board
 
 ## 🚚 1. A Caminho (Radar)
 
-- [ ] [[Kit 10 Potes Vidro Hermetico 640ml - Mercado Livre|🍲 Kit 10 Potes de Vidro 640ml Aristus]]
-	📦 **Qtd:** 1 kit (10 potes) \| ⚡ *Chega Amanhã (FULL)*
-	💰 **Custo:** R$ 93,83 \| **Venda Alvo:** R$ 149,90 \| 🎯 **Lucro:** +R$ 56,07
 - [ ] [[3x Maquinas T9 Cortar Cabelo Buda - AliExpress|💈 3x Máquinas T9 Vintage Dragão/Buda]]
 	📦 **Qtd:** 3 unidades \| 🌐 *AliExpress (10 a 18/nov)*
 	💰 **Custo:** R$ 9,16 un \| **Venda:** R$ 39,90 un \| 🎯 **Lucro:** +R$ 92,21 lote
@@ -16,6 +13,9 @@ kanban-plugin: board
 
 ## 📦 2. Em Mãos (Tirar Fotos & Anunciar)
 
+- [ ] [[Kit 10 Potes Vidro Hermetico 640ml - Mercado Livre|🍲 Kit 10 Potes de Vidro 640ml Aristus]]
+	📦 **Qtd:** 1 kit (10 potes) \| ⚡ *Chega Amanhã (FULL)*
+	💰 **Custo:** R$ 93,83 \| **Venda Alvo:** R$ 149,90 \| 🎯 **Lucro:** +R$ 56,07
 
 
 ## 📢 3. Anunciados no Marketplace / WhatsApp

@@ -1,15 +1,15 @@
 ---
 tipo: brique
 produto: "Kit 10 Potes de Vidro Hermético Aristus 640ml (Marmita / Tampa 4 Travas Azul)"
-status: radar
+status: anunciado
 categoria: Casa e Cozinha
 origem_compra: Mercado Livre (FULL)
 numero_pedido: "2000019455720102"
 codigo_rastreio: "Envio FULL"
 data_compra: 2026-11-10
-data_recebimento_prevista: 2026-11-11
-data_anuncio: 
-data_repostar: 
+data_recebimento: 2026-11-11
+data_anuncio: 2026-11-11
+data_repostar: 18/11/2026
 data_venda: 
 
 # FINANCEIRO / CUSTO
@@ -22,6 +22,8 @@ custo_unitario: 9.38 # R$ 9,38 por pote de vidro hermético!
 
 # PRECIFICAÇÃO MARKETPLACE
 preco_anuncio_fb: 149.90 # Preço de kit fechado (ótimo para Marmita Fit / Cozinha)
+preco_indicacao_grupo: 149.90
+comissao_indicacao: 20.00
 preco_minimo_aceitavel: 130.00 # Piso no choro
 preco_venda_alvo: 139.90
 preco_venda_final: 0.00
