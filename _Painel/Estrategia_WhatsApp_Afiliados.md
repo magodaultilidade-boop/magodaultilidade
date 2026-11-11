@@ -88,3 +88,4 @@ Quando a operação estiver rodando:
 | **R$ 119,90** (Ex: Chaves) | R$ 66,89 | **+ R$ 33,01** | **R$ 20,00** | 🔥 Excelente para amigos/colegas |
 | **R$ 149,90** (Ex: Potes 10 un) | R$ 93,83 | **+ R$ 36,07** | **R$ 20,00** | 🍲 Forte para mulheres indicarem |
 | **R$ 229,90** (Ex: Panelas 10 pçs)| R$ 145,00 | **+ R$ 54,90** | **R$ 30,00** | 💰 R$ 30 no Pix enche os olhos! |
+

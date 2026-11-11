@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Logos Compra & Varejo (C&V) - Download WhatsApp</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      margin: 0;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 { margin-bottom: 8px; font-size: 26px; text-align: center; }
+    p.subtitle { color: #94a3b8; margin-top: 0; margin-bottom: 30px; text-align: center; max-width: 600px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      width: 100%;
+      max-width: 1000px;
+    }
+    .card {
+      background: #1e293b;
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+      border: 1px solid #334155;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    .card h3 { margin: 12px 0 6px 0; font-size: 18px; color: #f1f5f9; }
+    .card p { font-size: 13px; color: #94a3b8; margin: 0 0 16px 0; }
+    .preview-box {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      margin-bottom: 16px;
+      border: 3px solid #475569;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    button {
+      background: #10b981;
+      color: #0f172a;
+      font-weight: 700;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s ease;
+      width: 100%;
+    }
+    button:hover {
+      background: #34d399;
+      transform: translateY(-2px);
+    }
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: bold;
+      background: #3b82f6;
+      color: white;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎨 Logos Oficiais: Compra & Varejo (C&V)</h1>
+  <p class="subtitle">Logos no padrão circular exato do WhatsApp e WhatsApp Business (1024x1024 HD). Escolha a sua preferida e clique em <b>Baixar Imagem</b> para colocar no perfil e no grupo!</p>
+
+  <div class="grid">
+    <!-- OPÇÃO 1 -->
+    <div class="card">
+      <span class="badge" style="background: #eab308; color: #000;">⭐ RECOMENDADA #1</span>
+      <div class="preview-box">
+        <canvas id="canvas1" width="1024" height="1024"></canvas>
+      </div>
+      <h3>Black & Neon Green (Comércio Ágil)</h3>
+      <p>Passa autoridade, modernidade e tecnologia. Excelente contraste no WhatsApp.</p>
+      <button onclick="downloadCanvas('canvas1', 'logo-cv-neon.png')">⬇️ Baixar Imagem (PNG HD)</button>
+    </div>
+
+    <!-- OPÇÃO 2 -->
+    <div class="card">
+      <span class="badge" style="background: #f97316;">VIBRANTE #2</span>
+      <div class="preview-box">
+        <canvas id="canvas2" width="1024" height="1024"></canvas>
+      </div>
+      <h3>Dark Navy & Solar Orange</h3>
+      <p>Estilo atacado/varejo de giro rápido (estilo Shopee/Amazon/Meli). Chama muita atenção.</p>
+      <button onclick="downloadCanvas('canvas2', 'logo-cv-laranja.png')">⬇️ Baixar Imagem (PNG HD)</button>
+    </div>
+
+    <!-- OPÇÃO 3 -->
+    <div class="card">
+      <span class="badge" style="background: #3b82f6;">PREMIUM #3</span>
+      <div class="preview-box">
+        <canvas id="canvas3" width="1024" height="1024"></canvas>
+      </div>
+      <h3>Minimalist Carbon & Gold</h3>
+      <p>Estilo sóbrio e elegante. Transmite muita confiança para vendas de maior ticket.</p>
+      <button onclick="downloadCanvas('canvas3', 'logo-cv-gold.png')">⬇️ Baixar Imagem (PNG HD)</button>
+    </div>
+  </div>
+
+  <script>
+    function renderOption1() {
+      const c = document.getElementById('canvas1');
+      const ctx = c.getContext('2d');
+      // Background
+      ctx.fillStyle = '#090d16';
+      ctx.fillRect(0, 0, 1024, 1024);
+
+      // Radial Glow
+      const grad = ctx.createRadialGradient(512, 450, 50, 512, 450, 480);
+      grad.addColorStop(0, 'rgba(16, 185, 129, 0.15)');
+      grad.addColorStop(1, 'rgba(9, 13, 22, 0)');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, 1024, 1024);
+
+      // Outer ring
+      ctx.strokeStyle = '#10b981';
+      ctx.lineWidth = 14;
+      ctx.beginPath();
+      ctx.arc(512, 512, 470, 0, Math.PI * 2);
+      ctx.stroke();
+
+      // Inner tag icon accent
+      ctx.fillStyle = '#10b981';
+      ctx.font = '900 320px "Arial Black", Impact, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      
+      // Shadow
+      ctx.shadowColor = 'rgba(16, 185, 129, 0.4)';
+      ctx.shadowBlur = 30;
+      ctx.fillStyle = '#ffffff';
+      ctx.fillText('C&V', 512, 420);
+
+      // Glow reset
+      ctx.shadowBlur = 0;
+
+      // Divider line
+      ctx.strokeStyle = '#10b981';
+      ctx.lineWidth = 8;
+      ctx.beginPath();
+      ctx.moveTo(250, 600);
+      ctx.lineTo(774, 600);
+      ctx.stroke();
+
+      // Subtitle
+      ctx.fillStyle = '#10b981';
+      ctx.font = '800 68px "Arial", sans-serif';
+      ctx.letterSpacing = '8px';
+      ctx.fillText('COMPRA & VAREJO', 512, 690);
+
+      // Tagline
+      ctx.fillStyle = '#94a3b8';
+      ctx.font = '600 42px "Arial", sans-serif';
+      ctx.fillText('ITU • OPORTUNIDADES', 512, 770);
+    }
+
+    function renderOption2() {
+      const c = document.getElementById('canvas2');
+      const ctx = c.getContext('2d');
+      // Background
+      ctx.fillStyle = '#18181b';
+      ctx.fillRect(0, 0, 1024, 1024);
+
+      // Ring
+      ctx.strokeStyle = '#f97316';
+      ctx.lineWidth = 16;
+      ctx.beginPath();
+      ctx.arc(512, 512, 470, 0, Math.PI * 2);
+      ctx.stroke();
+
+      // Box Icon accent
+      ctx.fillStyle = '#f97316';
+      ctx.beginPath();
+      ctx.roundRect(436, 180, 150, 40, [10]);
+      ctx.fill();
+
+      // Main Text
+      ctx.fillStyle = '#ffffff';
+      ctx.font = '900 320px "Arial Black", Impact, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('C&V', 512, 430);
+
+      // Orange Ampersand Highlight
+      // Divider
+      ctx.fillStyle = '#f97316';
+      ctx.fillRect(260, 600, 504, 8);
+
+      // Subtitle
+      ctx.fillStyle = '#ffffff';
+      ctx.font = '800 64px "Arial", sans-serif';
+      ctx.fillText('COMPRA & VAREJO', 512, 690);
+
+      ctx.fillStyle = '#f97316';
+      ctx.font = '700 40px "Arial", sans-serif';
+      ctx.fillText('PRONTA ENTREGA • ITU', 512, 770);
+    }
+
+    function renderOption3() {
+      const c = document.getElementById('canvas3');
+      const ctx = c.getContext('2d');
+      // Background
+      ctx.fillStyle = '#0a0a0a';
+      ctx.fillRect(0, 0, 1024, 1024);
+
+      // Dual Gold rings
+      ctx.strokeStyle = '#eab308';
+      ctx.lineWidth = 8;
+      ctx.beginPath();
+      ctx.arc(512, 512, 475, 0, Math.PI * 2);
+      ctx.stroke();
+
+      ctx.strokeStyle = '#ca8a04';
+      ctx.lineWidth = 4;
+      ctx.beginPath();
+      ctx.arc(512, 512, 455, 0, Math.PI * 2);
+      ctx.stroke();
+
+      // Main Text
+      ctx.fillStyle = '#eab308';
+      ctx.font = '900 310px "Arial Black", Impact, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('C&V', 512, 420);
+
+      // Divider
+      ctx.strokeStyle = '#eab308';
+      ctx.lineWidth = 6;
+      ctx.beginPath();
+      ctx.moveTo(280, 610);
+      ctx.lineTo(744, 610);
+      ctx.stroke();
+
+      // Subtitle
+      ctx.fillStyle = '#ffffff';
+      ctx.font = '800 64px "Arial", sans-serif';
+      ctx.fillText('COMPRA & VAREJO', 512, 700);
+
+      ctx.fillStyle = '#a1a1aa';
+      ctx.font = '600 38px "Arial", sans-serif';
+      ctx.fillText('CLUBE DE OPORTUNIDADES', 512, 780);
+    }
+
+    renderOption1();
+    renderOption2();
+    renderOption3();
+
+    function downloadCanvas(canvasId, filename) {
+      const canvas = document.getElementById(canvasId);
+      const link = document.createElement('a');
+      link.download = filename;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    }
+  </script>
+</body>
+</html>
