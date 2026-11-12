@@ -39,6 +39,7 @@
 
 | Etapa | Pasta / Painel | O que você encontra |
 | :--- | :--- | :--- |
+| **🧪 Laboratório de 5 Categorias** | [[Laboratorio_5_Categorias]] | **Mapeamento sistemático para encontrar os Produtos Pioneiros** |
 | **🎯 Metas & Evolução Mensal** | [[Metas_Mensais]] | **Termômetro de metas, progresso percentual e roadmap mensal** |
 | **💰 Gestão Financeira** | [[Fluxo_de_Caixa]] | Livro-caixa, saldo em conta (R$ 50,10), compras e lucros realizados |
 | **🏆 Matriz de Campeões & Giro** | [[Matriz_Produtos_Campeoes]] | Classificação de produtos estrelas, foguetes e tartarugas |
