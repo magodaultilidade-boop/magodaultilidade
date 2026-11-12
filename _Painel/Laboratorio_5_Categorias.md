@@ -66,3 +66,4 @@ regra_ouro: "Maximo 3 produtos por categoria, lotes pequenos, foco em giro de 48
 1. **Regra dos 4 Dias:** Se o produto levar menos de 4 dias para vender no preço cheio, ganha a estrela de Campeão.
 2. **Regra dos 40%:** Margem líquida mínima de 40% de lucro real após custos de frete/embalagem.
 3. **Escalabilidade:** Tem fornecedor confiável (Mercado Livre Full, Shopee ou Ali) para recomprar em 48h quando zerar o estoque.
+

@@ -75,6 +75,6 @@ Destaques:
 
 ## 🔄 4. Acompanhamento de Unidades
 - [x] **Unidade 1:** Vendida para Mauricio por R$ 60,00 (09/11/2026)
-- [ ] **Unidade 2:** Disponível em estoque / anunciada
-- [ ] **Unidade 3:** Disponível em estoque / anunciada
+- [ ] **Unidade 2:** Reservada para Samuel Jesus (R$ 60,00 Pix - Retirada Sexta 13/11)
+- [ ] **Unidade 3:** Disponível em estoque / anunciada no Marketplace e Grupo VIP
 
