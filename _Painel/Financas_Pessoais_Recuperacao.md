@@ -54,7 +54,7 @@ Por que você entrou em dívidas? **Pelos vazamentos silenciosos da caverna:**
 
 | Dívida / Credor | Valor Parcela | Status Atual | Ação Estratégica |
 | :--- | :--- | :--- | :--- |
-| 📱 **Celular Parcelado** | R$ 150,00 | **6/6 (ÚLTIMA PAGA!)** 🎉 | **FINALIZADO!** Menos R$ 150 de peso no mês que vem! |
+| 📱 **Celular Parcelado** | R$ 150,00 | 6/12 (Faltam 6 parcelas) | Pagar mês a mês (essencial para a C&V funcionar). |
 | 🏦 **Bradesco 1 (Grande)** | R$ 145,00 | 1/2 Paga antecipada | Resta 1 parcela de R$ 145 ➔ **Antecipar e zerar em Dezembro.** |
 | 🏦 **Bradesco 2 (Médio)** | R$ 125,00 | 1/2 Paga antecipada | Resta 1 parcela de R$ 125 ➔ **Antecipar e zerar em Dezembro.** |
 | 🏦 **Bradesco 3 (Pequeno)**| R$ 66,00 | 0/2 (Inicia Dezembro) | Pagar as 2 de R$ 66 conforme o plano. |
@@ -77,3 +77,4 @@ O seguro-desemprego acaba em Dezembro. Isso não é motivo de pânico, **é a da
    * Entra a última parcela de R$ 1.721 + R$ 200 do PS4.
    * Quitar as 2 parcelas restantes do Bradesco (R$ 145 + R$ 125) com desconto de antecipação.
    * Você entra em **Janeiro de 2027** praticamente **SEM NENHUMA PARCELA NO PESCOÇO** e com a C&V gerando renda viva!
+
