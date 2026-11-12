@@ -25,3 +25,4 @@ funcao_parceria: "Afiliado Divulgador (Indique & Ganhe) + Entregador sob Demanda
 - **Reserva do Fone:** 1 unidade separada por **R$ 60,00 no Pix** para retirar na **Sexta-feira (13/11)** no Portal do Éden.
 - **Divulgação:** Topou indicar os produtos da C&V para outros motoboys e mecânicos da oficina com comissão no Pix (Indique & Ganhe).
 - **Logística:** Disponível para fazer entregas de pedidos distantes cobrando a taxa do cliente.
+
