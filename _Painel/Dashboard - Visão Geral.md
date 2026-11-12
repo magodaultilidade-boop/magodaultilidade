@@ -39,6 +39,7 @@
 
 | Etapa | Pasta / Painel | O que você encontra |
 | :--- | :--- | :--- |
+| **🛡️ Finanças Pessoais & Saída da Caverna** | [[Financas_Pessoais_Recuperacao]] | **Mapa de dívidas, estancamento de vazamentos e transição do seguro** |
 | **⚔️ Rotina Blindada & Hábitos** | [[Rotina_Blindada_Evolucao]] | **Controle diário de cigarros, quebra de vícios e energia vital** |
 | **📦 Expansão Mercado Livre** | [[Estrategia_Expansao_MercadoLivre]] | **Plano das 10 primeiras vendas e escala nacional híbrida** |
 | **🧪 Laboratório de 5 Categorias** | [[Laboratorio_5_Categorias]] | **Mapeamento sistemático para encontrar os Produtos Pioneiros** |
