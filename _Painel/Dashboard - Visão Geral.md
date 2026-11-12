@@ -39,6 +39,7 @@
 
 | Etapa | Pasta / Painel | O que você encontra |
 | :--- | :--- | :--- |
+| **⚔️ Rotina Blindada & Hábitos** | [[Rotina_Blindada_Evolucao]] | **Controle diário de cigarros, quebra de vícios e energia vital** |
 | **📦 Expansão Mercado Livre** | [[Estrategia_Expansao_MercadoLivre]] | **Plano das 10 primeiras vendas e escala nacional híbrida** |
 | **🧪 Laboratório de 5 Categorias** | [[Laboratorio_5_Categorias]] | **Mapeamento sistemático para encontrar os Produtos Pioneiros** |
 | **🎯 Metas & Evolução Mensal** | [[Metas_Mensais]] | **Termômetro de metas, progresso percentual e roadmap mensal** |

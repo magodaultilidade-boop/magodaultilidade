@@ -57,3 +57,4 @@ O maior obstáculo de uma conta nova no Mercado Livre é a ausência de cor no t
 Assim que as **3 Máquinas T9 do AliExpress** chegarem:
 - Reservar **1 unidade** para criar o 1º anúncio oficial na Central de Vendedores do Mercado Livre.
 - Acompanhar as métricas de visualização e cliques até a primeira etiqueta sair!
+
