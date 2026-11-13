@@ -2,313 +2,812 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Planilha de Controle C&V - Compras, Vendas e Estoque</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C&V - Painel Financeiro & Controle de Estoque</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #107c41;
-      --primary-light: #e8f5e9;
-      --border: #d1d5db;
-      --text: #1f2937;
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --primary-light: #ccfbf1;
+      --bg: #f1f5f9;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      
+      --green-bg: #ecfdf5;
+      --green-border: #a7f3d0;
+      --green-text: #065f46;
+      --green-val: #047857;
+
+      --amber-bg: #fffbeb;
+      --amber-border: #fde68a;
+      --amber-text: #92400e;
+      --amber-val: #b45309;
+
+      --blue-bg: #eff6ff;
+      --blue-border: #bfdbfe;
+      --blue-text: #1e40af;
+      --blue-val: #2563eb;
     }
+
+    * { box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       margin: 0;
-      padding: 20px;
-      background: #f8fafc;
-      color: var(--text);
+      padding: 24px 32px 60px;
+      background: var(--bg);
+      color: var(--text-main);
+      -webkit-font-smoothing: antialiased;
     }
+
+    /* Top Bar */
     .header-bar {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-badge {
+      background: #107c41;
+      color: white;
+      font-weight: 800;
+      font-size: 14px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      letter-spacing: 0.5px;
     }
     h1 {
       margin: 0;
       font-size: 22px;
-      color: #0f172a;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+    .header-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .header-actions {
       display: flex;
-      align-items: center;
       gap: 10px;
     }
-    .btn-export {
-      background: #107c41;
-      color: white;
-      border: none;
-      padding: 8px 16px;
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
       border-radius: 6px;
       font-weight: 600;
-      cursor: pointer;
       font-size: 13px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-decoration: none;
+      border: 1px solid transparent;
     }
-    .btn-export:hover { background: #0b5c30; }
+    .btn-primary {
+      background: #107c41;
+      color: white;
+    }
+    .btn-primary:hover { background: #0b5c30; }
+    .btn-secondary {
+      background: white;
+      color: #334155;
+      border-color: #cbd5e1;
+    }
+    .btn-secondary:hover { background: #f8fafc; }
 
-    /* Top KPI Cards (Identico a planilha enviada) */
+    /* KPI Top Overview */
+    .kpi-container {
+      margin-bottom: 28px;
+    }
     .kpi-grid {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
       gap: 12px;
-      margin-bottom: 24px;
     }
     .kpi-card {
-      background: #eef7ee;
-      border: 1px solid #c8e6c9;
-      border-radius: 8px;
-      padding: 12px 10px;
-      text-align: center;
+      background: white;
+      border: 1px solid #d1fae5;
+      border-radius: 10px;
+      padding: 14px 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+      position: relative;
+      overflow: hidden;
+    }
+    .kpi-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: #107c41;
     }
     .kpi-label {
       font-size: 11px;
       font-weight: 700;
-      color: #2e7d32;
+      color: #065f46;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 4px;
+      letter-spacing: 0.6px;
+      margin-bottom: 6px;
     }
     .kpi-value {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 800;
-      color: #1b5e20;
+      color: #047857;
+    }
+    .kpi-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 4px;
     }
 
-    /* Table Styling */
-    .table-container {
-      background: white;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      overflow-x: auto;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    /* Cashflow Highlight Strip */
+    .cash-strip {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: white;
+      border-radius: 10px;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 28px;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
     }
+    .cash-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .cash-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+    .cash-amount {
+      font-size: 18px;
+      font-weight: 700;
+      color: #f8fafc;
+    }
+    .cash-arrow {
+      font-size: 20px;
+      color: #64748b;
+    }
+
+    /* Filter Tabs */
+    .tab-bar {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 4px;
+    }
+    .tab-btn {
+      background: none;
+      border: none;
+      padding: 10px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      border-radius: 6px 6px 0 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.15s;
+    }
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(0,0,0,0.02);
+    }
+    .tab-btn.active {
+      color: #107c41;
+      border-bottom: 3px solid #107c41;
+      background: #f0fdf4;
+    }
+    .tab-pill {
+      font-size: 11px;
+      padding: 2px 7px;
+      border-radius: 10px;
+      font-weight: 700;
+    }
+
+    /* Separate Section Containers */
+    .section-block {
+      background: white;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      margin-bottom: 30px;
+      overflow: hidden;
+    }
+    .section-header {
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .section-stats {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      display: flex;
+      gap: 16px;
+    }
+    .stat-chip {
+      background: #f8fafc;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid #e2e8f0;
+    }
+
+    /* Tables */
     table {
       width: 100%;
       border-collapse: collapse;
       font-size: 12px;
       text-align: left;
     }
-    thead {
-      background: #107c41;
-      color: white;
-    }
     th {
-      padding: 10px 12px;
-      font-weight: 700;
-      white-space: nowrap;
-      border-right: 1px solid rgba(255,255,255,0.2);
+      background: #f8fafc;
+      color: #475569;
+      font-weight: 600;
+      padding: 10px 14px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #e2e8f0;
     }
     td {
-      padding: 8px 12px;
-      border-bottom: 1px solid #e5e7eb;
-      border-right: 1px solid #f3f4f6;
+      padding: 12px 14px;
+      border-bottom: 1px solid #f1f5f9;
+      vertical-align: middle;
       white-space: nowrap;
     }
-    tr:nth-child(even) { background: #fafafa; }
-    tr:hover { background: #f0fdf4; }
+    tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background: #fbfdff; }
 
+    /* Subtotal Footer Row */
+    .row-subtotal {
+      background: #fafafa !important;
+      font-weight: 700;
+      border-top: 2px solid #e2e8f0;
+    }
+    .row-subtotal td {
+      padding: 12px 14px;
+      color: #334155;
+    }
+
+    /* Badges & Tags */
     .badge {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 9px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .badge-vendido {
+      background: #dcfce7;
+      color: #166534;
+      border: 1px solid #bbf7d0;
+    }
+    .badge-reserva {
+      background: #fef3c7;
+      color: #92400e;
+      border: 1px solid #fde68a;
+    }
+    .badge-estoque {
+      background: #e0f2fe;
+      color: #0369a1;
+      border: 1px solid #bae6fd;
+    }
+    .category-tag {
+      font-size: 11px;
+      color: #64748b;
+      background: #f1f5f9;
       padding: 2px 8px;
-      border-radius: 12px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    /* Product Item Info */
+    .product-cell {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .product-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      flex-shrink: 0;
+    }
+    .product-name {
+      font-weight: 600;
+      color: var(--text-main);
+      font-size: 13px;
+    }
+    .product-note {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 1px;
+    }
+
+    /* Financial Color helpers */
+    .val-lucro { color: #059669; font-weight: 700; }
+    .val-custo { color: #475569; }
+    .val-venda { color: #0f172a; font-weight: 600; }
+    .val-taxa { color: #94a3b8; }
+    .highlight-pill {
       font-size: 10px;
       font-weight: 700;
-    }
-    .badge-vendido { background: #dcfce7; color: #15803d; }
-    .badge-ativo { background: #dbeafe; color: #1d4ed8; }
-    .badge-reserva { background: #fef3c7; color: #b45309; }
-
-    .img-thumb {
-      width: 38px;
-      height: 38px;
+      padding: 2px 6px;
       border-radius: 4px;
-      object-fit: cover;
-      background: #eee;
-      border: 1px solid #ddd;
+      background: #ecfdf5;
+      color: #047857;
+      margin-left: 6px;
+    }
+
+    /* Empty state */
+    .empty-state {
+      padding: 30px;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 13px;
+    }
+
+    /* Bottom tab-strip like Google Sheets */
+    .sheets-bottom-tabs {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #f8fafc;
+      border-top: 1px solid #cbd5e1;
+      padding: 6px 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      z-index: 100;
+    }
+    .sheet-tab {
+      background: white;
+      border: 1px solid #cbd5e1;
+      padding: 6px 14px;
+      border-radius: 4px;
+      font-weight: 600;
+      color: #475569;
+      cursor: pointer;
+    }
+    .sheet-tab.active {
+      background: #107c41;
+      color: white;
+      border-color: #107c41;
     }
   </style>
 </head>
 <body>
 
+  <!-- Top Navigation & Brand -->
   <div class="header-bar">
-    <h1>📊 Planilha de Controle C&V (Compra, Venda & Estoque)</h1>
-    <button class="btn-export" onclick="exportCSV()">📥 Baixar Planilha Excel (CSV)</button>
-  </div>
-
-  <!-- TOP KPI CARDS (Exatamente igual ao do print) -->
-  <div class="kpi-grid">
-    <div class="kpi-card">
-      <div class="kpi-label">Itens em Estoque</div>
-      <div class="kpi-value" id="kpi-itens">6 un</div>
+    <div class="brand-title">
+      <div class="brand-badge">C&V</div>
+      <div>
+        <h1>Painel de Controle Financeiro & Estoque</h1>
+        <div class="header-desc">Compra & Varejo Itu • Portal do Éden • Pronta Entrega</div>
+      </div>
     </div>
-    <div class="kpi-card">
-      <div class="kpi-label">Dinheiro Parado</div>
-      <div class="kpi-value" id="kpi-parado">R$ 246,21</div>
-    </div>
-    <div class="kpi-card">
-      <div class="kpi-label">Total Gasto Compras</div>
-      <div class="kpi-value" id="kpi-gasto">R$ 273,70</div>
-    </div>
-    <div class="kpi-card">
-      <div class="kpi-label">Faturamento Realizado</div>
-      <div class="kpi-value" id="kpi-faturamento">R$ 130,00</div>
-    </div>
-    <div class="kpi-card">
-      <div class="kpi-label">Lucro Líquido Real</div>
-      <div class="kpi-value" id="kpi-lucro" style="color: #16a34a;">R$ 101,03</div>
-    </div>
-    <div class="kpi-card">
-      <div class="kpi-label">Tempo Médio Venda</div>
-      <div class="kpi-value" id="kpi-tempo">2,5 dias</div>
+    <div class="header-actions">
+      <button class="btn btn-secondary" onclick="window.print()">🖨️ Imprimir / PDF</button>
+      <button class="btn btn-primary" onclick="exportCSV()">📥 Baixar CSV (Sheets/Excel)</button>
     </div>
   </div>
 
-  <!-- DATA TABLE -->
-  <div class="table-container">
-    <table id="tabela-briques">
+  <!-- Real-time Cashflow Quick Strip -->
+  <div class="cash-strip">
+    <div class="cash-item">
+      <span class="cash-title">💵 Caixa Atual Livre</span>
+      <span class="cash-amount" style="color: #38bdf8;">R$ 50,10</span>
+    </div>
+    <div class="cash-arrow">➔</div>
+    <div class="cash-item">
+      <span class="cash-title">⚡ Pix Agendado Fim de Semana</span>
+      <span class="cash-amount" style="color: #fbbf24;">+ R$ 195,00</span>
+    </div>
+    <div class="cash-arrow">➔</div>
+    <div class="cash-item">
+      <span class="cash-title">🎯 Caixa Previsto Segunda-Feira</span>
+      <span class="cash-amount" style="color: #4ade80;">R$ 245,10</span>
+    </div>
+    <div class="cash-arrow">➔</div>
+    <div class="cash-item">
+      <span class="cash-title">📦 Faturamento Ativo Pendente</span>
+      <span class="cash-amount" style="color: #cbd5e1;">+ R$ 249,90</span>
+    </div>
+    <div class="cash-arrow">➔</div>
+    <div class="cash-item">
+      <span class="cash-title">🏆 Caixa Total da Rodada</span>
+      <span class="cash-amount" style="color: #34d399;">R$ 495,00 ~ R$ 510,00</span>
+    </div>
+  </div>
+
+  <!-- KPI Top Cards (Google Sheets Style) -->
+  <div class="kpi-container">
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Itens em Estoque</div>
+        <div class="kpi-value">5 un <span style="font-size:12px; font-weight:500; color:#64748b;">(3 produtos)</span></div>
+        <div class="kpi-sub">À venda no Marketplace</div>
+      </div>
+      <div class="kpi-card" style="border-color: #bfdbfe;">
+        <div class="kpi-label" style="color: #1e40af;">Dinheiro Parado</div>
+        <div class="kpi-value" style="color: #2563eb;">R$ 123,35</div>
+        <div class="kpi-sub">Custo de compra ativo</div>
+      </div>
+      <div class="kpi-card" style="border-color: #cbd5e1;">
+        <div class="kpi-label" style="color: #475569;">Total Gasto Geral</div>
+        <div class="kpi-value" style="color: #334155;">R$ 246,15</div>
+        <div class="kpi-sub">Compras de teste</div>
+      </div>
+      <div class="kpi-card" style="border-color: #fde68a;">
+        <div class="kpi-label" style="color: #92400e;">Faturamento Realizado</div>
+        <div class="kpi-value" style="color: #b45309;">R$ 130,00</div>
+        <div class="kpi-sub">+ R$ 195 reservado</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Lucro Líquido Real</div>
+        <div class="kpi-value" style="color: #059669;">R$ 101,03</div>
+        <div class="kpi-sub">Dinheiro limpo no bolso</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Tempo Médio Venda</div>
+        <div class="kpi-value" style="color: #059669;">2,5 dias</div>
+        <div class="kpi-sub">Giro rápido comprovado</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Visual Filter Tabs -->
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="filterView('all', this)">
+      📋 Visão Separada por Fases
+    </button>
+    <button class="tab-btn" onclick="filterView('estoque', this)">
+      🔵 Pronta Entrega <span class="tab-pill" style="background:#e0f2fe; color:#0369a1;">3 produtos (5 un)</span>
+    </button>
+    <button class="tab-btn" onclick="filterView('reservas', this)">
+      🟡 Negócios Fechados (FDS) <span class="tab-pill" style="background:#fef3c7; color:#92400e;">2 reservas</span>
+    </button>
+    <button class="tab-btn" onclick="filterView('vendidos', this)">
+      🟢 Vendidos & Entregues <span class="tab-pill" style="background:#dcfce7; color:#166534;">2 vendas</span>
+    </button>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- BLOCO 1: RESERVAS / NEGÓCIOS FECHADOS (FDS) -->
+  <!-- ========================================== -->
+  <div class="section-block" id="sec-reservas">
+    <div class="section-header" style="background: #fffbeb;">
+      <div class="section-title" style="color: #92400e;">
+        <span>🤝 NEGÓCIOS FECHADOS • AGUARDANDO ENTREGA NO FDS</span>
+        <span class="badge badge-reserva">Pix a Entrar</span>
+      </div>
+      <div class="section-stats">
+        <span class="stat-chip">Total a Receber: <b style="color: #92400e;">R$ 195,00</b></span>
+        <span class="stat-chip">Lucro Líquido Engatilhado: <b style="color: #059669;">+ R$ 72,20</b></span>
+      </div>
+    </div>
+    <table>
       <thead>
         <tr>
           <th>Produto</th>
-          <th>Foto</th>
-          <th>Categoria</th>
-          <th>Status</th>
-          <th>Data Compra</th>
-          <th>Valor Compra</th>
-          <th>Data Venda</th>
-          <th>Valor Venda</th>
-          <th>Total Recebido</th>
+          <th>Cliente / Destino</th>
+          <th>Previsão</th>
+          <th>Custo Compra</th>
+          <th>Valor Negociado</th>
           <th>Lucro Líquido</th>
           <th>Margem %</th>
-          <th>Tempo Giro</th>
+          <th>Status / Observação</th>
         </tr>
       </thead>
       <tbody>
-        <!-- PRODUTO 1 -->
         <tr>
-          <td><b>HD 60GB Xbox 360 Fat</b></td>
-          <td>🎮</td>
-          <td>Games & Retro</td>
-          <td><span class="badge badge-vendido">Vendido</span></td>
-          <td>02/11/2026</td>
-          <td>R$ 0,00</td>
-          <td>04/11/2026</td>
-          <td>R$ 70,00</td>
-          <td>R$ 70,00</td>
-          <td><b>R$ 70,00</b></td>
-          <td>100,0%</td>
-          <td>2 dias</td>
-        </tr>
-        <!-- PRODUTO 2 -->
-        <tr>
-          <td><b>Fone Capacete Moto V10 (Un 1)</b></td>
-          <td>🎧</td>
-          <td>Acessórios Moto</td>
-          <td><span class="badge badge-vendido">Vendido</span></td>
-          <td>06/11/2026</td>
-          <td>R$ 28,97</td>
-          <td>09/11/2026</td>
-          <td>R$ 60,00</td>
-          <td>R$ 60,00</td>
-          <td><b>R$ 31,03</b></td>
-          <td>51,7%</td>
-          <td>3 dias</td>
-        </tr>
-        <!-- PRODUTO 3 -->
-        <tr>
-          <td><b>Kit 10 Potes Vidro 640ml</b></td>
-          <td>🍲</td>
-          <td>Utilidades Domésticas</td>
-          <td><span class="badge badge-reserva">Reserva Domingo</span></td>
-          <td>10/11/2026</td>
-          <td>R$ 93,83</td>
-          <td>15/11/2026</td>
-          <td>R$ 135,00</td>
-          <td>R$ 135,00</td>
-          <td><b>R$ 41,17</b></td>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#fef3c7;">🍲</div>
+              <div>
+                <div class="product-name">Kit 10 Potes de Vidro Hermético 640ml</div>
+                <div class="product-note">Vidro borossilicato • Tampa 4 travas anel silicone</div>
+              </div>
+            </div>
+          </td>
+          <td><b>Tia (Família Itu)</b></td>
+          <td>Domingo (15/11 - Pagamento)</td>
+          <td class="val-custo">R$ 93,83</td>
+          <td class="val-venda">R$ 135,00</td>
+          <td class="val-lucro">+ R$ 41,17</td>
           <td>30,5%</td>
-          <td>4 dias</td>
+          <td><span class="badge badge-reserva">Fechado R$ 135 Pix</span> <span class="highlight-pill">Anúncio ativo R$ 149</span></td>
         </tr>
-        <!-- PRODUTO 4 -->
         <tr>
-          <td><b>Fone Capacete Moto V10 (Un 2)</b></td>
-          <td>🎧</td>
-          <td>Acessórios Moto</td>
-          <td><span class="badge badge-reserva">Reserva Samuel</span></td>
-          <td>06/11/2026</td>
-          <td>R$ 28,97</td>
-          <td>-</td>
-          <td>R$ 60,00</td>
-          <td>R$ 60,00</td>
-          <td><b>R$ 31,03</b></td>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#fef3c7;">🎧</div>
+              <div>
+                <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 2)</div>
+                <div class="product-note">Intercomunicador anti-ruído IP67</div>
+              </div>
+            </div>
+          </td>
+          <td><b>Samuel Jesus (Motoboy Itu)</b></td>
+          <td>Sábado (14/11 - Passa buscar)</td>
+          <td class="val-custo">R$ 28,97</td>
+          <td class="val-venda">R$ 60,00</td>
+          <td class="val-lucro">+ R$ 31,03</td>
           <td>51,7%</td>
-          <td>-</td>
+          <td><span class="badge badge-reserva">Avaliou 5★ • Futuro entregador</span></td>
         </tr>
-        <!-- PRODUTO 5 -->
-        <tr>
-          <td><b>Fone Capacete Moto V10 (Un 3)</b></td>
-          <td>🎧</td>
-          <td>Acessórios Moto</td>
-          <td><span class="badge badge-ativo">Em Estoque</span></td>
-          <td>06/11/2026</td>
-          <td>R$ 28,97</td>
-          <td>-</td>
-          <td>R$ 60,00</td>
-          <td>R$ 60,00</td>
-          <td><b>R$ 31,03</b></td>
-          <td>51,7%</td>
-          <td>-</td>
-        </tr>
-        <!-- PRODUTO 6 -->
-        <tr>
-          <td><b>Jogo Chaves Combinadas 12 Pçs</b></td>
-          <td>🧰</td>
-          <td>Ferramentas</td>
-          <td><span class="badge badge-ativo">Em Estoque</span></td>
-          <td>04/11/2026</td>
-          <td>R$ 66,89</td>
-          <td>-</td>
-          <td>R$ 99,90</td>
-          <td>R$ 99,90</td>
-          <td><b>R$ 33,01</b></td>
-          <td>33,0%</td>
-          <td>-</td>
-        </tr>
-        <!-- PRODUTO 7 -->
-        <tr>
-          <td><b>3x Máquinas T9 Vintage Buda</b></td>
-          <td>💈</td>
-          <td>Cuidados Pessoais</td>
-          <td><span class="badge badge-ativo">Em Estoque</span></td>
-          <td>30/10/2026</td>
-          <td>R$ 27,49</td>
-          <td>-</td>
-          <td>R$ 90,00</td>
-          <td>R$ 90,00</td>
-          <td><b>R$ 62,51</b></td>
-          <td>69,5%</td>
-          <td>-</td>
+        <tr class="row-subtotal">
+          <td colspan="3"><b>SUBTOTAL NEGÓCIOS FECHADOS (2 ITENS)</b></td>
+          <td><b>R$ 122,80</b></td>
+          <td><b style="color: #92400e;">R$ 195,00</b></td>
+          <td><b style="color: #059669;">+ R$ 72,20</b></td>
+          <td><b>37,0%</b></td>
+          <td><i>Cai no Pix neste fim de semana</i></td>
         </tr>
       </tbody>
     </table>
   </div>
 
+
+  <!-- ========================================== -->
+  <!-- BLOCO 2: ESTOQUE ATIVO (PRONTA ENTREGA)     -->
+  <!-- ========================================== -->
+  <div class="section-block" id="sec-estoque">
+    <div class="section-header" style="background: #eff6ff;">
+      <div class="section-title" style="color: #1e40af;">
+        <span>📦 ESTOQUE PRONTA ENTREGA • ANUNCIADOS NO MARKETPLACE</span>
+        <span class="badge badge-estoque">Foco de Venda</span>
+      </div>
+      <div class="section-stats">
+        <span class="stat-chip">Capital Parado: <b style="color: #1e40af;">R$ 123,35</b></span>
+        <span class="stat-chip">Faturamento Projetado: <b style="color: #0f172a;">R$ 249,90</b></span>
+        <span class="stat-chip">Lucro Potencial: <b style="color: #059669;">+ R$ 126,55</b></span>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Categoria</th>
+          <th>Estoque</th>
+          <th>Custo Unitário</th>
+          <th>Custo Total</th>
+          <th>Preço Anunciado</th>
+          <th>Lucro Previsto</th>
+          <th>Margem %</th>
+          <th>Estratégia / Canal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#eff6ff;">🎧</div>
+              <div>
+                <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 3)</div>
+                <div class="product-note">Pronta entrega Itu • Caixa lacrada</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="category-tag">Motos</span></td>
+          <td>1 un</td>
+          <td class="val-custo">R$ 28,97</td>
+          <td class="val-custo">R$ 28,97</td>
+          <td class="val-venda">R$ 60,00</td>
+          <td class="val-lucro">+ R$ 31,03</td>
+          <td>51,7%</td>
+          <td>Marketplace (48 cliques) + Grupo VIP</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#eff6ff;">🧰</div>
+              <div>
+                <div class="product-name">Jogo de Chave Combinada 12 Pçs The Black Tools</div>
+                <div class="product-note">Aço Cromo Vanádio 6mm a 22mm com estojo</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="category-tag">Ferramentas</span></td>
+          <td>1 kit</td>
+          <td class="val-custo">R$ 66,89</td>
+          <td class="val-custo">R$ 66,89</td>
+          <td class="val-venda">R$ 99,90</td>
+          <td class="val-lucro">+ R$ 33,01</td>
+          <td>33,0%</td>
+          <td>Marketplace Itu/Salto (Fotos na mão)</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#eff6ff;">💈</div>
+              <div>
+                <div class="product-name">3x Máquinas T9 Vintage Buda (Edição Black Metal)</div>
+                <div class="product-note">Corte zero, lâmina T, recarregável Micro-USB</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="category-tag">Cuidados Pessoais</span></td>
+          <td>3 un</td>
+          <td class="val-custo">R$ 9,16</td>
+          <td class="val-custo">R$ 27,49</td>
+          <td class="val-venda">R$ 29,90 ~ R$ 30,00</td>
+          <td class="val-lucro">+ R$ 62,51</td>
+          <td>69,5%</td>
+          <td>2 Anúncios no Ar (Fundo Kraft + Preto)</td>
+        </tr>
+        <tr class="row-subtotal">
+          <td colspan="4"><b>SUBTOTAL ESTOQUE ATIVO (3 PRODUTOS / 5 UNIDADES)</b></td>
+          <td><b style="color: #1e40af;">R$ 123,35</b></td>
+          <td><b style="color: #0f172a;">R$ 249,90</b></td>
+          <td><b style="color: #059669;">+ R$ 126,55</b></td>
+          <td><b>50,6%</b></td>
+          <td><i>Produtos com anúncios rodando hoje</i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- BLOCO 3: VENDIDOS & ENTREGUES (HISTÓRICO)  -->
+  <!-- ========================================== -->
+  <div class="section-block" id="sec-vendidos">
+    <div class="section-header" style="background: #f0fdf4;">
+      <div class="section-title" style="color: #166534;">
+        <span>✅ VENDIDOS & CONCLUÍDOS • DINHEIRO REAL NO BOLSO</span>
+        <span class="badge badge-vendido">Pix Realizado</span>
+      </div>
+      <div class="section-stats">
+        <span class="stat-chip">Faturamento Realizado: <b style="color: #166534;">R$ 130,00</b></span>
+        <span class="stat-chip">Lucro Líquido Realizado: <b style="color: #059669;">+ R$ 101,03</b></span>
+        <span class="stat-chip">Margem Média: <b style="color: #059669;">77,7%</b></span>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Comprador</th>
+          <th>Data Compra</th>
+          <th>Data Venda</th>
+          <th>Custo Compra</th>
+          <th>Valor Venda</th>
+          <th>Lucro Líquido</th>
+          <th>Margem %</th>
+          <th>Tempo de Giro</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#dcfce7;">🎮</div>
+              <div>
+                <div class="product-name">HD 60GB Xbox 360 Fat Original</div>
+                <div class="product-note">Item de desapego / giro imediato</div>
+              </div>
+            </div>
+          </td>
+          <td><b>Adriano (Amigo Itu)</b></td>
+          <td>02/11/2026</td>
+          <td>04/11/2026</td>
+          <td class="val-custo">R$ 0,00</td>
+          <td class="val-venda">R$ 70,00</td>
+          <td class="val-lucro">+ R$ 70,00</td>
+          <td>100,0%</td>
+          <td><span class="highlight-pill">2 dias</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#dcfce7;">🎧</div>
+              <div>
+                <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 1)</div>
+                <div class="product-note">Primeira unidade do pack de 3</div>
+              </div>
+            </div>
+          </td>
+          <td><b>Maurício (Via Ailton)</b></td>
+          <td>06/11/2026</td>
+          <td>09/11/2026</td>
+          <td class="val-custo">R$ 28,97</td>
+          <td class="val-venda">R$ 60,00</td>
+          <td class="val-lucro">+ R$ 31,03</td>
+          <td>51,7%</td>
+          <td><span class="highlight-pill">3 dias</span></td>
+        </tr>
+        <tr class="row-subtotal">
+          <td colspan="4"><b>TOTAL REALIZADO (2 VENDAS CONCLUÍDAS)</b></td>
+          <td><b>R$ 28,97</b></td>
+          <td><b style="color: #166534;">R$ 130,00</b></td>
+          <td><b style="color: #059669;">+ R$ 101,03</b></td>
+          <td><b>77,7%</b></td>
+          <td><b>Média: 2,5 dias</b></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Bottom Sheets Navigation Bar -->
+  <div class="sheets-bottom-tabs">
+    <span style="font-weight:700; color:#107c41; margin-right:8px;">Planilhas:</span>
+    <button class="sheet-tab active" onclick="filterView('all', this)">📄 Compras & Vendas (Geral)</button>
+    <button class="sheet-tab" onclick="filterView('estoque', this)">📦 Estoque Ativo</button>
+    <button class="sheet-tab" onclick="filterView('reservas', this)">🤝 Reservados</button>
+    <button class="sheet-tab" onclick="filterView('vendidos', this)">✅ Vendidos</button>
+  </div>
+
   <script>
-    function exportCSV() {
-      let csv = [];
-      let rows = document.querySelectorAll("table tr");
-      for (let i = 0; i < rows.length; i++) {
-        let row = [], cols = rows[i].querySelectorAll("td, th");
-        for (let j = 0; j < cols.length; j++) {
-          if (j !== 1) { // Pula a coluna de emoji/foto
-            row.push('"' + cols[j].innerText.replace(/"/g, '""').trim() + '"');
-          }
-        }
-        csv.push(row.join(";"));
+    function filterView(type, btn) {
+      document.querySelectorAll('.tab-btn, .sheet-tab').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+
+      const secReservas = document.getElementById('sec-reservas');
+      const secEstoque = document.getElementById('sec-estoque');
+      const secVendidos = document.getElementById('sec-vendidos');
+
+      if (type === 'all') {
+        secReservas.style.display = 'block';
+        secEstoque.style.display = 'block';
+        secVendidos.style.display = 'block';
+      } else if (type === 'estoque') {
+        secReservas.style.display = 'none';
+        secEstoque.style.display = 'block';
+        secVendidos.style.display = 'none';
+      } else if (type === 'reservas') {
+        secReservas.style.display = 'block';
+        secEstoque.style.display = 'none';
+        secVendidos.style.display = 'none';
+      } else if (type === 'vendidos') {
+        secReservas.style.display = 'none';
+        secEstoque.style.display = 'none';
+        secVendidos.style.display = 'block';
       }
-      let csvFile = new Blob(["\ufeff" + csv.join("\n")], {type: "text/csv;charset=utf-8;"});
-      let downloadLink = document.createElement("a");
-      downloadLink.download = "Planilha_Controle_CV.csv";
-      downloadLink.href = window.URL.createObjectURL(csvFile);
-      downloadLink.style.display = "none";
-      document.body.appendChild(downloadLink);
-      downloadLink.click();
+    }
+
+    function exportCSV() {
+      window.location.href = 'Planilha_Controle_CV.csv';
     }
   </script>
 
