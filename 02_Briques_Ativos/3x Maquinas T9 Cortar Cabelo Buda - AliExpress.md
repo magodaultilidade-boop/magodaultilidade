@@ -1,16 +1,16 @@
 ---
 tipo: brique
 produto: "3x Máquina de Cortar Cabelo e Barba T9 Vintage (Black Buddha)"
-status: radar
+status: anunciado
 categoria: "Beleza/Saúde"
 origem_compra: "AliExpress"
 loja: "Choice - TuoJian Exquisite Life Store"
 numero_pedido: "8215734049672324"
-codigo_rastreio: ""
+codigo_rastreio: "Entregue"
 data_compra: 2026-10-30
-data_recebimento: 
-data_anuncio: 
-data_repostar: 
+data_recebimento: 2026-11-13
+data_anuncio: 2026-11-13
+data_repostar: 20/11/2026
 data_venda: 
 
 # FINANCEIRO / CUSTO (LOTE DE 3 UNIDADES)
@@ -21,15 +21,18 @@ desconto_total_obtido: 80.36 # (quase 75% de economia!)
 custo_total: 27.49 # Valor real pago no lote
 custo_unitario: 9.16 # (27.49 / 3)
 
-# PRECIFICAÇÃO MARKETPLACE (POR UNIDADE)
-preco_anuncio_fb: 39.90 # Preço de anúncio por unidade
-preco_minimo_aceitavel: 30.00 # Piso se o cliente pechinchar
+# PRECIFICAÇÃO MARKETPLACE & GRUPO (POR UNIDADE)
+preco_anuncio_fb: 30.00 # Anúncios a R$ 29 e R$ 30
+preco_indicacao_grupo: 30.00
+comissao_indicacao: 5.00
+preco_minimo_aceitavel: 25.00 # Piso se o cliente pechinchar
 preco_venda_final: 0.00
 
 # MARGEM & RESULTADO ESPERADO (TOTAL DAS 3 UNIDADES)
-lucro_estimado_unitario: 30.74 # (39.90 - 9.16)
-lucro_estimado_total: 92.21 # (30.74 * 3)
-roi_percentual: 335.4 # ((92.21 / 27.49) * 100)
+lucro_estimado_unitario: 20.84 # (30.00 - 9.16)
+lucro_estimado_total: 62.51 # (20.84 * 3)
+roi_percentual: 227.4
+faturamento_total_previsto: 90.00
 
 comprador: ""
 forma_pagamento: "Pix / Dinheiro"
@@ -37,7 +40,7 @@ forma_pagamento: "Pix / Dinheiro"
 
 # 📦 3x Máquina de Cortar Cabelo T9 Vintage (Black Buddha)
 
-> **Status:** `#brique/radar` (Aguardando Entrega) | **Origem:** AliExpress Choice
+> **Status:** `#brique/anunciado` (Em mãos / Anunciado) | **Origem:** AliExpress Choice
 > **Preço Normal de Tabela:** R$ 35,95 cada | **Você Pagou:** **R$ 9,16 cada** (75% OFF)
 > **Preço de Venda Sugerido:** R$ 39,90 cada | **Lucro Líquido Previsto:** R$ 92,21 (+335% ROI)
 

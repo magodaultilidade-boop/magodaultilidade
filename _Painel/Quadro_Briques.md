@@ -6,9 +6,6 @@ kanban-plugin: board
 
 ## 🚚 1. A Caminho (Radar)
 
-- [ ] [[3x Maquinas T9 Cortar Cabelo Buda - AliExpress|💈 3x Máquinas T9 Vintage Dragão/Buda]]
-	📦 **Qtd:** 3 unidades \| 🌐 *AliExpress (10 a 18/nov)*
-	💰 **Custo:** R$ 9,16 un \| **Venda:** R$ 39,90 un \| 🎯 **Lucro:** +R$ 92,21 lote
 
 
 ## 📦 2. Em Mãos (Tirar Fotos & Anunciar)
@@ -17,14 +14,17 @@ kanban-plugin: board
 
 ## 📢 3. Anunciados no Marketplace / WhatsApp
 
+- [ ] [[3x Maquinas T9 Cortar Cabelo Buda - AliExpress|💈 3x Máquinas T9 Vintage Dragão/Buda]]
+	📦 **Qtd:** 3 unidades \| ⚡ *2 Anúncios Ativos no FB (R$ 29 / R$ 30)*
+	💰 **Custo:** R$ 9,16 un \| **Venda:** R$ 30,00 un \| 🎯 **Lucro:** +R$ 62,51 lote
 - [ ] [[Kit 10 Potes Vidro Hermetico 640ml - Mercado Livre|🍲 Kit 10 Potes de Vidro 640ml Aristus]]
-	📦 **Qtd:** 1 kit (10 potes) \| ⚡ *Anunciado no FB/Grupo (Reserva Tia Domingo R$ 135)*
+	📦 **Qtd:** 1 kit (10 potes) \| ⚡ *Anunciado no FB/Grupo (54 cliques / Reserva Tia R$ 135)*
 	💰 **Custo:** R$ 93,83 \| **Venda Alvo:** R$ 149,90 \| 🎯 **Lucro:** +R$ 41,17 a +R$ 56,07
 - [ ] [[2x Fone Bluetooth Capacete Moto V10 - Mercado Livre|🎧 2x Fone Bluetooth Capacete Moto V10]]
-	📦 **Qtd Restante:** 2 unidades \| 🛵 *Fotos HD c/ Capacete GP Tech e RGB no Centro*
+	📦 **Qtd Restante:** 2 unidades \| 🛵 *Reserva Samuel Sexta/Sábado + 1 Disponível*
 	💰 **Custo:** R$ 28,97 un \| **Venda:** R$ 60,00 un \| 🎯 **Lucro:** +R$ 62,06
 - [ ] [[Jogo de Chave Combinada 12 Pcs The Black Tools - Mercado Livre|🧰 Jogo de Chaves 12 Pçs The Black Tools]]
-	📦 **Qtd:** 1 kit \| ⏱️ *Anúncio Renovado 11/11 com fotos reais*
+	📦 **Qtd:** 1 kit \| ⏱️ *Anúncio Ativo a R$ 99 (17 cliques)*
 	💰 **Custo:** R$ 66,89 \| **Preço:** R$ 99,90 (Pix) \| 🎯 **Lucro:** +R$ 33,01
 
 
