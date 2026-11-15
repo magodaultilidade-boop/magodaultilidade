@@ -8,15 +8,15 @@
 
 | 🏷️ Métricas Gerais de Estoque e Vendas | Valor Real             | 📅 Resumo do Mês Atual (Novembro/2026)  | Valor do Mês                    |
 | :-------------------------------------- | :--------------------- | :-------------------------------------- | :------------------------------ |
-| **Produtos em estoque / trânsito**      | `7 unidades (4 lotes)` | **Vendidos no mês**                     | `2 briques` 🎉                  |
-| **Total investido no estoque ativo**    | `R$ 246,21`            | **Faturamento do mês**                  | `R$ 130,00`                     |
-| **Produtos vendidos (acumulado)**       | `2 unidades`           | **Lucro líquido do mês**                | `R$ 101,03` 🟢                  |
-| **Faturamento total realizado**         | `R$ 130,00`            | **Ticket médio no mês**                 | `R$ 65,00`                      |
-| **Lucro líquido realizado (Pix)**       | `R$ 101,03`            | **Produtos parados (+7 dias no ar)**    | `0 unidades (R$ 0,00)`          |
-| **Margem líquida média das vendas**     | `77,7%`                | **Faturamento potencial do estoque**    | `R$ 489,50` 🚀                  |
-| **ROI médio realizado**                 | `103,5%`               | **Lucro potencial em trânsito/estoque** | `R$ 243,35`                     |
-| **Ticket médio geral**                  | `R$ 65,00`             | **Canal com maior conversão direta**    | `WhatsApp / Status (+107% ROI)` |
-| **Dias médios para venda (Giro)**       | `2,5 dias` 🔥          | **Categorias mais rápidas**             | `Games e Acessórios Moto`       |
+| **Produtos em estoque / trânsito**      | `5 unidades (3 lotes)` | **Vendidos no mês**                     | `4 briques` 🎉                  |
+| **Total investido no estoque ativo**    | `R$ 123,35`            | **Faturamento do mês**                  | `R$ 325,00`                     |
+| **Produtos vendidos (acumulado)**       | `4 unidades`           | **Lucro líquido do mês**                | `R$ 173,23` 🟢                  |
+| **Faturamento total realizado**         | `R$ 325,00`            | **Ticket médio no mês**                 | `R$ 81,25`                      |
+| **Lucro líquido realizado (Pix)**       | `R$ 173,23`            | **Produtos parados (+7 dias no ar)**    | `1 unidade (Chaves)`            |
+| **Margem líquida média das vendas**     | `53,3%`                | **Faturamento potencial do estoque**    | `R$ 249,90` 🚀                  |
+| **ROI médio realizado**                 | `114,1%`               | **Lucro potencial em trânsito/estoque** | `R$ 126,55`                     |
+| **Ticket médio geral**                  | `R$ 81,25`             | **Canal com maior conversão direta**    | `WhatsApp / Direto (+ R$ 195 FDS)`|
+| **Dias médios para venda (Giro)**       | `4,2 dias` 🔥          | **Categorias campeãs comprovadas**      | `Games, Cozinha e Moto`         |
 
 ---
 

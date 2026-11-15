@@ -3,21 +3,23 @@ tipo: cliente
 nome: Tia
 canal_contato: WhatsApp Familiar
 cidade: Itu/SP
-status: lead_quente
-total_gasto: 0.00
-compras_realizadas: 0
+status: cliente_concluido
+total_gasto: 135.00
+compras_realizadas: 1
 data_primeiro_contato: 2026-11-11
+data_venda_concluida: 2026-11-15
 interesses: [Cozinha, Potes de Vidro, Utilidades Domésticas, Panelas]
 ---
 
-# 👤 Perfil de Cliente: Tia (Lead Cozinha & Casa)
+# 👤 Perfil de Cliente: Tia (Cliente Cozinha & Casa) ✅
 
-> **Status:** `#cliente/lead-quente` (Acordo fechado para Domingo 15/11)
+> **Status:** `#cliente/concluido` (Venda entregue e paga no Pix)
 > **Canal:** WhatsApp Direto / Familiar
+> **Total Pago:** R$ 135,00 no Pix (15/11/2026)
 
 ---
 
 ## 📌 Histórico de Negociação
-- **11/11/2026:** Assim que o lote de 10 Potes Herméticos chegou, ela mandou proposta inicial de R$ 100 via áudio. Após contraproposta com postura de comerciante, fechou em **R$ 135,00 no Pix** para o dia do vale (**Domingo, 15/11**).
-- **Potencial Futuro:** Cliente de altíssimo potencial para produtos de utilidade doméstica, panelas antiaderentes, travessas e potes herméticos adicionais.
-
+- **11/11/2026:** Assim que o lote de 10 Potes Herméticos chegou, negociou e fechou em **R$ 135,00 no Pix** para o dia do vale.
+- **15/11/2026:** Entrega realizada e pagamento confirmado no Pix (+R$ 41,17 de lucro líquido realizado).
+- **Potencial Futuro:** Cliente de altíssimo potencial para novos produtos de utilidade doméstica, panelas antiaderentes, travessas e potes herméticos adicionais.

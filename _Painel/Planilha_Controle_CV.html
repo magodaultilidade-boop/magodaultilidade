@@ -107,6 +107,40 @@
     }
     .btn-secondary:hover { background: #f8fafc; }
 
+    /* Cashflow Highlight Strip */
+    .cash-strip {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: white;
+      border-radius: 10px;
+      padding: 16px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 28px;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+    }
+    .cash-item {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .cash-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+    .cash-amount {
+      font-size: 20px;
+      font-weight: 800;
+      color: #f8fafc;
+    }
+    .cash-arrow {
+      font-size: 20px;
+      color: #64748b;
+    }
+
     /* KPI Top Overview */
     .kpi-container {
       margin-bottom: 28px;
@@ -149,40 +183,6 @@
       font-size: 11px;
       color: var(--text-muted);
       margin-top: 4px;
-    }
-
-    /* Cashflow Highlight Strip */
-    .cash-strip {
-      background: linear-gradient(135deg, #1e293b, #0f172a);
-      color: white;
-      border-radius: 10px;
-      padding: 14px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 28px;
-      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
-    }
-    .cash-item {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-    .cash-title {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.7px;
-      color: #94a3b8;
-      font-weight: 600;
-    }
-    .cash-amount {
-      font-size: 18px;
-      font-weight: 700;
-      color: #f8fafc;
-    }
-    .cash-arrow {
-      font-size: 20px;
-      color: #64748b;
     }
 
     /* Filter Tabs */
@@ -377,10 +377,11 @@
 
     /* Empty state */
     .empty-state {
-      padding: 30px;
+      padding: 24px;
       text-align: center;
-      color: #94a3b8;
+      color: #64748b;
       font-size: 13px;
+      background: #fffdf5;
     }
 
     /* Bottom tab-strip like Google Sheets */
@@ -434,18 +435,13 @@
   <!-- Real-time Cashflow Quick Strip -->
   <div class="cash-strip">
     <div class="cash-item">
-      <span class="cash-title">💵 Caixa Atual Livre</span>
-      <span class="cash-amount" style="color: #38bdf8;">R$ 50,10</span>
+      <span class="cash-title">💵 Caixa Livre em Mãos</span>
+      <span class="cash-amount" style="color: #4ade80;">R$ 245,10 🟢</span>
     </div>
     <div class="cash-arrow">➔</div>
     <div class="cash-item">
-      <span class="cash-title">⚡ Pix Agendado Fim de Semana</span>
-      <span class="cash-amount" style="color: #fbbf24;">+ R$ 195,00</span>
-    </div>
-    <div class="cash-arrow">➔</div>
-    <div class="cash-item">
-      <span class="cash-title">🎯 Caixa Previsto Segunda-Feira</span>
-      <span class="cash-amount" style="color: #4ade80;">R$ 245,10</span>
+      <span class="cash-title">⚡ Pix Recebido no FDS</span>
+      <span class="cash-amount" style="color: #38bdf8;">+ R$ 195,00 (Meta Batida!)</span>
     </div>
     <div class="cash-arrow">➔</div>
     <div class="cash-item">
@@ -454,8 +450,8 @@
     </div>
     <div class="cash-arrow">➔</div>
     <div class="cash-item">
-      <span class="cash-title">🏆 Caixa Total da Rodada</span>
-      <span class="cash-amount" style="color: #34d399;">R$ 495,00 ~ R$ 510,00</span>
+      <span class="cash-title">🏆 Caixa Total Previsto ao Zerar</span>
+      <span class="cash-amount" style="color: #34d399;">R$ 495,00</span>
     </div>
   </div>
 
@@ -473,23 +469,23 @@
         <div class="kpi-sub">Custo de compra ativo</div>
       </div>
       <div class="kpi-card" style="border-color: #cbd5e1;">
-        <div class="kpi-label" style="color: #475569;">Total Gasto Geral</div>
+        <div class="kpi-label" style="color: #475569;">Total Investido Geral</div>
         <div class="kpi-value" style="color: #334155;">R$ 246,15</div>
-        <div class="kpi-sub">Compras de teste</div>
+        <div class="kpi-sub">Compras realizadas</div>
       </div>
       <div class="kpi-card" style="border-color: #fde68a;">
         <div class="kpi-label" style="color: #92400e;">Faturamento Realizado</div>
-        <div class="kpi-value" style="color: #b45309;">R$ 130,00</div>
-        <div class="kpi-sub">+ R$ 195 reservado</div>
+        <div class="kpi-value" style="color: #b45309;">R$ 325,00</div>
+        <div class="kpi-sub">4 vendas concluídas</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-label">Lucro Líquido Real</div>
-        <div class="kpi-value" style="color: #059669;">R$ 101,03</div>
+        <div class="kpi-value" style="color: #059669;">R$ 173,23 🚀</div>
         <div class="kpi-sub">Dinheiro limpo no bolso</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-label">Tempo Médio Venda</div>
-        <div class="kpi-value" style="color: #059669;">2,5 dias</div>
+        <div class="kpi-value" style="color: #059669;">4,2 dias</div>
         <div class="kpi-sub">Giro rápido comprovado</div>
       </div>
     </div>
@@ -498,91 +494,137 @@
   <!-- Visual Filter Tabs -->
   <div class="tab-bar">
     <button class="tab-btn active" onclick="filterView('all', this)">
-      📋 Visão Separada por Fases
+      📋 Visão Completa (Fases)
+    </button>
+    <button class="tab-btn" onclick="filterView('vendidos', this)">
+      🟢 Vendidos & Concluídos <span class="tab-pill" style="background:#dcfce7; color:#166534;">4 vendas (+R$ 173,23)</span>
     </button>
     <button class="tab-btn" onclick="filterView('estoque', this)">
       🔵 Pronta Entrega <span class="tab-pill" style="background:#e0f2fe; color:#0369a1;">3 produtos (5 un)</span>
     </button>
     <button class="tab-btn" onclick="filterView('reservas', this)">
-      🟡 Negócios Fechados (FDS) <span class="tab-pill" style="background:#fef3c7; color:#92400e;">2 reservas</span>
-    </button>
-    <button class="tab-btn" onclick="filterView('vendidos', this)">
-      🟢 Vendidos & Entregues <span class="tab-pill" style="background:#dcfce7; color:#166534;">2 vendas</span>
+      🟡 Negócios Fechados <span class="tab-pill" style="background:#fef3c7; color:#92400e;">0 pendentes</span>
     </button>
   </div>
 
 
   <!-- ========================================== -->
-  <!-- BLOCO 1: RESERVAS / NEGÓCIOS FECHADOS (FDS) -->
+  <!-- BLOCO 1: VENDIDOS & CONCLUÍDOS (HISTÓRICO) -->
   <!-- ========================================== -->
-  <div class="section-block" id="sec-reservas">
-    <div class="section-header" style="background: #fffbeb;">
-      <div class="section-title" style="color: #92400e;">
-        <span>🤝 NEGÓCIOS FECHADOS • AGUARDANDO ENTREGA NO FDS</span>
-        <span class="badge badge-reserva">Pix a Entrar</span>
+  <div class="section-block" id="sec-vendidos">
+    <div class="section-header" style="background: #f0fdf4;">
+      <div class="section-title" style="color: #166534;">
+        <span>✅ VENDIDOS & CONCLUÍDOS • DINHEIRO REAL NO BOLSO</span>
+        <span class="badge badge-vendido">4 Vendas Pix</span>
       </div>
       <div class="section-stats">
-        <span class="stat-chip">Total a Receber: <b style="color: #92400e;">R$ 195,00</b></span>
-        <span class="stat-chip">Lucro Líquido Engatilhado: <b style="color: #059669;">+ R$ 72,20</b></span>
+        <span class="stat-chip">Faturamento Realizado: <b style="color: #166534;">R$ 325,00</b></span>
+        <span class="stat-chip">Lucro Líquido no Bolso: <b style="color: #059669;">+ R$ 173,23</b></span>
+        <span class="stat-chip">Margem Média: <b style="color: #059669;">53,3%</b></span>
       </div>
     </div>
     <table>
       <thead>
         <tr>
           <th>Produto</th>
-          <th>Cliente / Destino</th>
-          <th>Previsão</th>
+          <th>Comprador</th>
+          <th>Data Compra</th>
+          <th>Data Venda</th>
           <th>Custo Compra</th>
-          <th>Valor Negociado</th>
+          <th>Valor Venda</th>
           <th>Lucro Líquido</th>
           <th>Margem %</th>
-          <th>Status / Observação</th>
+          <th>Tempo de Giro</th>
         </tr>
       </thead>
       <tbody>
+        <!-- VENDA 1 -->
         <tr>
           <td>
             <div class="product-cell">
-              <div class="product-icon" style="background:#fef3c7;">🍲</div>
+              <div class="product-icon" style="background:#dcfce7;">🎮</div>
               <div>
-                <div class="product-name">Kit 10 Potes de Vidro Hermético 640ml</div>
-                <div class="product-note">Vidro borossilicato • Tampa 4 travas anel silicone</div>
+                <div class="product-name">HD 60GB Xbox 360 Fat Original</div>
+                <div class="product-note">Item de acervo pessoal / giro rápido</div>
               </div>
             </div>
           </td>
-          <td><b>Tia (Família Itu)</b></td>
-          <td>Domingo (15/11 - Pagamento)</td>
-          <td class="val-custo">R$ 93,83</td>
-          <td class="val-venda">R$ 135,00</td>
-          <td class="val-lucro">+ R$ 41,17</td>
-          <td>30,5%</td>
-          <td><span class="badge badge-reserva">Fechado R$ 135 Pix</span> <span class="highlight-pill">Anúncio ativo R$ 149</span></td>
+          <td><b>Adriano (Amigo Itu)</b></td>
+          <td>02/11/2026</td>
+          <td>04/11/2026</td>
+          <td class="val-custo">R$ 0,00</td>
+          <td class="val-venda">R$ 70,00</td>
+          <td class="val-lucro">+ R$ 70,00</td>
+          <td>100,0%</td>
+          <td><span class="highlight-pill">2 dias</span></td>
         </tr>
+        <!-- VENDA 2 -->
         <tr>
           <td>
             <div class="product-cell">
-              <div class="product-icon" style="background:#fef3c7;">🎧</div>
+              <div class="product-icon" style="background:#dcfce7;">🎧</div>
               <div>
-                <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 2)</div>
-                <div class="product-note">Intercomunicador anti-ruído IP67</div>
+                <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 1)</div>
+                <div class="product-note">Primeira unidade vendida do lote de 3</div>
               </div>
             </div>
           </td>
-          <td><b>Samuel Jesus (Motoboy Itu)</b></td>
-          <td>Sábado (14/11 - Passa buscar)</td>
+          <td><b>Maurício (Via Ailton)</b></td>
+          <td>06/11/2026</td>
+          <td>09/11/2026</td>
           <td class="val-custo">R$ 28,97</td>
           <td class="val-venda">R$ 60,00</td>
           <td class="val-lucro">+ R$ 31,03</td>
           <td>51,7%</td>
-          <td><span class="badge badge-reserva">Avaliou 5★ • Futuro entregador</span></td>
+          <td><span class="highlight-pill">3 dias</span></td>
+        </tr>
+        <!-- VENDA 3 (SAMUEL) -->
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#dcfce7;">🎧</div>
+              <div>
+                <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 2)</div>
+                <div class="product-note">Virou afiliado divulgador + entregador</div>
+              </div>
+            </div>
+          </td>
+          <td><b>Samuel Jesus (Motoboy Itu)</b></td>
+          <td>06/11/2026</td>
+          <td>15/11/2026</td>
+          <td class="val-custo">R$ 28,97</td>
+          <td class="val-venda">R$ 60,00</td>
+          <td class="val-lucro">+ R$ 31,03</td>
+          <td>51,7%</td>
+          <td><span class="highlight-pill">8 dias</span></td>
+        </tr>
+        <!-- VENDA 4 (TIA) -->
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#dcfce7;">🍲</div>
+              <div>
+                <div class="product-name">Kit 10 Potes de Vidro Hermético 640ml</div>
+                <div class="product-note">Vidro borossilicato • Tampa 4 travas anel azul</div>
+              </div>
+            </div>
+          </td>
+          <td><b>Tia (Família Itu)</b></td>
+          <td>10/11/2026</td>
+          <td>15/11/2026</td>
+          <td class="val-custo">R$ 93,83</td>
+          <td class="val-venda">R$ 135,00</td>
+          <td class="val-lucro">+ R$ 41,17</td>
+          <td>30,5%</td>
+          <td><span class="highlight-pill">4 dias</span></td>
         </tr>
         <tr class="row-subtotal">
-          <td colspan="3"><b>SUBTOTAL NEGÓCIOS FECHADOS (2 ITENS)</b></td>
-          <td><b>R$ 122,80</b></td>
-          <td><b style="color: #92400e;">R$ 195,00</b></td>
-          <td><b style="color: #059669;">+ R$ 72,20</b></td>
-          <td><b>37,0%</b></td>
-          <td><i>Cai no Pix neste fim de semana</i></td>
+          <td colspan="4"><b>TOTAL REALIZADO (4 VENDAS CONCLUÍDAS)</b></td>
+          <td><b>R$ 151,77</b></td>
+          <td><b style="color: #166534;">R$ 325,00</b></td>
+          <td><b style="color: #059669;">+ R$ 173,23</b></td>
+          <td><b>53,3%</b></td>
+          <td><b>Média: 4,2 dias</b></td>
         </tr>
       </tbody>
     </table>
@@ -625,7 +667,7 @@
               <div class="product-icon" style="background:#eff6ff;">🎧</div>
               <div>
                 <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 3)</div>
-                <div class="product-note">Pronta entrega Itu • Caixa lacrada</div>
+                <div class="product-note">ÚLTIMA UNIDADE • Pronta entrega Itu • Lacrado</div>
               </div>
             </div>
           </td>
@@ -690,92 +732,31 @@
 
 
   <!-- ========================================== -->
-  <!-- BLOCO 3: VENDIDOS & ENTREGUES (HISTÓRICO)  -->
+  <!-- BLOCO 3: NEGÓCIOS FECHADOS (RESERVAS)      -->
   <!-- ========================================== -->
-  <div class="section-block" id="sec-vendidos">
-    <div class="section-header" style="background: #f0fdf4;">
-      <div class="section-title" style="color: #166534;">
-        <span>✅ VENDIDOS & CONCLUÍDOS • DINHEIRO REAL NO BOLSO</span>
-        <span class="badge badge-vendido">Pix Realizado</span>
+  <div class="section-block" id="sec-reservas">
+    <div class="section-header" style="background: #fffbeb;">
+      <div class="section-title" style="color: #92400e;">
+        <span>🤝 NEGÓCIOS EM ANDAMENTO & RESERVAS PENDENTES</span>
+        <span class="badge badge-reserva">Fila de Espera</span>
       </div>
       <div class="section-stats">
-        <span class="stat-chip">Faturamento Realizado: <b style="color: #166534;">R$ 130,00</b></span>
-        <span class="stat-chip">Lucro Líquido Realizado: <b style="color: #059669;">+ R$ 101,03</b></span>
-        <span class="stat-chip">Margem Média: <b style="color: #059669;">77,7%</b></span>
+        <span class="stat-chip">Reservas Ativas: <b>0 no momento</b></span>
       </div>
     </div>
-    <table>
-      <thead>
-        <tr>
-          <th>Produto</th>
-          <th>Comprador</th>
-          <th>Data Compra</th>
-          <th>Data Venda</th>
-          <th>Custo Compra</th>
-          <th>Valor Venda</th>
-          <th>Lucro Líquido</th>
-          <th>Margem %</th>
-          <th>Tempo de Giro</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <div class="product-cell">
-              <div class="product-icon" style="background:#dcfce7;">🎮</div>
-              <div>
-                <div class="product-name">HD 60GB Xbox 360 Fat Original</div>
-                <div class="product-note">Item de desapego / giro imediato</div>
-              </div>
-            </div>
-          </td>
-          <td><b>Adriano (Amigo Itu)</b></td>
-          <td>02/11/2026</td>
-          <td>04/11/2026</td>
-          <td class="val-custo">R$ 0,00</td>
-          <td class="val-venda">R$ 70,00</td>
-          <td class="val-lucro">+ R$ 70,00</td>
-          <td>100,0%</td>
-          <td><span class="highlight-pill">2 dias</span></td>
-        </tr>
-        <tr>
-          <td>
-            <div class="product-cell">
-              <div class="product-icon" style="background:#dcfce7;">🎧</div>
-              <div>
-                <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 1)</div>
-                <div class="product-note">Primeira unidade do pack de 3</div>
-              </div>
-            </div>
-          </td>
-          <td><b>Maurício (Via Ailton)</b></td>
-          <td>06/11/2026</td>
-          <td>09/11/2026</td>
-          <td class="val-custo">R$ 28,97</td>
-          <td class="val-venda">R$ 60,00</td>
-          <td class="val-lucro">+ R$ 31,03</td>
-          <td>51,7%</td>
-          <td><span class="highlight-pill">3 dias</span></td>
-        </tr>
-        <tr class="row-subtotal">
-          <td colspan="4"><b>TOTAL REALIZADO (2 VENDAS CONCLUÍDAS)</b></td>
-          <td><b>R$ 28,97</b></td>
-          <td><b style="color: #166534;">R$ 130,00</b></td>
-          <td><b style="color: #059669;">+ R$ 101,03</b></td>
-          <td><b>77,7%</b></td>
-          <td><b>Média: 2,5 dias</b></td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="empty-state">
+      ✨ <b>Todas as reservas do fim de semana foram concluídas com sucesso e já viraram Pix no caixa!</b><br>
+      As próximas reservas entrarão aqui conforme os interessados do Marketplace forem confirmando pedidos.
+    </div>
   </div>
 
   <!-- Bottom Sheets Navigation Bar -->
   <div class="sheets-bottom-tabs">
     <span style="font-weight:700; color:#107c41; margin-right:8px;">Planilhas:</span>
     <button class="sheet-tab active" onclick="filterView('all', this)">📄 Compras & Vendas (Geral)</button>
-    <button class="sheet-tab" onclick="filterView('estoque', this)">📦 Estoque Ativo</button>
-    <button class="sheet-tab" onclick="filterView('reservas', this)">🤝 Reservados</button>
-    <button class="sheet-tab" onclick="filterView('vendidos', this)">✅ Vendidos</button>
+    <button class="sheet-tab" onclick="filterView('vendidos', this)">✅ Vendidos (4)</button>
+    <button class="sheet-tab" onclick="filterView('estoque', this)">📦 Estoque Ativo (5)</button>
+    <button class="sheet-tab" onclick="filterView('reservas', this)">🤝 Reservas (0)</button>
   </div>
 
   <script>
