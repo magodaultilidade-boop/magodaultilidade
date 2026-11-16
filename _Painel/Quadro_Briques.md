@@ -6,9 +6,6 @@ kanban-plugin: board
 
 ## 🚚 1. A Caminho (Radar)
 
-- [ ] [[Mouse Gamer Redragon Cobra M711 Chroma RGB - Mercado Livre|🖱️ Mouse Gamer Redragon Cobra M711 (Loja Oficial)]]
-	📦 **Qtd:** 1 un \| ⚡ *Mercado Livre FULL (CHEGA HOJE!)*
-	💰 **Custo:** R$ 70,31 \| **Venda Alvo:** R$ 119,90 \| 🎯 **Lucro:** +R$ 49,59
 - [ ] [[Power Bank Pineng 10000mAh Slim - AliExpress Brasil|🔋 Power Bank 10.000mAh Slim com Cabos]]
 	📦 **Qtd:** 1 un \| 🇧🇷 *Estoque no Brasil (AliExpress Promo 11.11)*
 	💰 **Custo:** R$ 33,72 \| **Venda Alvo:** R$ 79,90 \| 🎯 **Lucro:** +R$ 46,18
@@ -21,6 +18,9 @@ kanban-plugin: board
 
 ## 📢 3. Anunciados no Marketplace / WhatsApp
 
+- [ ] [[Mouse Gamer Redragon Cobra M711 Chroma RGB - Mercado Livre|🖱️ Mouse Gamer Redragon Cobra M711 Chroma RGB]]
+	📦 **Qtd:** 1 un \| ⚡ *Entregue Hoje no FULL! (Estojo Rígido + RGB Testado)*
+	💰 **Custo:** R$ 70,31 \| **Preço:** R$ 119,90 \| 🎯 **Lucro:** +R$ 49,59
 - [ ] [[3x Maquinas T9 Cortar Cabelo Buda - AliExpress|💈 3x Máquinas T9 Vintage Dragão/Buda]]
 	📦 **Qtd:** 3 unidades \| ⚡ *2 Anúncios Ativos no FB (R$ 29 / R$ 30)*
 	💰 **Custo:** R$ 9,16 un \| **Venda:** R$ 30,00 un \| 🎯 **Lucro:** +R$ 62,51 lote

@@ -18,9 +18,9 @@ meta_porn_masturbacao: "Zero pornografia (Reset de dopamina e potencia)"
 ### ☀️ Bloco da Manhã (07:00 às 12:00) — Despertar & Fundação
 *Primeira vitória do dia antes de pegar no celular!*
 
-- [x] 🛏️ **Arrumar a Cama:** Primeira vitória da mente em menos de 2 minutos (quarto arrumado = cabeça organizada).
-- [x] 💧 **Água:** Beber 1 copo cheio d'água (500ml) para reidratar o corpo.
-- [x] 🪥 **Higiene & Banho:** Escovar os dentes, lavar o rosto e banho para ativar a energia.
+- [ ] 🛏️ **Arrumar a Cama:** Primeira vitória da mente em menos de 2 minutos (quarto arrumado = cabeça organizada).
+- [ ] 💧 **Água:** Beber 1 copo cheio d'água (500ml) para reidratar o corpo.
+- [ ] 🪥 **Higiene & Banho:** Escovar os dentes, lavar o rosto e banho para ativar a energia.
 - [ ] 🍳 **Café da Manhã de Verdade:** Comer algo nutritivo (ovos, pão, café, fruta) — zero porcaria ultraprocessada.
 - [ ] 📱 **C&V - Negócios:** Abrir o WhatsApp Business e o Marketplace para responder clientes e parceiros.
 
