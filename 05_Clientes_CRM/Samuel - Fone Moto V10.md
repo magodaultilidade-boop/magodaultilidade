@@ -25,5 +25,10 @@ funcao_parceria: "Afiliado Divulgador (Indique & Ganhe) + Entregador sob Demanda
 ## 📌 Histórico & Acordos:
 - **12/11/2026:** Chamou no anúncio do Fone V10 no Marketplace. Migrou pro WhatsApp Business. Deixou avaliação 5★.
 - **15/11/2026:** Venda concluída! Samuel pegou o fone e enviou R$ 60,00 no Pix.
+- **Relação & Conexão:** Trocou muita ideia na entrega, virou brother/parceiro direto. Samuel tem ligação direta com **motoclube e comunidade de motoboys em Itu**.
+- **Radar de Produtos com Ele:** 
+  - Fone V10 (já comprou e testou);
+  - Power Bank 10.000mAh Slim com cabos (potencial absurdo para o motoclube/entregadores que gastam bateria com GPS e iFood);
+  - Ferramentas (oficina mecânica);
 - **Divulgação:** Topou indicar os produtos da C&V para outros motoboys e mecânicos da oficina com comissão no Pix (Indique & Ganhe).
 - **Logística:** Disponível para fazer entregas de pedidos distantes cobrando a taxa do cliente.
