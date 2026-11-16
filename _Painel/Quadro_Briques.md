@@ -6,6 +6,13 @@ kanban-plugin: board
 
 ## 🚚 1. A Caminho (Radar)
 
+- [ ] [[Mouse Gamer Redragon Cobra M711 Chroma RGB - Mercado Livre|🖱️ Mouse Gamer Redragon Cobra M711 (Loja Oficial)]]
+	📦 **Qtd:** 1 un \| ⚡ *Mercado Livre FULL (CHEGA HOJE!)*
+	💰 **Custo:** R$ 70,31 \| **Venda Alvo:** R$ 119,90 \| 🎯 **Lucro:** +R$ 49,59
+- [ ] [[Power Bank Pineng 10000mAh Slim - AliExpress Brasil|🔋 Power Bank 10.000mAh Slim com Cabos]]
+	📦 **Qtd:** 1 un \| 🇧🇷 *Estoque no Brasil (AliExpress Promo 11.11)*
+	💰 **Custo:** R$ 33,72 \| **Venda Alvo:** R$ 79,90 \| 🎯 **Lucro:** +R$ 46,18
+
 
 
 ## 📦 2. Em Mãos (Tirar Fotos & Anunciar)

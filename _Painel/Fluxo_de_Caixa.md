@@ -1,11 +1,11 @@
 ---
 tipo: financeiro
-saldo_caixa_atual: 245.10
-total_investido_estoque_ativo: 123.35 # (27.49 Ali T9 + 66.89 Chaves + 28.97 1x Fone)
+saldo_caixa_atual: 141.07
+total_investido_estoque_ativo: 227.38 # (123.35 estoque ativo + 33.72 Power Bank + 70.31 Mouse Redragon)
 total_faturamento_realizado: 325.00 # (70.00 HD + 60.00 Fone 1 + 60.00 Fone 2 + 135.00 Potes)
 lucro_liquido_realizado: 173.23 # (70.00 HD + 31.03 Fone 1 + 31.03 Fone 2 + 41.17 Potes)
-lucro_projetado_estoque_ativo: 126.55 # (62.51 T9 + 33.01 Chaves + 31.03 Fone)
-faturamento_total_previsto_estoque: 249.90 # (90.00 T9 + 99.90 Chaves + 60.00 Fone)
+lucro_projetado_estoque_ativo: 222.32 # (126.55 ativo + 46.18 Power Bank + 49.59 Mouse Redragon)
+faturamento_total_previsto_estoque: 449.70 # (249.90 ativo + 79.90 Power Bank + 119.90 Mouse Redragon)
 ---
 
 # 💰 Gestão Financeira & Fluxo de Caixa
@@ -14,16 +14,16 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 
 ---
 
-## 📌 Termômetro Financeiro Atual (15/11/2026 - Pós Vendas FDS)
+## 📌 Termômetro Financeiro Atual (16/11/2026 - Fase 2 Compras Ativas)
 
 | Indicador | Valor Atual | Descrição |
 | :--- | :--- | :--- |
-| 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 245,10** 🟢 | Caixa limpo após recebimento dos Pix do fim de semana! |
-| 📦 **Capital Total em Mercadoria Ativa** | **R$ 123,35** | 3x Máquinas Buda + Chaves 12 Pçs + 1x Fone V10 |
-| 🎯 **Lucro Projetado no Estoque Restante** | **R$ 126,55** | Lucro a realizar conforme os 3 anúncios ativos girarem! 🚀 |
-| 💵 **Faturamento Previsto Estoque Restante** | **R$ 249,90** | Potencial de venda dos 3 produtos no ar |
-| 🏆 **Lucro Realizado no Bolso** | **R$ 173,23** 🟢 | Lucro líquido limpo já concretizado em 4 vendas! |
-| 🚀 **Meta de Caixa da 1ª Rodada** | **R$ 495,00** | Caixa total acumulado ao zerar os itens restantes |
+| 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 141,07** 🟢 | Colchão de respiro confortável e seguro após compras! |
+| 📦 **Capital Total em Mercadoria (Ativo + Radar)** | **R$ 227,38** | Estoque atual + Power Bank 10.000mAh + Mouse Redragon FULL |
+| 🎯 **Lucro Projetado no Estoque Total** | **R$ 222,32** | Lucro líquido contratado para entrar nas vendas! 🚀 |
+| 💵 **Faturamento Previsto Total do Catálogo** | **R$ 449,70** | Potencial de venda do catálogo inteiro |
+| 🏆 **Lucro Realizado no Bolso** | **R$ 173,23** 🟢 | Lucro líquido já realizado em 4 vendas anteriores |
+| 🚀 **Meta de Caixa da Rodada** | **`R$ 590,77`** | Caixa acumulado ao liquidar o catálogo completo |
 
 ---
 
@@ -42,7 +42,9 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 | `10/11/2026` | **Compra Estoque** | Kit 10 Potes Vidro Hermético 640ml (ML Full) | - | **R$ 93,83** | `+ R$ 60,00` |
 | `10/11/2026` | **Ferramenta / Assinatura**| Assinatura Meli+ (Frete Grátis > R$ 29 + Cupons) | - | **R$ 9,90** | `+ R$ 50,10` |
 | `15/11/2026` | **Venda Fechada** | 1x Fone V10 (Un 2) ➔ Samuel Jesus (Pix) | **R$ 60,00** | - | `+ R$ 110,10` |
-| `15/11/2026` | **Venda Fechada** | Kit 10 Potes Vidro ➔ Tia (Pix) | **R$ 135,00** | - | **`R$ 245,10`** 🟢 |
+| `15/11/2026` | **Venda Fechada** | Kit 10 Potes Vidro ➔ Tia (Pix) | **R$ 135,00** | - | `+ R$ 245,10` |
+| `16/11/2026` | **Compra Estoque** | Power Bank 10.000mAh Slim C/ Cabos (Ali Brasil) | - | **R$ 33,72** | `+ R$ 211,38` |
+| `16/11/2026` | **Compra Estoque** | Mouse Gamer Redragon Cobra M711 (ML FULL) | - | **R$ 70,31** | **`R$ 141,07`** 🟢 |
 
 ---
 

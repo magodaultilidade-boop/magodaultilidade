@@ -32,6 +32,10 @@
       --blue-border: #bfdbfe;
       --blue-text: #1e40af;
       --blue-val: #2563eb;
+
+      --purple-bg: #f5f3ff;
+      --purple-border: #ddd6fe;
+      --purple-text: #6b21a8;
     }
 
     * { box-sizing: border-box; }
@@ -322,6 +326,11 @@
       color: #0369a1;
       border: 1px solid #bae6fd;
     }
+    .badge-radar {
+      background: #f5f3ff;
+      color: #6b21a8;
+      border: 1px solid #ddd6fe;
+    }
     .category-tag {
       font-size: 11px;
       color: #64748b;
@@ -374,14 +383,14 @@
       color: #047857;
       margin-left: 6px;
     }
-
-    /* Empty state */
-    .empty-state {
-      padding: 24px;
-      text-align: center;
-      color: #64748b;
-      font-size: 13px;
-      background: #fffdf5;
+    .highlight-purple {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: #f3e8ff;
+      color: #7e22ce;
+      margin-left: 6px;
     }
 
     /* Bottom tab-strip like Google Sheets */
@@ -435,23 +444,23 @@
   <!-- Real-time Cashflow Quick Strip -->
   <div class="cash-strip">
     <div class="cash-item">
-      <span class="cash-title">💵 Caixa Livre em Mãos</span>
-      <span class="cash-amount" style="color: #4ade80;">R$ 245,10 🟢</span>
+      <span class="cash-title">💵 Caixa Livre em Mãos (Respiro)</span>
+      <span class="cash-amount" style="color: #4ade80;">R$ 141,07 🟢</span>
     </div>
     <div class="cash-arrow">➔</div>
     <div class="cash-item">
-      <span class="cash-title">⚡ Pix Recebido no FDS</span>
-      <span class="cash-amount" style="color: #38bdf8;">+ R$ 195,00 (Meta Batida!)</span>
+      <span class="cash-title">🚚 Compras Fase 2 a Caminho</span>
+      <span class="cash-amount" style="color: #c084fc;">R$ 104,03 (2 Itens)</span>
     </div>
     <div class="cash-arrow">➔</div>
     <div class="cash-item">
-      <span class="cash-title">📦 Faturamento Ativo Pendente</span>
-      <span class="cash-amount" style="color: #cbd5e1;">+ R$ 249,90</span>
+      <span class="cash-title">📦 Faturamento Total Catálogo</span>
+      <span class="cash-amount" style="color: #38bdf8;">+ R$ 449,70</span>
     </div>
     <div class="cash-arrow">➔</div>
     <div class="cash-item">
       <span class="cash-title">🏆 Caixa Total Previsto ao Zerar</span>
-      <span class="cash-amount" style="color: #34d399;">R$ 495,00</span>
+      <span class="cash-amount" style="color: #34d399;">R$ 590,77 🚀</span>
     </div>
   </div>
 
@@ -459,19 +468,19 @@
   <div class="kpi-container">
     <div class="kpi-grid">
       <div class="kpi-card">
-        <div class="kpi-label">Itens em Estoque</div>
-        <div class="kpi-value">5 un <span style="font-size:12px; font-weight:500; color:#64748b;">(3 produtos)</span></div>
-        <div class="kpi-sub">À venda no Marketplace</div>
+        <div class="kpi-label">Itens no Catálogo</div>
+        <div class="kpi-value">7 un <span style="font-size:12px; font-weight:500; color:#64748b;">(5 lotes)</span></div>
+        <div class="kpi-sub">5 em mãos + 2 a caminho</div>
       </div>
       <div class="kpi-card" style="border-color: #bfdbfe;">
-        <div class="kpi-label" style="color: #1e40af;">Dinheiro Parado</div>
-        <div class="kpi-value" style="color: #2563eb;">R$ 123,35</div>
-        <div class="kpi-sub">Custo de compra ativo</div>
+        <div class="kpi-label" style="color: #1e40af;">Mercadoria Total</div>
+        <div class="kpi-value" style="color: #2563eb;">R$ 227,38</div>
+        <div class="kpi-sub">Capital de giro ativo</div>
       </div>
       <div class="kpi-card" style="border-color: #cbd5e1;">
         <div class="kpi-label" style="color: #475569;">Total Investido Geral</div>
-        <div class="kpi-value" style="color: #334155;">R$ 246,15</div>
-        <div class="kpi-sub">Compras realizadas</div>
+        <div class="kpi-value" style="color: #334155;">R$ 350,18</div>
+        <div class="kpi-sub">Compras 100% pagas</div>
       </div>
       <div class="kpi-card" style="border-color: #fde68a;">
         <div class="kpi-label" style="color: #92400e;">Faturamento Realizado</div>
@@ -483,10 +492,10 @@
         <div class="kpi-value" style="color: #059669;">R$ 173,23 🚀</div>
         <div class="kpi-sub">Dinheiro limpo no bolso</div>
       </div>
-      <div class="kpi-card">
-        <div class="kpi-label">Tempo Médio Venda</div>
-        <div class="kpi-value" style="color: #059669;">4,2 dias</div>
-        <div class="kpi-sub">Giro rápido comprovado</div>
+      <div class="kpi-card" style="border-color: #d8b4fe;">
+        <div class="kpi-label" style="color: #7e22ce;">Lucro Projetado</div>
+        <div class="kpi-value" style="color: #7e22ce;">+ R$ 222,32</div>
+        <div class="kpi-sub">A realizar no estoque</div>
       </div>
     </div>
   </div>
@@ -496,20 +505,198 @@
     <button class="tab-btn active" onclick="filterView('all', this)">
       📋 Visão Completa (Fases)
     </button>
-    <button class="tab-btn" onclick="filterView('vendidos', this)">
-      🟢 Vendidos & Concluídos <span class="tab-pill" style="background:#dcfce7; color:#166534;">4 vendas (+R$ 173,23)</span>
+    <button class="tab-btn" onclick="filterView('radar', this)">
+      🟣 Compras a Caminho / Chegando <span class="tab-pill" style="background:#f3e8ff; color:#7e22ce;">2 produtos</span>
     </button>
     <button class="tab-btn" onclick="filterView('estoque', this)">
       🔵 Pronta Entrega <span class="tab-pill" style="background:#e0f2fe; color:#0369a1;">3 produtos (5 un)</span>
     </button>
-    <button class="tab-btn" onclick="filterView('reservas', this)">
-      🟡 Negócios Fechados <span class="tab-pill" style="background:#fef3c7; color:#92400e;">0 pendentes</span>
+    <button class="tab-btn" onclick="filterView('vendidos', this)">
+      🟢 Vendidos & Concluídos <span class="tab-pill" style="background:#dcfce7; color:#166534;">4 vendas (+R$ 173)</span>
     </button>
   </div>
 
 
   <!-- ========================================== -->
-  <!-- BLOCO 1: VENDIDOS & CONCLUÍDOS (HISTÓRICO) -->
+  <!-- BLOCO 1: COMPRAS A CAMINHO (FASE 2)       -->
+  <!-- ========================================== -->
+  <div class="section-block" id="sec-radar">
+    <div class="section-header" style="background: #faf5ff;">
+      <div class="section-title" style="color: #6b21a8;">
+        <span>🚚 COMPRAS FASE 2 • EM TRÂNSITO / CHEGANDO HOJE</span>
+        <span class="badge badge-radar">Lançamentos</span>
+      </div>
+      <div class="section-stats">
+        <span class="stat-chip">Total Pago: <b style="color: #6b21a8;">R$ 104,03</b></span>
+        <span class="stat-chip">Faturamento Previsto: <b style="color: #0f172a;">R$ 199,80</b></span>
+        <span class="stat-chip">Lucro Contratado: <b style="color: #059669;">+ R$ 95,77</b></span>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Origem / Loja</th>
+          <th>Previsão Entrega</th>
+          <th>Custo Compra</th>
+          <th>Preço Anúncio</th>
+          <th>Lucro Previsto</th>
+          <th>Margem %</th>
+          <th>Estratégia de Venda</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#f3e8ff;">🖱️</div>
+              <div>
+                <div class="product-name">Mouse Gamer Redragon Cobra M711 Chroma RGB</div>
+                <div class="product-note">12.400 DPI • Sensor Pixart • 100% Original Lacrado</div>
+              </div>
+            </div>
+          </td>
+          <td><b>Mercado Livre (Loja Oficial)</b></td>
+          <td><span class="highlight-purple">⚡ CHEGA HOJE (16/11)</span></td>
+          <td class="val-custo">R$ 70,31</td>
+          <td class="val-venda">R$ 119,90</td>
+          <td class="val-lucro">+ R$ 49,59</td>
+          <td>41,4%</td>
+          <td>Anúncio imediato após entrega no FULL</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#f3e8ff;">🔋</div>
+              <div>
+                <div class="product-name">Power Bank 10.000mAh Slim com Cabo Embutido</div>
+                <div class="product-note">Branco • Saída Lightning/Tipo-C/V8 • Cabe no bolso</div>
+              </div>
+            </div>
+          </td>
+          <td><b>AliExpress (Estoque Brasil)</b></td>
+          <td>20 a 24 de Novembro</td>
+          <td class="val-custo">R$ 33,72</td>
+          <td class="val-venda">R$ 79,90</td>
+          <td class="val-lucro">+ R$ 46,18</td>
+          <td>57,8%</td>
+          <td>Público de motoboy (Samuel) & viagem</td>
+        </tr>
+        <tr class="row-subtotal">
+          <td colspan="3"><b>SUBTOTAL COMPRAS A CAMINHO (2 PRODUTOS)</b></td>
+          <td><b style="color: #6b21a8;">R$ 104,03</b></td>
+          <td><b style="color: #0f172a;">R$ 199,80</b></td>
+          <td><b style="color: #059669;">+ R$ 95,77</b></td>
+          <td><b>47,9%</b></td>
+          <td><i>Margem excelente e entrega rápida</i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- BLOCO 2: ESTOQUE ATIVO (PRONTA ENTREGA)     -->
+  <!-- ========================================== -->
+  <div class="section-block" id="sec-estoque">
+    <div class="section-header" style="background: #eff6ff;">
+      <div class="section-title" style="color: #1e40af;">
+        <span>📦 ESTOQUE EM MÃOS • ANUNCIADOS NO MARKETPLACE</span>
+        <span class="badge badge-estoque">Pronta Entrega</span>
+      </div>
+      <div class="section-stats">
+        <span class="stat-chip">Capital em Mãos: <b style="color: #1e40af;">R$ 123,35</b></span>
+        <span class="stat-chip">Faturamento: <b style="color: #0f172a;">R$ 249,90</b></span>
+        <span class="stat-chip">Lucro Potencial: <b style="color: #059669;">+ R$ 126,55</b></span>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Categoria</th>
+          <th>Estoque</th>
+          <th>Custo Unitário</th>
+          <th>Custo Total</th>
+          <th>Preço Anunciado</th>
+          <th>Lucro Previsto</th>
+          <th>Margem %</th>
+          <th>Estratégia / Canal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#eff6ff;">💈</div>
+              <div>
+                <div class="product-name">3x Máquinas T9 Vintage Buda (Edição Black Metal)</div>
+                <div class="product-note">Corte zero, lâmina T, recarregável Micro-USB</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="category-tag">Cuidados</span></td>
+          <td>3 un</td>
+          <td class="val-custo">R$ 9,16</td>
+          <td class="val-custo">R$ 27,49</td>
+          <td class="val-venda">R$ 29,90 ~ R$ 30,00</td>
+          <td class="val-lucro">+ R$ 62,51</td>
+          <td>69,5%</td>
+          <td>1 negociação hoje às 17h (Vinícius)</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#eff6ff;">🎧</div>
+              <div>
+                <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 3)</div>
+                <div class="product-note">ÚLTIMA UNIDADE • Pronta entrega Itu • Lacrado</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="category-tag">Motos</span></td>
+          <td>1 un</td>
+          <td class="val-custo">R$ 28,97</td>
+          <td class="val-custo">R$ 28,97</td>
+          <td class="val-venda">R$ 60,00</td>
+          <td class="val-lucro">+ R$ 31,03</td>
+          <td>51,7%</td>
+          <td>69 cliques FB + contatos do Samuel</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#eff6ff;">🧰</div>
+              <div>
+                <div class="product-name">Jogo de Chave Combinada 12 Pçs The Black Tools</div>
+                <div class="product-note">Aço Cromo Vanádio 6mm a 22mm com estojo</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="category-tag">Ferramentas</span></td>
+          <td>1 kit</td>
+          <td class="val-custo">R$ 66,89</td>
+          <td class="val-custo">R$ 66,89</td>
+          <td class="val-venda">R$ 99,90</td>
+          <td class="val-lucro">+ R$ 33,01</td>
+          <td>33,0%</td>
+          <td>Rodar até Sábado (21/11) na oficina Samuel</td>
+        </tr>
+        <tr class="row-subtotal">
+          <td colspan="4"><b>SUBTOTAL ESTOQUE EM MÃOS (3 PRODUTOS / 5 UNIDADES)</b></td>
+          <td><b style="color: #1e40af;">R$ 123,35</b></td>
+          <td><b style="color: #0f172a;">R$ 249,90</b></td>
+          <td><b style="color: #059669;">+ R$ 126,55</b></td>
+          <td><b>50,6%</b></td>
+          <td><i>Produtos ativos no ar</i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- BLOCO 3: VENDIDOS & CONCLUÍDOS (HISTÓRICO) -->
   <!-- ========================================== -->
   <div class="section-block" id="sec-vendidos">
     <div class="section-header" style="background: #f0fdf4;">
@@ -519,7 +706,7 @@
       </div>
       <div class="section-stats">
         <span class="stat-chip">Faturamento Realizado: <b style="color: #166534;">R$ 325,00</b></span>
-        <span class="stat-chip">Lucro Líquido no Bolso: <b style="color: #059669;">+ R$ 173,23</b></span>
+        <span class="stat-chip">Lucro Líquido Real: <b style="color: #059669;">+ R$ 173,23</b></span>
         <span class="stat-chip">Margem Média: <b style="color: #059669;">53,3%</b></span>
       </div>
     </div>
@@ -538,7 +725,6 @@
         </tr>
       </thead>
       <tbody>
-        <!-- VENDA 1 -->
         <tr>
           <td>
             <div class="product-cell">
@@ -558,7 +744,6 @@
           <td>100,0%</td>
           <td><span class="highlight-pill">2 dias</span></td>
         </tr>
-        <!-- VENDA 2 -->
         <tr>
           <td>
             <div class="product-cell">
@@ -578,7 +763,6 @@
           <td>51,7%</td>
           <td><span class="highlight-pill">3 dias</span></td>
         </tr>
-        <!-- VENDA 3 (SAMUEL) -->
         <tr>
           <td>
             <div class="product-cell">
@@ -598,7 +782,6 @@
           <td>51,7%</td>
           <td><span class="highlight-pill">8 dias</span></td>
         </tr>
-        <!-- VENDA 4 (TIA) -->
         <tr>
           <td>
             <div class="product-cell">
@@ -630,133 +813,13 @@
     </table>
   </div>
 
-
-  <!-- ========================================== -->
-  <!-- BLOCO 2: ESTOQUE ATIVO (PRONTA ENTREGA)     -->
-  <!-- ========================================== -->
-  <div class="section-block" id="sec-estoque">
-    <div class="section-header" style="background: #eff6ff;">
-      <div class="section-title" style="color: #1e40af;">
-        <span>📦 ESTOQUE PRONTA ENTREGA • ANUNCIADOS NO MARKETPLACE</span>
-        <span class="badge badge-estoque">Foco de Venda</span>
-      </div>
-      <div class="section-stats">
-        <span class="stat-chip">Capital Parado: <b style="color: #1e40af;">R$ 123,35</b></span>
-        <span class="stat-chip">Faturamento Projetado: <b style="color: #0f172a;">R$ 249,90</b></span>
-        <span class="stat-chip">Lucro Potencial: <b style="color: #059669;">+ R$ 126,55</b></span>
-      </div>
-    </div>
-    <table>
-      <thead>
-        <tr>
-          <th>Produto</th>
-          <th>Categoria</th>
-          <th>Estoque</th>
-          <th>Custo Unitário</th>
-          <th>Custo Total</th>
-          <th>Preço Anunciado</th>
-          <th>Lucro Previsto</th>
-          <th>Margem %</th>
-          <th>Estratégia / Canal</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <div class="product-cell">
-              <div class="product-icon" style="background:#eff6ff;">🎧</div>
-              <div>
-                <div class="product-name">Fone Bluetooth Moto Capacete V10 (Un 3)</div>
-                <div class="product-note">ÚLTIMA UNIDADE • Pronta entrega Itu • Lacrado</div>
-              </div>
-            </div>
-          </td>
-          <td><span class="category-tag">Motos</span></td>
-          <td>1 un</td>
-          <td class="val-custo">R$ 28,97</td>
-          <td class="val-custo">R$ 28,97</td>
-          <td class="val-venda">R$ 60,00</td>
-          <td class="val-lucro">+ R$ 31,03</td>
-          <td>51,7%</td>
-          <td>Marketplace (48 cliques) + Grupo VIP</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="product-cell">
-              <div class="product-icon" style="background:#eff6ff;">🧰</div>
-              <div>
-                <div class="product-name">Jogo de Chave Combinada 12 Pçs The Black Tools</div>
-                <div class="product-note">Aço Cromo Vanádio 6mm a 22mm com estojo</div>
-              </div>
-            </div>
-          </td>
-          <td><span class="category-tag">Ferramentas</span></td>
-          <td>1 kit</td>
-          <td class="val-custo">R$ 66,89</td>
-          <td class="val-custo">R$ 66,89</td>
-          <td class="val-venda">R$ 99,90</td>
-          <td class="val-lucro">+ R$ 33,01</td>
-          <td>33,0%</td>
-          <td>Marketplace Itu/Salto (Fotos na mão)</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="product-cell">
-              <div class="product-icon" style="background:#eff6ff;">💈</div>
-              <div>
-                <div class="product-name">3x Máquinas T9 Vintage Buda (Edição Black Metal)</div>
-                <div class="product-note">Corte zero, lâmina T, recarregável Micro-USB</div>
-              </div>
-            </div>
-          </td>
-          <td><span class="category-tag">Cuidados Pessoais</span></td>
-          <td>3 un</td>
-          <td class="val-custo">R$ 9,16</td>
-          <td class="val-custo">R$ 27,49</td>
-          <td class="val-venda">R$ 29,90 ~ R$ 30,00</td>
-          <td class="val-lucro">+ R$ 62,51</td>
-          <td>69,5%</td>
-          <td>2 Anúncios no Ar (Fundo Kraft + Preto)</td>
-        </tr>
-        <tr class="row-subtotal">
-          <td colspan="4"><b>SUBTOTAL ESTOQUE ATIVO (3 PRODUTOS / 5 UNIDADES)</b></td>
-          <td><b style="color: #1e40af;">R$ 123,35</b></td>
-          <td><b style="color: #0f172a;">R$ 249,90</b></td>
-          <td><b style="color: #059669;">+ R$ 126,55</b></td>
-          <td><b>50,6%</b></td>
-          <td><i>Produtos com anúncios rodando hoje</i></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-
-  <!-- ========================================== -->
-  <!-- BLOCO 3: NEGÓCIOS FECHADOS (RESERVAS)      -->
-  <!-- ========================================== -->
-  <div class="section-block" id="sec-reservas">
-    <div class="section-header" style="background: #fffbeb;">
-      <div class="section-title" style="color: #92400e;">
-        <span>🤝 NEGÓCIOS EM ANDAMENTO & RESERVAS PENDENTES</span>
-        <span class="badge badge-reserva">Fila de Espera</span>
-      </div>
-      <div class="section-stats">
-        <span class="stat-chip">Reservas Ativas: <b>0 no momento</b></span>
-      </div>
-    </div>
-    <div class="empty-state">
-      ✨ <b>Todas as reservas do fim de semana foram concluídas com sucesso e já viraram Pix no caixa!</b><br>
-      As próximas reservas entrarão aqui conforme os interessados do Marketplace forem confirmando pedidos.
-    </div>
-  </div>
-
   <!-- Bottom Sheets Navigation Bar -->
   <div class="sheets-bottom-tabs">
     <span style="font-weight:700; color:#107c41; margin-right:8px;">Planilhas:</span>
-    <button class="sheet-tab active" onclick="filterView('all', this)">📄 Compras & Vendas (Geral)</button>
+    <button class="sheet-tab active" onclick="filterView('all', this)">📄 Visão Geral (Catálogo)</button>
+    <button class="sheet-tab" onclick="filterView('radar', this)">🟣 A Caminho (2)</button>
+    <button class="sheet-tab" onclick="filterView('estoque', this)">📦 Pronta Entrega (5)</button>
     <button class="sheet-tab" onclick="filterView('vendidos', this)">✅ Vendidos (4)</button>
-    <button class="sheet-tab" onclick="filterView('estoque', this)">📦 Estoque Ativo (5)</button>
-    <button class="sheet-tab" onclick="filterView('reservas', this)">🤝 Reservas (0)</button>
   </div>
 
   <script>
@@ -764,24 +827,24 @@
       document.querySelectorAll('.tab-btn, .sheet-tab').forEach(b => b.classList.remove('active'));
       if (btn) btn.classList.add('active');
 
-      const secReservas = document.getElementById('sec-reservas');
+      const secRadar = document.getElementById('sec-radar');
       const secEstoque = document.getElementById('sec-estoque');
       const secVendidos = document.getElementById('sec-vendidos');
 
       if (type === 'all') {
-        secReservas.style.display = 'block';
+        secRadar.style.display = 'block';
         secEstoque.style.display = 'block';
         secVendidos.style.display = 'block';
-      } else if (type === 'estoque') {
-        secReservas.style.display = 'none';
-        secEstoque.style.display = 'block';
-        secVendidos.style.display = 'none';
-      } else if (type === 'reservas') {
-        secReservas.style.display = 'block';
+      } else if (type === 'radar') {
+        secRadar.style.display = 'block';
         secEstoque.style.display = 'none';
         secVendidos.style.display = 'none';
+      } else if (type === 'estoque') {
+        secRadar.style.display = 'none';
+        secEstoque.style.display = 'block';
+        secVendidos.style.display = 'none';
       } else if (type === 'vendidos') {
-        secReservas.style.display = 'none';
+        secRadar.style.display = 'none';
         secEstoque.style.display = 'none';
         secVendidos.style.display = 'block';
       }
