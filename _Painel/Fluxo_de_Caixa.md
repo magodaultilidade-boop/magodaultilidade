@@ -4,8 +4,8 @@ saldo_caixa_atual: 54.08
 total_investido_estoque_ativo: 314.37 # (123.35 estoque ativo + 33.72 Power Bank + 70.31 Mouse Redragon + 86.99 Lavadora)
 total_faturamento_realizado: 325.00 # (70.00 HD + 60.00 Fone 1 + 60.00 Fone 2 + 135.00 Potes)
 lucro_liquido_realizado: 173.23 # (70.00 HD + 31.03 Fone 1 + 31.03 Fone 2 + 41.17 Potes)
-lucro_projetado_estoque_ativo: 295.23 # (126.55 ativo + 46.18 Power Bank + 49.59 Mouse Redragon + 72.91 Lavadora)
-faturamento_total_previsto_estoque: 609.60 # (249.90 ativo + 79.90 Power Bank + 119.90 Mouse Redragon + 159.90 Lavadora)
+lucro_projetado_estoque_ativo: 270.33 # (101.55 ativo calibrado + 46.18 Power Bank + 49.69 Mouse Redragon + 72.91 Lavadora)
+faturamento_total_previsto_estoque: 584.70 # (224.90 ativo + 79.90 Power Bank + 120.00 Mouse Redragon + 159.90 Lavadora)
 ---
 
 # 💰 Gestão Financeira & Fluxo de Caixa
@@ -20,10 +20,10 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 | :--- | :--- | :--- |
 | 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 54,08** 🟡 | Caixa momentâneo até a entrada de R$ 120 do Tomas às 18h! |
 | 📦 **Capital Total em Mercadoria (Ativo + Radar)** | **R$ 314,37** | Estoque atual + Power Bank + Mouse Redragon + Lavadora 2 Baterias |
-| 🎯 **Lucro Projetado no Estoque Total** | **R$ 295,23** | Lucro líquido contratado para entrar nas vendas! 🚀 |
-| 💵 **Faturamento Previsto Total do Catálogo** | **R$ 609,60** | Potencial de venda do catálogo inteiro |
+| 🎯 **Lucro Projetado no Estoque Total** | **R$ 270,33** | Lucro líquido contratado para entrar nas vendas! 🚀 |
+| 💵 **Faturamento Previsto Total do Catálogo** | **R$ 584,70** | Potencial de venda do catálogo inteiro |
 | 🏆 **Lucro Realizado no Bolso** | **R$ 173,23** 🟢 | Lucro líquido já realizado em 4 vendas anteriores |
-| 🚀 **Meta de Caixa da Rodada** | **`R$ 663,68`** | Caixa acumulado ao liquidar o catálogo completo |
+| 🚀 **Meta de Caixa da Rodada** | **`R$ 638,78`** | Caixa acumulado ao liquidar o catálogo completo |
 
 ---
 

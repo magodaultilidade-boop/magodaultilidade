@@ -13,8 +13,8 @@
 | **Produtos vendidos (acumulado)**       | `4 unidades`           | **Lucro líquido do mês**                | `R$ 173,23` 🟢                  |
 | **Faturamento total realizado**         | `R$ 325,00`            | **Ticket médio no mês**                 | `R$ 81,25`                      |
 | **Lucro líquido realizado (Pix)**       | `R$ 173,23`            | **Produtos parados (+7 dias no ar)**    | `1 unidade (Chaves)`            |
-| **Margem líquida média das vendas**     | `53,3%`                | **Faturamento potencial do estoque**    | `R$ 609,60` 🚀                  |
-| **ROI médio realizado**                 | `114,1%`               | **Lucro potencial em trânsito/estoque** | `R$ 295,23`                     |
+| **Margem líquida média das vendas**     | `53,3%`                | **Faturamento potencial do estoque**    | `R$ 584,70` 🚀                  |
+| **ROI médio realizado**                 | `114,1%`               | **Lucro potencial em trânsito/estoque** | `R$ 270,33`                     |
 | **Ticket médio geral**                  | `R$ 81,25`             | **Canal com maior conversão direta**    | `WhatsApp / Direto (+ R$ 195 FDS)`|
 | **Dias médios para venda (Giro)**       | `4,2 dias` 🔥          | **Categorias campeãs comprovadas**      | `Games, Cozinha e Moto`         |
 
