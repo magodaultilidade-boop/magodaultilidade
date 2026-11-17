@@ -25,6 +25,7 @@ funcao_parceria: "Afiliado Divulgador (Indique & Ganhe) + Entregador sob Demanda
 ## 📌 Histórico & Acordos:
 - **12/11/2026:** Chamou no anúncio do Fone V10 no Marketplace. Migrou pro WhatsApp Business. Deixou avaliação 5★.
 - **15/11/2026:** Venda concluída! Samuel pegou o fone e enviou R$ 60,00 no Pix.
+- **17/11/2026 (Pós-Venda de Elite & Fidelização):** Samuel veio trocar o fone alegando botão/microfone baixo. Allan fez a troca imediata pela outra unidade de estoque sem burocracia. Samuel saiu 100% encantado com a garantia e o suporte da C&V. Ao testar o fone devolvido na bancada, o aparelho funcionou perfeitamente (provavelmente encaixe do conector P3 ou volume do Bluetooth do cliente). Produto 100% íntegro voltou ao estoque ativo para revenda, e o chamado no Mercado Livre foi cancelado sem estresse.
 - **Relação & Conexão:** Trocou muita ideia na entrega, virou brother/parceiro direto. Samuel tem ligação direta com **motoclube e comunidade de motoboys em Itu**.
 - **Radar de Produtos com Ele:** 
   - Fone V10 (já comprou e testou);
