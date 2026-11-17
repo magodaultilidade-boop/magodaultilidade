@@ -6,6 +6,9 @@ kanban-plugin: board
 
 ## 🚚 1. A Caminho (Radar)
 
+- [ ] [[Lavadora Lava Jato Portatil 2 Baterias Maleta - Mercado Livre|🚿 Lavadora Lava Jato Portátil 2 Baterias + Maleta]]
+	📦 **Qtd:** 1 un \| ⚡ *Mercado Livre FULL (Chega HOJE 17/11 entre 19h e 23h)*
+	💰 **Custo:** R$ 86,99 \| **Venda Alvo:** R$ 159,90 \| 🎯 **Lucro:** +R$ 72,91
 - [ ] [[Power Bank Pineng 10000mAh Slim - AliExpress Brasil|🔋 Power Bank 10.000mAh Slim com Cabos]]
 	📦 **Qtd:** 1 un \| 🇧🇷 *Estoque no Brasil (AliExpress Promo 11.11)*
 	💰 **Custo:** R$ 33,72 \| **Venda Alvo:** R$ 79,90 \| 🎯 **Lucro:** +R$ 46,18

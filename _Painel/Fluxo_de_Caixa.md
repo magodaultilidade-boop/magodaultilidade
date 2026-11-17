@@ -1,11 +1,11 @@
 ---
 tipo: financeiro
-saldo_caixa_atual: 141.07
-total_investido_estoque_ativo: 227.38 # (123.35 estoque ativo + 33.72 Power Bank + 70.31 Mouse Redragon)
+saldo_caixa_atual: 54.08
+total_investido_estoque_ativo: 314.37 # (123.35 estoque ativo + 33.72 Power Bank + 70.31 Mouse Redragon + 86.99 Lavadora)
 total_faturamento_realizado: 325.00 # (70.00 HD + 60.00 Fone 1 + 60.00 Fone 2 + 135.00 Potes)
 lucro_liquido_realizado: 173.23 # (70.00 HD + 31.03 Fone 1 + 31.03 Fone 2 + 41.17 Potes)
-lucro_projetado_estoque_ativo: 222.32 # (126.55 ativo + 46.18 Power Bank + 49.59 Mouse Redragon)
-faturamento_total_previsto_estoque: 449.70 # (249.90 ativo + 79.90 Power Bank + 119.90 Mouse Redragon)
+lucro_projetado_estoque_ativo: 295.23 # (126.55 ativo + 46.18 Power Bank + 49.59 Mouse Redragon + 72.91 Lavadora)
+faturamento_total_previsto_estoque: 609.60 # (249.90 ativo + 79.90 Power Bank + 119.90 Mouse Redragon + 159.90 Lavadora)
 ---
 
 # 💰 Gestão Financeira & Fluxo de Caixa
@@ -14,16 +14,16 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 
 ---
 
-## 📌 Termômetro Financeiro Atual (16/11/2026 - Fase 2 Compras Ativas)
+## 📌 Termômetro Financeiro Atual (17/11/2026 - Fase 2 Compras Ativas)
 
 | Indicador | Valor Atual | Descrição |
 | :--- | :--- | :--- |
-| 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 141,07** 🟢 | Colchão de respiro confortável e seguro após compras! |
-| 📦 **Capital Total em Mercadoria (Ativo + Radar)** | **R$ 227,38** | Estoque atual + Power Bank 10.000mAh + Mouse Redragon FULL |
-| 🎯 **Lucro Projetado no Estoque Total** | **R$ 222,32** | Lucro líquido contratado para entrar nas vendas! 🚀 |
-| 💵 **Faturamento Previsto Total do Catálogo** | **R$ 449,70** | Potencial de venda do catálogo inteiro |
+| 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 54,08** 🟡 | Caixa momentâneo até a entrada de R$ 120 do Tomas às 18h! |
+| 📦 **Capital Total em Mercadoria (Ativo + Radar)** | **R$ 314,37** | Estoque atual + Power Bank + Mouse Redragon + Lavadora 2 Baterias |
+| 🎯 **Lucro Projetado no Estoque Total** | **R$ 295,23** | Lucro líquido contratado para entrar nas vendas! 🚀 |
+| 💵 **Faturamento Previsto Total do Catálogo** | **R$ 609,60** | Potencial de venda do catálogo inteiro |
 | 🏆 **Lucro Realizado no Bolso** | **R$ 173,23** 🟢 | Lucro líquido já realizado em 4 vendas anteriores |
-| 🚀 **Meta de Caixa da Rodada** | **`R$ 590,77`** | Caixa acumulado ao liquidar o catálogo completo |
+| 🚀 **Meta de Caixa da Rodada** | **`R$ 663,68`** | Caixa acumulado ao liquidar o catálogo completo |
 
 ---
 
@@ -44,7 +44,8 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 | `15/11/2026` | **Venda Fechada** | 1x Fone V10 (Un 2) ➔ Samuel Jesus (Pix) | **R$ 60,00** | - | `+ R$ 110,10` |
 | `15/11/2026` | **Venda Fechada** | Kit 10 Potes Vidro ➔ Tia (Pix) | **R$ 135,00** | - | `+ R$ 245,10` |
 | `16/11/2026` | **Compra Estoque** | Power Bank 10.000mAh Slim C/ Cabos (Ali Brasil) | - | **R$ 33,72** | `+ R$ 211,38` |
-| `16/11/2026` | **Compra Estoque** | Mouse Gamer Redragon Cobra M711 (ML FULL) | - | **R$ 70,31** | **`R$ 141,07`** 🟢 |
+| `16/11/2026` | **Compra Estoque** | Mouse Gamer Redragon Cobra M711 (ML FULL) | - | **R$ 70,31** | `+ R$ 141,07` |
+| `17/11/2026` | **Compra Estoque** | Lavadora Lava Jato 2 Baterias + Maleta (ML FULL) | - | **R$ 86,99** | **`R$ 54,08`** 🟡 |
 
 ---
 
