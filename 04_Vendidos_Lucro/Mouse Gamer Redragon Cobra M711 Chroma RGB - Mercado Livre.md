@@ -1,7 +1,7 @@
 ---
 tipo: brique
 produto: "Mouse Gamer Redragon M711 Cobra Chroma RGB 12.400 DPI Preto"
-status: anunciado
+status: vendido
 categoria: "Periféricos / Gamer & Tech"
 origem_compra: "Mercado Livre (Loja Oficial Redragon - FULL)"
 numero_pedido: "2000019582855550"
@@ -9,8 +9,9 @@ codigo_rastreio: "Mercado Envios FULL"
 data_compra: 2026-11-16
 data_recebimento: 2026-11-16
 data_anuncio: 2026-11-16
-data_repostar: 23/11/2026
-data_venda: 
+data_venda: 2026-11-17
+dias_para_vender: "1 dia (24 horas)"
+comprador: "Tomas (Sorocaba/SP)"
 
 # FINANCEIRO / CUSTO
 quantidade: 1
@@ -21,37 +22,30 @@ frete_compra: 0.00 # Grátis no FULL
 custo_total: 70.31
 custo_unitario: 70.31
 
-# PRECIFICAÇÃO MARKETPLACE & GRUPO VIP
-preco_anuncio_fb: 119.90
-preco_indicacao_grupo: 110.00
-comissao_indicacao: 15.00
-preco_minimo_aceitavel: 100.00 # Piso no choro extremo
-preco_venda_alvo: 119.90
-preco_venda_final: 0.00
-
-# MARGEM & RESULTADO ESPERADO
-lucro_estimado: 49.59 # (119.90 - 70.31)
-lucro_negociado_alvo: 39.69 # (110.00 - 70.31)
-roi_percentual: 70.5 # (+70,5% de ROI!)
-forma_pagamento: "Pix / Cartão / Dinheiro"
+# VENDA REALIZADA
+preco_anuncio_fb: 120.00
+preco_venda_final: 120.00
+lucro_realizado: 49.69 # (120.00 - 70.31)
+roi_percentual: 70.7 # (+70,7% de ROI limpo!)
+forma_pagamento: "Pix / Dinheiro"
 ---
 
-# 🖱️ Mouse Gamer Redragon Cobra M711 Chroma RGB (Loja Oficial FULL)
+# 🖱️ Mouse Gamer Redragon Cobra M711 Chroma RGB (VENDIDO! 🎉)
 
-> **Status:** `#brique/anunciado` (Em mãos / Anunciado!) | **Origem:** Mercado Livre FULL
-> **Custo Real Pago:** **R$ 70,31** (50% OFF + Cupons Black Friday)
-> **Preço de Anúncio:** **R$ 119,90** (ou R$ 110 no Grupo VIP) | **Lucro Líquido Previsto:** **+ R$ 49,59** (**70,5% de ROI** 🚀)
-> **Diferencial Competitivo:** Sensor Pixart 12.400 DPI, cabo trançado reforçado com filtro anti-ruído, estojo rígido original Redragon para transporte, iluminação RGB Chroma vibrante.
+> **Status:** `#brique/vendido` | **Origem:** Mercado Livre FULL
+> **Custo Real Pago:** **R$ 70,31** | **Valor de Venda:** **R$ 120,00** no Pix/Dinheiro
+> **Lucro Líquido Realizado:** **+ R$ 49,69** (**+70,7% de ROI** 🚀)
+> **Cliente:** Tomas (Sorocaba/SP - veio retirar no Portal do Éden)
+> **Tempo de Giro:** **1 dia (24 horas!)** — Da entrega do ML ao Pix no bolso!
 
 ---
 
-## 🧾 1. Dados da Compra & Entrega Recorde
-- **Pedido:** `#2000019582855550`
-- **Loja:** Loja Oficial Redragon (+1 milhão de vendas)
-- **Data da Compra:** 16/11/2026 (05h46)
-- **Data de Recebimento:** **16/11/2026 (18h45 - Entregue no mesmo dia!)** ⚡
-- **Total Pago:** **R$ 70,31** no Pix
-- **Fotos Reais:** 4 fotos HD tiradas (estojo fechado, na mão, estojo aberto e aceso no RGB!).
+## 🧾 1. Histórico da Transação
+- **16/11/2026 (05h46):** Compra no Mercado Livre FULL por R$ 70,31.
+- **16/11/2026 (18h45):** Produto entregue em casa no mesmo dia. Testado e fotografado.
+- **16/11/2026 (23h00):** Anunciado no Facebook Marketplace por R$ 120,00.
+- **16/11/2026 (23h38):** Tomas (Sorocaba) mandou mensagem, fechou no preço cheio e combinou retirada.
+- **17/11/2026 (18h50):** Tomas retirou no Portal do Éden e pagou R$ 120,00 no Pix/Dinheiro. Venda 100% concluída!
 
 ---
 

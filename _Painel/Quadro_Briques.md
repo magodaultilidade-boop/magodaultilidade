@@ -21,18 +21,15 @@ kanban-plugin: board
 
 ## 📢 3. Anunciados no Marketplace / WhatsApp
 
-- [ ] [[Mouse Gamer Redragon Cobra M711 Chroma RGB - Mercado Livre|🖱️ Mouse Gamer Redragon Cobra M711 Chroma RGB]]
-	📦 **Qtd:** 1 un \| ⚡ *Entregue Hoje no FULL! (Estojo Rígido + RGB Testado)*
-	💰 **Custo:** R$ 70,31 \| **Preço:** R$ 119,90 \| 🎯 **Lucro:** +R$ 49,59
 - [ ] [[3x Maquinas T9 Cortar Cabelo Buda - AliExpress|💈 3x Máquinas T9 Vintage Dragão/Buda]]
-	📦 **Qtd:** 3 unidades \| ⚡ *2 Anúncios Ativos no FB (R$ 29 / R$ 30)*
-	💰 **Custo:** R$ 9,16 un \| **Venda:** R$ 30,00 un \| 🎯 **Lucro:** +R$ 62,51 lote
+	📦 **Qtd:** 3 unidades \| ⚡ *Queima de Estoque (R$ 25 cada / Combo 2 por R$ 45)*
+	💰 **Custo:** R$ 9,16 un \| **Venda:** R$ 25,00 un \| 🎯 **Lucro:** +R$ 47,51 lote
 - [ ] [[1x Fone Bluetooth Capacete Moto V10 - Mercado Livre|🎧 1x Fone Bluetooth Capacete Moto V10]]
-	📦 **Qtd Restante:** 1 unidade (Última) \| 🛵 *Anúncio Ativo no FB + Grupo VIP*
+	📦 **Qtd Restante:** 1 unidade (Última) \| 🛵 *100% testado na bancada • Anúncio Ativo FB + Status*
 	💰 **Custo:** R$ 28,97 un \| **Venda:** R$ 60,00 un \| 🎯 **Lucro:** +R$ 31,03
 - [ ] [[Jogo de Chave Combinada 12 Pcs The Black Tools - Mercado Livre|🧰 Jogo de Chaves 12 Pçs The Black Tools]]
-	📦 **Qtd:** 1 kit \| ⏱️ *Anúncio Ativo a R$ 99 (17 cliques)*
-	💰 **Custo:** R$ 66,89 \| **Preço:** R$ 99,90 (Pix) \| 🎯 **Lucro:** +R$ 33,01
+	📦 **Qtd:** 1 kit \| ⏱️ *Oferta Oficina Samuel (R$ 85 Pix + R$ 10 comissão) / FB Repost*
+	💰 **Custo:** R$ 66,89 \| **Preço:** R$ 89,90 (Piso R$ 85) \| 🎯 **Lucro:** +R$ 23,01
 
 
 ## 🔁 4. Para Repostar (+7 dias)
@@ -41,6 +38,10 @@ kanban-plugin: board
 
 ## 💰 5. Vendidos (Pix no Bolso! 🎉)
 
+- [x] [[Mouse Gamer Redragon Cobra M711 Chroma RGB - Mercado Livre|🖱️ Mouse Gamer Redragon Cobra M711 Chroma RGB]]
+	📦 **Qtd Vendida:** 1 un \| 💵 **Valor:** R$ 120,00 no Pix
+	👤 **Cliente:** Tomas (Sorocaba/SP - veio retirar no Éden)
+	🏆 **Lucro Limpo:** +R$ 49,69 (Giro recorde de 24 horas! ⚡)
 - [x] [[Kit 10 Potes Vidro Hermetico 640ml - Mercado Livre|🍲 Kit 10 Potes de Vidro 640ml Aristus]]
 	📦 **Qtd Vendida:** 1 kit (10 potes) \| 💵 **Valor:** R$ 135,00 no Pix
 	👤 **Cliente:** Tia (Família Itu)
