@@ -22,4 +22,6 @@ interesses: [Periféricos Gamer, Teclados, Mouses, Headsets, Tech]
 
 ## 📌 Histórico de Interação:
 - **16/11/2026 (23h38):** Chamou no anúncio do Redragon Cobra M711 no Marketplace.
-- Disse que é de Sorocaba e combinou de colar no Portal do Éden amanhã entre 18h e 18h30 para retirar e pagar os R$ 120,00.
+- **16/11/2026 (23h45):** Disse que é de Sorocaba e combinou de colar no Portal do Éden na Terça-feira (17/11) entre 18h e 18h30 para retirar e pagar R$ 120,00 no Pix/Dinheiro.
+- **16/11/2026 (23h50):** Pegou o WhatsApp Business de Allan (`11 92670-6883`) para mandar mensagem avisando quando estiver colando. Confirmou: "ja é / valeu".
+- **17/11/2026 (Hoje):** Aguardando contato via WhatsApp no final da tarde (18h-18h30) para envio da localização exata no Portal do Éden e conclusão da entrega.
