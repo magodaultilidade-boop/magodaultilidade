@@ -53,7 +53,7 @@
 | **📢 3. No Ar (Marketplace)**| [[02_Briques_Ativos/]] | Jogo de Chaves 12 Pçs + 2x Fones de Capacete V10 |
 | **🔁 4. Alerta de Repostagem**| [[03_Para_Repostar/]] | Anúncios que bateram 7 dias e precisam de renovação |
 | **🏆 5. Caixa & Lucro** | [[04_Vendidos_Lucro/]] | HD 60GB Xbox + 1x Fone V10 |
-| **👥 6. Carteira de Clientes**| [[05_Clientes_CRM/]] | Adriano + Mauricio |
+| **👥 6. Carteira de Clientes**| [[05_Clientes_CRM/Painel_Clientes_CRM\|05_Clientes_CRM/]] | Tomas (R$ 120 hoje), Samuel (Parceiro), Tia, Mauricio, Adriano |
 
 ---
 
