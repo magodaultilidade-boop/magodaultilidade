@@ -6,9 +6,6 @@ kanban-plugin: board
 
 ## 🚚 1. A Caminho (Radar)
 
-- [ ] [[Lavadora Lava Jato Portatil 2 Baterias Maleta - Mercado Livre|🚿 Lavadora Lava Jato Portátil 2 Baterias + Maleta]]
-	📦 **Qtd:** 1 un \| ⚡ *Mercado Livre FULL (Chega HOJE 17/11 entre 19h e 23h)*
-	💰 **Custo:** R$ 86,99 \| **Venda Alvo:** R$ 159,90 \| 🎯 **Lucro:** +R$ 72,91
 - [ ] [[Power Bank Pineng 10000mAh Slim - AliExpress Brasil|🔋 Power Bank 10.000mAh Slim com Cabos]]
 	📦 **Qtd:** 1 un \| 🇧🇷 *Estoque no Brasil (AliExpress Promo 11.11)*
 	💰 **Custo:** R$ 33,72 \| **Venda Alvo:** R$ 79,90 \| 🎯 **Lucro:** +R$ 46,18
@@ -21,6 +18,9 @@ kanban-plugin: board
 
 ## 📢 3. Anunciados no Marketplace / WhatsApp
 
+- [ ] [[Lavadora Lava Jato Portatil 2 Baterias Maleta - Mercado Livre|🚿 Lavadora Lava Jato Portátil 2 Baterias + Maleta]]
+	📦 **Qtd:** 1 un \| ⚡ *Entregue no FULL! 7 Fotos HD tiradas • Kit Completo na Maleta*
+	💰 **Custo:** R$ 86,99 \| **Venda Alvo:** R$ 149,90 \| 🎯 **Lucro:** +R$ 62,91
 - [ ] [[3x Maquinas T9 Cortar Cabelo Buda - AliExpress|💈 3x Máquinas T9 Vintage Dragão/Buda]]
 	📦 **Qtd:** 3 unidades \| ⚡ *Queima de Estoque (R$ 25 cada / Combo 2 por R$ 45)*
 	💰 **Custo:** R$ 9,16 un \| **Venda:** R$ 25,00 un \| 🎯 **Lucro:** +R$ 47,51 lote

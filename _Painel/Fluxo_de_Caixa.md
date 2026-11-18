@@ -4,8 +4,8 @@ saldo_caixa_atual: 174.08
 total_investido_estoque_ativo: 244.06 # (123.35 estoque ativo + 33.72 Power Bank + 86.99 Lavadora)
 total_faturamento_realizado: 445.00 # (70.00 HD + 60.00 Fone 1 + 60.00 Fone 2 + 135.00 Potes + 120.00 Mouse)
 lucro_liquido_realizado: 222.92 # (70.00 HD + 31.03 Fone 1 + 31.03 Fone 2 + 41.17 Potes + 49.69 Mouse)
-lucro_projetado_estoque_ativo: 220.64 # (101.55 ativo calibrado + 46.18 Power Bank + 72.91 Lavadora)
-faturamento_total_previsto_estoque: 464.70 # (224.90 ativo + 79.90 Power Bank + 159.90 Lavadora)
+lucro_projetado_estoque_ativo: 210.64 # (164.46 ativo em mãos + 46.18 Power Bank)
+faturamento_total_previsto_estoque: 454.70 # (374.80 ativo em mãos + 79.90 Power Bank)
 ---
 
 # 💰 Gestão Financeira & Fluxo de Caixa
@@ -20,10 +20,10 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 | :--- | :--- | :--- |
 | 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 174,08** 🟢 | Caixa livre recuperado e protegido após venda do Mouse! |
 | 📦 **Capital Total em Mercadoria (Ativo + Radar)** | **R$ 244,06** | Estoque atual + Power Bank + Lavadora 2 Baterias |
-| 🎯 **Lucro Projetado no Estoque Restante** | **R$ 220,64** | Lucro líquido contratado para entrar nas vendas! 🚀 |
-| 💵 **Faturamento Previsto Total do Catálogo** | **R$ 464,70** | Potencial de venda do catálogo restante |
+| 🎯 **Lucro Projetado no Estoque Restante** | **R$ 210,64** | Lucro líquido contratado para entrar nas vendas! 🚀 |
+| 💵 **Faturamento Previsto Total do Catálogo** | **R$ 454,70** | Potencial de venda do catálogo restante |
 | 🏆 **Lucro Realizado no Bolso** | **R$ 222,92** 🟢 | Lucro líquido já realizado em 5 vendas concluídas |
-| 🚀 **Meta de Caixa da Rodada** | **`R$ 638,78`** | Caixa acumulado ao liquidar o catálogo completo |
+| 🚀 **Meta de Caixa da Rodada** | **`R$ 628,78`** | Caixa acumulado ao liquidar o catálogo completo |
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 tipo: brique
 produto: "Lavadora Lava Jato Portátil Pressão 2 Baterias + Maleta (Bivolt)"
-status: radar
+status: anunciado
 categoria: "Ferramentas & Automotivo / Casa"
 origem_compra: "Mercado Livre (FULL)"
 loja: "Loja Oficial MyMotors"
@@ -9,8 +9,8 @@ numero_pedido: "2000019605999892"
 codigo_transacao_pix: "188991111749"
 codigo_rastreio: "Envio 1 FULL (Mercado Envios)"
 data_compra: 2026-11-17
-previsao_entrega: 2026-11-17 (Hoje entre 19h e 23h)
-data_anuncio: 
+data_recebimento: 2026-11-17
+data_anuncio: 2026-11-17
 data_venda: 
 
 # FINANCEIRO / CUSTO
@@ -21,36 +21,35 @@ custo_total: 86.99
 custo_unitario: 86.99
 
 # PRECIFICAÇÃO MARKETPLACE & GRUPO VIP
-preco_anuncio_fb: 159.90
-preco_indicacao_grupo: 149.90
+preco_anuncio_fb: 149.90
+preco_indicacao_grupo: 139.90
 comissao_indicacao: 15.00
-preco_minimo_aceitavel: 139.90 # Piso no choro extremo
-preco_venda_alvo: 159.90
+preco_minimo_aceitavel: 130.00 # Piso no choro extremo
+preco_venda_alvo: 149.90
 preco_venda_final: 0.00
 
 # MARGEM & RESULTADO ESPERADO
-lucro_estimado: 72.91 # (159.90 - 86.99)
-lucro_negociado_alvo: 62.91 # (149.90 - 86.99)
-roi_percentual: 83.8 # (+83,8% de ROI no preço cheio!)
-forma_pagamento: "Pix"
+lucro_estimado: 62.91 # (149.90 - 86.99)
+lucro_negociado_alvo: 52.91 # (139.90 - 86.99)
+roi_percentual: 72.3 # (+72,3% de ROI no preço cheio!)
+forma_pagamento: "Pix / Dinheiro"
 ---
 
 # 🚿 Lavadora Lava Jato Portátil de Pressão - 2 Baterias + Maleta Completa
 
-> **Status:** `#brique/radar` (Comprado no Mercado Livre FULL / Chega HOJE 17/11 entre 19h e 23h)
+> **Status:** `#brique/anunciado` (Em mãos / Anunciado!) | **Origem:** Mercado Livre FULL
 > **Custo Real Pago:** **R$ 86,99** (Black Friday + Desconto Pix)
-> **Preço de Venda Sugerido:** **R$ 159,90** | **Lucro Líquido Previsto:** **+ R$ 72,91** (**+83,8% de ROI** 🚀)
+> **Preço de Anúncio:** **R$ 149,90** (ou R$ 139,90 no Grupo VIP) | **Lucro Líquido Previsto:** **+ R$ 62,91** (**+72,3% de ROI** 🚀)
 > **Diferencial Competitivo:** Modelo com **2 Baterias** (não deixa na mão no meio da lavagem), **Maleta Rígida** de transporte, bicos intercambiáveis (jato reto e leque) e dosador de detergente/shampoozeira.
 
 ---
 
-## 🧾 1. Dados da Compra
+## 🧾 1. Dados da Compra & Entrega
 - **Pedido Mercado Livre:** `2000019605999892`
-- **Transação Pix:** `188991111749`
-- **Loja:** Loja Oficial MyMotors (+100 mil vendas, 2º mais vendido da categoria)
 - **Data da Compra:** 17/11/2026 (00h21)
-- **Previsão de Entrega:** **HOJE (17/11/2026) entre 19h e 23h** (Envio 1 FULL)
-- **Total Pago:** **R$ 86,99** no Pix (De R$ 234,90 por R$ 86,99 - Economia de R$ 147,91)
+- **Data de Recebimento:** **17/11/2026 (22h00 - Entregue no mesmo dia pelo FULL!)** ⚡
+- **Total Pago:** **R$ 86,99** no Pix
+- **Fotos Reais:** 7 fotos HD tiradas pelo Allan (maleta fechada, kit aberto, bateria na mão, bicos, haste e empunhadura).
 
 ---
 
