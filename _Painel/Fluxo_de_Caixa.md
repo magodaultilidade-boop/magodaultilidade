@@ -4,8 +4,8 @@ saldo_caixa_atual: 174.08
 total_investido_estoque_ativo: 244.06 # (100% em mãos: T9 + Fone + Chaves + Lavadora + Power Bank)
 total_faturamento_realizado: 445.00 # (70.00 HD + 60.00 Fone 1 + 60.00 Fone 2 + 135.00 Potes + 120.00 Mouse)
 lucro_liquido_realizado: 222.92 # (70.00 HD + 31.03 Fone 1 + 31.03 Fone 2 + 41.17 Potes + 49.69 Mouse)
-lucro_projetado_estoque_ativo: 210.64 # (100% em mãos no Portal do Éden)
-faturamento_total_previsto_estoque: 454.70 # (100% em mãos no Portal do Éden)
+lucro_projetado_estoque_ativo: 195.74 # (100% em mãos no Portal do Éden com Power Bank a R$ 65)
+faturamento_total_previsto_estoque: 439.80 # (100% em mãos no Portal do Éden com Power Bank a R$ 65)
 ---
 
 # 💰 Gestão Financeira & Fluxo de Caixa
@@ -20,10 +20,10 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 | :--- | :--- | :--- |
 | 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 174,08** 🟢 | Caixa livre protegido e pronto para os próximos giros! |
 | 📦 **Capital Total em Mercadoria (100% em Mãos)** | **R$ 244,06** | 5 produtos (7 unidades) no Portal do Éden |
-| 🎯 **Lucro Projetado no Estoque Restante** | **R$ 210,64** | Lucro líquido contratado para entrar nas vendas! 🚀 |
-| 💵 **Faturamento Previsto Total do Catálogo** | **R$ 454,70** | Potencial de venda do catálogo restante |
+| 🎯 **Lucro Projetado no Estoque Restante** | **R$ 195,74** | Lucro líquido contratado para entrar nas vendas! 🚀 |
+| 💵 **Faturamento Previsto Total do Catálogo** | **R$ 439,80** | Potencial de venda do catálogo restante |
 | 🏆 **Lucro Realizado no Bolso** | **R$ 222,92** 🟢 | Lucro líquido já realizado em 5 vendas concluídas |
-| 🚀 **Meta de Caixa da Rodada** | **`R$ 628,78`** | Caixa acumulado ao liquidar o catálogo completo |
+| 🚀 **Meta de Caixa da Rodada** | **`R$ 613,88`** | Caixa acumulado ao liquidar o catálogo completo |
 
 ---
 

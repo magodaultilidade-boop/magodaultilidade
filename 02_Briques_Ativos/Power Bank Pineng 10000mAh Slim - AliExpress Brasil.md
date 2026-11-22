@@ -21,17 +21,17 @@ custo_total: 33.72
 custo_unitario: 33.72
 
 # PRECIFICAÇÃO MARKETPLACE & GRUPO VIP
-preco_anuncio_fb: 79.90
-preco_indicacao_grupo: 75.00
+preco_anuncio_fb: 65.00
+preco_indicacao_grupo: 65.00
 comissao_indicacao: 10.00
-preco_minimo_aceitavel: 69.90 # Piso no choro extremo
-preco_venda_alvo: 79.90
+preco_minimo_aceitavel: 60.00 # Piso no choro extremo
+preco_venda_alvo: 65.00
 preco_venda_final: 0.00
 
 # MARGEM & RESULTADO ESPERADO
-lucro_estimado: 46.18 # (79.90 - 33.72)
-lucro_negociado_alvo: 41.28 # (75.00 - 33.72)
-roi_percentual: 137.0 # No preço cheio (+137% de ROI!)
+lucro_estimado: 31.28 # (65.00 - 33.72)
+lucro_negociado_alvo: 31.28
+roi_percentual: 92.8 # (+92,8% de ROI limpo!)
 forma_pagamento: "Pix / Dinheiro"
 ---
 
@@ -39,7 +39,7 @@ forma_pagamento: "Pix / Dinheiro"
 
 > **Status:** `#brique/anunciado` (Em mãos / Anunciado!) | **Origem:** Estoque Nacional (AliExpress Brasil)
 > **Custo Real Pago:** **R$ 33,72** (Promoção 11.11 / Sem imposto)
-> **Preço de Anúncio:** **R$ 79,90** (ou R$ 75,00 no Grupo VIP / R$ 69,90 no choro) | **Lucro Líquido:** **+ R$ 46,18** (**+137% de ROI** 🚀)
+> **Preço de Anúncio:** **R$ 65,00 no Pix** | **Lucro Líquido:** **+ R$ 31,28** (**+92,8% de ROI** 🚀)
 > **Diferencial Competitivo:** Marca **PINENG** (a mais famosa e confiável do Brasil), cabo embutido (não precisa carregar fio solto), adaptador Tipo-C incluso, acabamento premium texturizado e ultra slim.
 
 ---
