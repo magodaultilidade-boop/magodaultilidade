@@ -435,13 +435,13 @@
     </div>
     <div class="cash-arrow">➔</div>
     <div class="cash-item">
-      <span class="cash-title">📦 Mercadoria em Mãos (4 Produtos)</span>
-      <span class="cash-amount" style="color: #38bdf8;">R$ 210,34</span>
+      <span class="cash-title">📦 Mercadoria em Mãos (5 Produtos / 100%)</span>
+      <span class="cash-amount" style="color: #38bdf8;">R$ 244,06</span>
     </div>
     <div class="cash-arrow">➔</div>
     <div class="cash-item">
-      <span class="cash-title">🚚 A Caminho (Power Bank)</span>
-      <span class="cash-amount" style="color: #c084fc;">R$ 33,72</span>
+      <span class="cash-title">🚚 A Caminho (Zero Pendências)</span>
+      <span class="cash-amount" style="color: #94a3b8;">R$ 0,00</span>
     </div>
     <div class="cash-arrow">➔</div>
     <div class="cash-item">
@@ -456,7 +456,7 @@
       <div class="kpi-card">
         <div class="kpi-label">Itens no Catálogo</div>
         <div class="kpi-value">7 un <span style="font-size:12px; font-weight:500; color:#64748b;">(5 lotes)</span></div>
-        <div class="kpi-sub">6 em mãos + 1 a caminho</div>
+        <div class="kpi-sub">7 em mãos (100% pronta entrega!)</div>
       </div>
       <div class="kpi-card" style="border-color: #bfdbfe;">
         <div class="kpi-label" style="color: #1e40af;">Mercadoria Total</div>
@@ -492,10 +492,10 @@
       📋 Visão Completa (Fases)
     </button>
     <button class="tab-btn" onclick="filterView('estoque', this)">
-      🔵 Pronta Entrega em Mãos <span class="tab-pill" style="background:#e0f2fe; color:#0369a1;">4 produtos (6 un)</span>
+      🔵 Pronta Entrega em Mãos <span class="tab-pill" style="background:#e0f2fe; color:#0369a1;">5 produtos (7 un)</span>
     </button>
     <button class="tab-btn" onclick="filterView('radar', this)">
-      🟣 Compras a Caminho <span class="tab-pill" style="background:#f3e8ff; color:#7e22ce;">1 produto</span>
+      🟣 Compras a Caminho <span class="tab-pill" style="background:#f1f5f9; color:#64748b;">0 produtos</span>
     </button>
     <button class="tab-btn" onclick="filterView('vendidos', this)">
       🟢 Vendidos & Concluídos <span class="tab-pill" style="background:#dcfce7; color:#166534;">5 vendas (+R$ 223)</span>
@@ -513,9 +513,9 @@
         <span class="badge badge-estoque">Pronta Entrega</span>
       </div>
       <div class="section-stats">
-        <span class="stat-chip">Capital em Mãos: <b style="color: #1e40af;">R$ 210,34</b></span>
-        <span class="stat-chip">Faturamento Previsto: <b style="color: #0f172a;">R$ 374,80</b></span>
-        <span class="stat-chip">Lucro Potencial: <b style="color: #059669;">+ R$ 164,46</b></span>
+        <span class="stat-chip">Capital em Mãos: <b style="color: #1e40af;">R$ 244,06</b></span>
+        <span class="stat-chip">Faturamento Previsto: <b style="color: #0f172a;">R$ 454,70</b></span>
+        <span class="stat-chip">Lucro Potencial: <b style="color: #059669;">+ R$ 210,64</b></span>
       </div>
     </div>
     <table>
@@ -533,6 +533,25 @@
         </tr>
       </thead>
       <tbody>
+        <tr>
+          <td>
+            <div class="product-cell">
+              <div class="product-icon" style="background:#f3e8ff;">🔋</div>
+              <div>
+                <div class="product-name">Power Bank Pineng PN-951 10.000mAh Slim Original</div>
+                <div class="product-note">Preto Carbono • Cabo Embutido + Adaptador Tipo-C • Pronta Entrega</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="category-tag">Celular & Tech</span></td>
+          <td>1 un</td>
+          <td class="val-custo">R$ 33,72</td>
+          <td class="val-custo">R$ 33,72</td>
+          <td class="val-venda">R$ 79,90</td>
+          <td class="val-lucro">+ R$ 46,18</td>
+          <td>57,8%</td>
+          <td>Anúncio FB + Status WhatsApp + Samuel Motoboys</td>
+        </tr>
         <tr>
           <td>
             <div class="product-cell">
@@ -610,12 +629,12 @@
           <td>Oferta Oficina Samuel (R$ 85 Pix + R$ 10 comissão) / FB Repost</td>
         </tr>
         <tr class="row-subtotal">
-          <td colspan="4"><b>SUBTOTAL ESTOQUE EM MÃOS (4 PRODUTOS / 6 UNIDADES)</b></td>
-          <td><b style="color: #1e40af;">R$ 210,34</b></td>
-          <td><b style="color: #0f172a;">R$ 374,80</b></td>
-          <td><b style="color: #059669;">+ R$ 164,46</b></td>
-          <td><b>43,9%</b></td>
-          <td><i>Produtos disponíveis para entrega imediata</i></td>
+          <td colspan="4"><b>SUBTOTAL ESTOQUE EM MÃOS (5 PRODUTOS / 7 UNIDADES)</b></td>
+          <td><b style="color: #1e40af;">R$ 244,06</b></td>
+          <td><b style="color: #0f172a;">R$ 454,70</b></td>
+          <td><b style="color: #059669;">+ R$ 210,64</b></td>
+          <td><b>46,3%</b></td>
+          <td><i>100% dos produtos em estoque físico no Portal do Éden!</i></td>
         </tr>
       </tbody>
     </table>
@@ -628,13 +647,13 @@
   <div class="section-block" id="sec-radar">
     <div class="section-header" style="background: #faf5ff;">
       <div class="section-title" style="color: #6b21a8;">
-        <span>🚚 COMPRAS FASE 2 • EM TRÂNSITO (ESTOQUE BRASIL)</span>
-        <span class="badge badge-radar">1 Produto a Caminho</span>
+        <span>🚚 COMPRAS FASE 2 • EM TRÂNSITO</span>
+        <span class="badge badge-radar" style="background:#f1f5f9; color:#64748b; border-color:#e2e8f0;">Zero Pendências</span>
       </div>
       <div class="section-stats">
-        <span class="stat-chip">Total Pago: <b style="color: #6b21a8;">R$ 33,72</b></span>
-        <span class="stat-chip">Faturamento Previsto: <b style="color: #0f172a;">R$ 79,90</b></span>
-        <span class="stat-chip">Lucro Contratado: <b style="color: #059669;">+ R$ 46,18</b></span>
+        <span class="stat-chip">Total Pago: <b style="color: #6b21a8;">R$ 0,00</b></span>
+        <span class="stat-chip">Faturamento Previsto: <b style="color: #0f172a;">R$ 0,00</b></span>
+        <span class="stat-chip">Lucro Contratado: <b style="color: #059669;">R$ 0,00</b></span>
       </div>
     </div>
     <table>
@@ -652,30 +671,9 @@
       </thead>
       <tbody>
         <tr>
-          <td>
-            <div class="product-cell">
-              <div class="product-icon" style="background:#f3e8ff;">🔋</div>
-              <div>
-                <div class="product-name">Power Bank 10.000mAh Slim com Cabo Embutido</div>
-                <div class="product-note">Branco • Saída Lightning/Tipo-C/V8 • Cabe no bolso</div>
-              </div>
-            </div>
+          <td colspan="8" style="text-align:center; padding: 20px; color:#64748b; font-style:italic;">
+            🎉 Todos os produtos foram entregues! 100% do catálogo está em mãos no Portal do Éden pronto para venda.
           </td>
-          <td><b>AliExpress (Estoque Brasil)</b></td>
-          <td>20 a 24 de Novembro</td>
-          <td class="val-custo">R$ 33,72</td>
-          <td class="val-venda">R$ 79,90</td>
-          <td class="val-lucro">+ R$ 46,18</td>
-          <td>57,8%</td>
-          <td>Público de motoboy (Samuel) & viagem</td>
-        </tr>
-        <tr class="row-subtotal">
-          <td colspan="3"><b>SUBTOTAL COMPRAS A CAMINHO (1 PRODUTO)</b></td>
-          <td><b style="color: #6b21a8;">R$ 33,72</b></td>
-          <td><b style="color: #0f172a;">R$ 79,90</b></td>
-          <td><b style="color: #059669;">+ R$ 46,18</b></td>
-          <td><b>57,8%</b></td>
-          <td><i>Chegada prevista essa semana</i></td>
         </tr>
       </tbody>
     </table>
@@ -823,8 +821,8 @@
   <div class="sheets-bottom-tabs">
     <span style="font-weight:700; color:#107c41; margin-right:8px;">Planilhas:</span>
     <button class="sheet-tab active" onclick="filterView('all', this)">📄 Visão Geral (Catálogo)</button>
-    <button class="sheet-tab" onclick="filterView('estoque', this)">📦 Pronta Entrega (6)</button>
-    <button class="sheet-tab" onclick="filterView('radar', this)">🟣 A Caminho (1)</button>
+    <button class="sheet-tab" onclick="filterView('estoque', this)">📦 Pronta Entrega (7)</button>
+    <button class="sheet-tab" onclick="filterView('radar', this)">🟣 A Caminho (0)</button>
     <button class="sheet-tab" onclick="filterView('vendidos', this)">✅ Vendidos (5)</button>
   </div>
 

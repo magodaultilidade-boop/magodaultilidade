@@ -1,11 +1,11 @@
 ---
 tipo: financeiro
 saldo_caixa_atual: 174.08
-total_investido_estoque_ativo: 244.06 # (123.35 estoque ativo + 33.72 Power Bank + 86.99 Lavadora)
+total_investido_estoque_ativo: 244.06 # (100% em mãos: T9 + Fone + Chaves + Lavadora + Power Bank)
 total_faturamento_realizado: 445.00 # (70.00 HD + 60.00 Fone 1 + 60.00 Fone 2 + 135.00 Potes + 120.00 Mouse)
 lucro_liquido_realizado: 222.92 # (70.00 HD + 31.03 Fone 1 + 31.03 Fone 2 + 41.17 Potes + 49.69 Mouse)
-lucro_projetado_estoque_ativo: 210.64 # (164.46 ativo em mãos + 46.18 Power Bank)
-faturamento_total_previsto_estoque: 454.70 # (374.80 ativo em mãos + 79.90 Power Bank)
+lucro_projetado_estoque_ativo: 210.64 # (100% em mãos no Portal do Éden)
+faturamento_total_previsto_estoque: 454.70 # (100% em mãos no Portal do Éden)
 ---
 
 # 💰 Gestão Financeira & Fluxo de Caixa
@@ -14,12 +14,12 @@ Este é o livro-caixa do seu negócio. O segredo da arbitragem é **nunca mistur
 
 ---
 
-## 📌 Termômetro Financeiro Atual (17/11/2026 - Fase 2 Venda Recorde)
+## 📌 Termômetro Financeiro Atual (22/11/2026 - 100% Estoque em Mãos)
 
 | Indicador | Valor Atual | Descrição |
 | :--- | :--- | :--- |
-| 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 174,08** 🟢 | Caixa livre recuperado e protegido após venda do Mouse! |
-| 📦 **Capital Total em Mercadoria (Ativo + Radar)** | **R$ 244,06** | Estoque atual + Power Bank + Lavadora 2 Baterias |
+| 🏦 **Saldo em Caixa Livre (Dinheiro em Mãos)** | **R$ 174,08** 🟢 | Caixa livre protegido e pronto para os próximos giros! |
+| 📦 **Capital Total em Mercadoria (100% em Mãos)** | **R$ 244,06** | 5 produtos (7 unidades) no Portal do Éden |
 | 🎯 **Lucro Projetado no Estoque Restante** | **R$ 210,64** | Lucro líquido contratado para entrar nas vendas! 🚀 |
 | 💵 **Faturamento Previsto Total do Catálogo** | **R$ 454,70** | Potencial de venda do catálogo restante |
 | 🏆 **Lucro Realizado no Bolso** | **R$ 222,92** 🟢 | Lucro líquido já realizado em 5 vendas concluídas |

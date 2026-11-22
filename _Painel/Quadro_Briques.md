@@ -6,10 +6,6 @@ kanban-plugin: board
 
 ## 🚚 1. A Caminho (Radar)
 
-- [ ] [[Power Bank Pineng 10000mAh Slim - AliExpress Brasil|🔋 Power Bank 10.000mAh Slim com Cabos]]
-	📦 **Qtd:** 1 un \| 🇧🇷 *Estoque no Brasil (AliExpress Promo 11.11)*
-	💰 **Custo:** R$ 33,72 \| **Venda Alvo:** R$ 79,90 \| 🎯 **Lucro:** +R$ 46,18
-
 
 
 ## 📦 2. Em Mãos (Tirar Fotos & Anunciar)
@@ -18,6 +14,9 @@ kanban-plugin: board
 
 ## 📢 3. Anunciados no Marketplace / WhatsApp
 
+- [ ] [[Power Bank Pineng 10000mAh Slim - AliExpress Brasil|🔋 Power Bank Pineng 10.000mAh Slim Original]]
+	📦 **Qtd:** 1 un \| ⚡ *Entregue! 4 Fotos HD tiradas • Preto Carbono com Cabo Embutido*
+	💰 **Custo:** R$ 33,72 \| **Venda Alvo:** R$ 79,90 \| 🎯 **Lucro:** +R$ 46,18
 - [ ] [[Lavadora Lava Jato Portatil 2 Baterias Maleta - Mercado Livre|🚿 Lavadora Lava Jato Portátil 2 Baterias + Maleta]]
 	📦 **Qtd:** 1 un \| ⚡ *Entregue no FULL! 7 Fotos HD tiradas • Kit Completo na Maleta*
 	💰 **Custo:** R$ 86,99 \| **Venda Alvo:** R$ 149,90 \| 🎯 **Lucro:** +R$ 62,91
